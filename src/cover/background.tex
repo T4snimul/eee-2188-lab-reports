@@ -1,0 +1,19 @@
+\usepackage{tikz}
+\usepackage{graphicx}
+
+\newcommand{\MakeCoverBackground}{
+    % --- Background Watermark ---
+    \begin{tikzpicture}[remember picture, overlay]
+        \node[opacity=0.05] at (current page.center) {
+            \includegraphics[width=0.72\paperwidth]{cover/ruet_logo.png}
+        };
+    \end{tikzpicture}
+
+    % --- Top Headers and Colored Logo ---
+    \begin{center}
+        \vspace*{-0.5cm}
+        {\small\textit{\Motto}}\\[0.4cm]
+        {\large\textbf{\UniversityName}}\\[0.8cm]
+        \includegraphics[width=3cm]{cover/ruet_logo.png}\\[0.2cm]
+    \end{center}
+}

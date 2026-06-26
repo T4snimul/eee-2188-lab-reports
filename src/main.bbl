@@ -1,0 +1,217 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{korst_oscilloscopes}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=66306b25c9a8d16e3caedc03a025462d}{%
+           family={Korst},
+           familyi={K\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3b5547bcfd791a8fb2eff835b324a12e}{%
+           family={Zaharia},
+           familyi={Z\bibinitperiod},
+           given={Mihai},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Toronto}%
+      }
+      \strng{namehash}{2441fffe5bf9f45d03a5669dbb10ac04}
+      \strng{fullhash}{2441fffe5bf9f45d03a5669dbb10ac04}
+      \strng{fullhashraw}{2441fffe5bf9f45d03a5669dbb10ac04}
+      \strng{bibnamehash}{2441fffe5bf9f45d03a5669dbb10ac04}
+      \strng{authorbibnamehash}{2441fffe5bf9f45d03a5669dbb10ac04}
+      \strng{authornamehash}{2441fffe5bf9f45d03a5669dbb10ac04}
+      \strng{authorfullhash}{2441fffe5bf9f45d03a5669dbb10ac04}
+      \strng{authorfullhashraw}{2441fffe5bf9f45d03a5669dbb10ac04}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Technical manual}
+      \field{title}{An Introduction to Oscilloscopes}
+      \field{year}{n.d.}
+    \endentry
+    \entry{wikipedia_resistor}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Last edited: May 30, 2026}
+      \field{title}{Resistor}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Resistor
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Resistor
+      \endverb
+    \endentry
+    \entry{capacitor_handout}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a69913f66f2cfd4bd3f8ea75954ac476}{%
+           family={n.d.},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{fullhash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{fullhashraw}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{bibnamehash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{authorbibnamehash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{authornamehash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{authorfullhash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{authorfullhashraw}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Unpublished technical manual}
+      \field{title}{Capacitor and inductors}
+      \field{year}{n.d.}
+    \endentry
+    \entry{sujatha_bjt}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=353b780687ac6338481f5ab9c8f9f792}{%
+           family={R},
+           familyi={R\bibinitperiod},
+           given={Sujatha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bangalore}%
+      }
+      \strng{namehash}{353b780687ac6338481f5ab9c8f9f792}
+      \strng{fullhash}{353b780687ac6338481f5ab9c8f9f792}
+      \strng{fullhashraw}{353b780687ac6338481f5ab9c8f9f792}
+      \strng{bibnamehash}{353b780687ac6338481f5ab9c8f9f792}
+      \strng{authorbibnamehash}{353b780687ac6338481f5ab9c8f9f792}
+      \strng{authornamehash}{353b780687ac6338481f5ab9c8f9f792}
+      \strng{authorfullhash}{353b780687ac6338481f5ab9c8f9f792}
+      \strng{authorfullhashraw}{353b780687ac6338481f5ab9c8f9f792}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Emerging Technologies and Innovative Research (JETIR)}
+      \field{title}{Bipolar Junction Transistor and Their Applications}
+      \field{year}{n.d.}
+    \endentry
+    \entry{opamp_basics}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a69913f66f2cfd4bd3f8ea75954ac476}{%
+           family={n.d.},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{fullhash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{fullhashraw}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{bibnamehash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{authorbibnamehash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{authornamehash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{authorfullhash}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \strng{authorfullhashraw}{a69913f66f2cfd4bd3f8ea75954ac476}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Unpublished technical manual}
+      \field{title}{Operational Amplifier Basics}
+      \field{year}{n.d.}
+    \endentry
+    \entry{gfg_diode_zener}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhashraw}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhashraw}{f1e069787ece74531d112559945c6871}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Updated: Jul. 23, 2025}
+      \field{title}{Difference Between Diode And Zener Diode}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/difference-between-diode-and-zener-diode/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/difference-between-diode-and-zener-diode/
+      \endverb
+    \endentry
+    \entry{electronics_notes:resistor}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a228ac6375cd9158362089dcff659e48}{%
+           family={Poole},
+           familyi={P\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a228ac6375cd9158362089dcff659e48}
+      \strng{fullhash}{a228ac6375cd9158362089dcff659e48}
+      \strng{fullhashraw}{a228ac6375cd9158362089dcff659e48}
+      \strng{bibnamehash}{a228ac6375cd9158362089dcff659e48}
+      \strng{authorbibnamehash}{a228ac6375cd9158362089dcff659e48}
+      \strng{authornamehash}{a228ac6375cd9158362089dcff659e48}
+      \strng{authorfullhash}{a228ac6375cd9158362089dcff659e48}
+      \strng{authorfullhashraw}{a228ac6375cd9158362089dcff659e48}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Electronics Notes}
+      \field{note}{Accessed: Jun.\ 2025}
+      \field{title}{Understanding Resistor Specifications, Parameters and Specs}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.electronics-notes.com/articles/electronic_components/resistors/resistor-specifications-specs-parameters.php
+      \endverb
+      \verb{url}
+      \verb https://www.electronics-notes.com/articles/electronic_components/resistors/resistor-specifications-specs-parameters.php
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

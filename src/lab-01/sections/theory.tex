@@ -1,0 +1,28 @@
+\section{Theory}
+
+The study of electronics begins with the visualization and measurement of electrical signals, primarily through the use of an oscilloscope \cite{korst_oscilloscopes}. The basic function of this instrument is to generate an X-Y plot that displays changes in voltage at its input relative to time \cite{korst_oscilloscopes}. The X-axis represents time, typically measured in milliseconds or microseconds, while the Y-axis represents the difference in electric potential, or voltage \cite{korst_oscilloscopes}. This allows for the continuous observation of various waveforms, such as sine waves and square waves, and the measurement of critical parameters like frequency, period, and peak-to-peak voltage \cite{korst_oscilloscopes}. To ensure a steady and readable display, a trigger level must be established, which sets the specific voltage point at which the oscilloscope starts collecting and displaying the signal \cite{korst_oscilloscopes}.
+
+\begin{figure}[h]
+    \centering
+    % [Placeholder: Theoretical X-Y plot of an oscilloscope display showing a sinusoidal signal with labeled time and voltage axes.]
+    \caption{Theoretical X-Y plot of an oscilloscope display showing a sinusoidal signal with labeled time and voltage axes.}
+    \label{fig:oscilloscope_plot}
+\end{figure}
+
+Electronic circuits are composed of passive and active components that interact according to fundamental principles like Ohm's Law, which states that the voltage across a resistor is proportional to the current passing through it \cite{wikipedia_resistor}. While resistors dissipate energy as heat, ideal capacitors and inductors are designed to store energy within electric and magnetic fields, respectively \cite{capacitor_handout}. Active components, such as Bipolar Junction Transistors (BJTs) and Operational Amplifiers (Op-Amps), provide the capability to increase the strength of weak signals through amplification or to control the flow of current as switches \cite{sujatha_bjt, opamp_basics}. The Operational Amplifier, a high-gain DC differential amplifier, is particularly versatile because its performance and functions—such as integration, differentiation, or summation—are determined by the external feedback components connected between its output and input terminals \cite{opamp_basics}.
+
+\begin{figure}[h]
+    \centering
+    % [Placeholder: Block diagram of a differential amplifier system illustrating the principle of amplification and feedback.]
+    \caption{Block diagram of a differential amplifier system illustrating the principle of amplification and feedback.}
+    \label{fig:differential_amplifier}
+\end{figure}
+
+The successful operation of semiconductor devices depends on biasing, which is the application of specific DC voltages to establish the desired operating mode \cite{sujatha_bjt}. For instance, a BJT operates in the active mode for amplification when its emitter-base junction is forward-biased and its collector-base junction is reverse-biased \cite{sujatha_bjt}. Similarly, diodes are unidirectional devices that allow current to flow only when forward-biased, whereas Zener diodes are specifically engineered to operate in the reverse breakdown region to provide stable voltage regulation \cite{gfg_diode_zener}. Understanding these operational modes is essential for laboratory work, as it enables the practitioner to develop an intuition for expected measurement values and to identify anomalies in circuit behavior \cite{korst_oscilloscopes, sujatha_bjt}.
+
+\begin{figure}[h]
+    \centering
+    % [Placeholder: Idealized characteristic curve (I-V curve) showing the theoretical behavior of a semiconductor junction under different biasing conditions.]
+    \caption{Idealized characteristic curve (I-V curve) showing the theoretical behavior of a semiconductor junction under different biasing conditions.}
+    \label{fig:iv_characteristic}
+\end{figure}

@@ -1,0 +1,87 @@
+% ==========================================
+% 1. Page Geometry & Layout
+% ==========================================
+\usepackage[  
+    a4paper,
+    top=2.5cm, bottom=2.5cm,
+    inner=3.0cm, outer=2.5cm,
+    headheight=15pt
+]{geometry}
+\usepackage{fmtcount}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage[table]{xcolor} % Enables background row colors for tables
+
+% ==========================================
+% 2. Math & Science Packages
+% ==========================================
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[style=ieee, backend=biber]{biblatex}
+\addbibresource{lab-01/references.bib}
+
+% ==========================================
+% 3. Graphics & Visualization
+% ==========================================
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz} % Required for the background watermark
+
+% ==========================================
+% 4. Enhanced Tables (Adjusted for Cover Page)
+% ==========================================
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{makecell} % Added: For sub-breaks and paddings inside cells
+
+% ==========================================
+% 5. Hyperlinks, Colors & Lists
+% ==========================================
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue
+}
+
+% ==========================================
+% 6. Header & Footer Configurations
+% ==========================================
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{Experiment\ \thechapter}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+
+% Even Pages Header
+\fancyhead[EL]{\small EEE 2188}
+\fancyhead[ER]{\small Electronics Sessional}
+
+% Odd Pages Header
+\fancyhead[OL]{\small \rightmark}
+\fancyhead[OR]{\small \leftmark}
+
+% Footers
+\fancyfoot[C]{\small Page \thepage}
+
+% Adjust the line thickness under the header
+\renewcommand{\headrulewidth}{0.5pt}
+% Remove section numbers from header
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+
+% Reformat the chapter structure to match the lab sheet layout
+\titleformat{\chapter}[block]
+  {\normalfont} 
+  {{\large\bfseries Experiment No:} \large\padzeroes[2]{\thechapter}} 
+  {0pt}
+  {\\[1.5ex]{\large\bfseries Name of Experiment:} \large} 
+
+% Remove the massive default chapter top spacing
+\titlespacing*{\chapter}{0pt}{-20pt}{2ex}

@@ -1,0 +1,64 @@
+\usepackage{array}
+\usepackage{makecell}
+
+% Create a custom counter to store the page number safely
+\newcounter{PreCoverPageNum}
+
+
+\newcommand{\GenerateCoverPage}[4]{
+    \clearpage % Flush any pending pages before capturing the count
+    \setcounter{PreCoverPageNum}{\value{page}} % Store the CURRENT page number
+    
+    \newgeometry{left=1in, right=1in, top=1in, bottom=1in}
+    \thispagestyle{empty}
+    
+    \MakeCoverBackground
+    
+    \begin{center}
+        % --- Department Header (Scaled down) ---
+        \vspace*{0.1cm}
+        {\large \textbf{Department of Mechatronics Engineering}}\\[1.6cm]
+        
+        % --- Information Block ---
+        \flushleft
+        \hspace*{1.0cm} 
+        \normalsize % Made layout info text smaller
+        \renewcommand{\arraystretch}{1.3}
+        \begin{tabular}{@{}p{4.2cm} @{\hspace{0.1cm} : \hspace{0.2cm}} p{8.0cm}@{}}
+            Course Title       & \CourseTitle \\
+            Course Code        & \CourseCode \\
+            Experiment No      & #1 \\
+            Name of Experiment & #2 \\
+            Date of Experiment & #3 \\
+            Date of Submission & #4 \\
+        \end{tabular}\\[1.6cm]
+        
+        % --- Submission Box Configuration ---
+        \centering
+        \small
+        \renewcommand{\arraystretch}{1.2}
+        \setlength{\arrayrulewidth}{0.8pt}
+        
+        \noindent
+        \begin{tabular}{|p{6.0cm}|p{7.5cm}|}
+            \hline
+            \rowcolor[HTML]{E6F0FA} \textcolor[HTML]{003366}{\textbf{Submitted By}} & \textcolor[HTML]{003366}{\textbf{Submitted To}} \\
+            \hline
+            & \\[-0.5em] 
+            \begin{tabular}{@{}p{1.2cm} @{\hspace{0.1cm} : \hspace{0.1cm}} p{4.5cm}@{}}
+                Name   & \StudentName \\
+                Roll   & \StudentRoll \\
+                Series & \StudentSeries \\
+            \end{tabular} & 
+            \makecell[l]{\TeacherOne \\[1em] \TeacherTwo} \\
+            & \\
+            \hline
+        \end{tabular}
+    \end{center}
+    
+    \clearpage
+    \restoregeometry
+    % Set the next page's number to exactly what it would be without the cover page
+    \setcounter{page}{\value{PreCoverPageNum}}
+
+}

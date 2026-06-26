@@ -1,0 +1,18 @@
+EEE 2188
+Sessional 1
+
+Equipments to include
+- registor
+- multimeter
+- breadboard
+- capacitor
+- diode
+- Zener diode
+- led
+- veroboard
+- oscilloscope
+- op-amp
+- bjt
+- MOSFET
+- soldering iron
+- 
