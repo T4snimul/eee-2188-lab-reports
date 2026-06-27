@@ -1,0 +1,44 @@
+\subsection{Bipolar Junction Transistor (BJT)}
+\markright{Bipolar Junction Transistor (BJT)}
+
+\subsubsection*{Definition}
+A bipolar junction transistor (BJT) is a three-terminal semiconductor device that
+controls a large collector current $I_C$ with a small base current $I_B$ \cite{boylestad2015}.
+It is built from two back-to-back p--n junctions sharing a thin \textit{base} region,
+with \textit{emitter} and \textit{collector} regions on either side. NPN types (n-type
+emitter and collector, p-type base) are more common. The BJT was invented at Bell Labs
+in 1947 and was the primary amplifying device in all electronics for the following two
+decades until the MOSFET gradually took over in digital applications.
+
+\labimage{lab-01/assets/bjt_to92.jpeg}%
+  {Small-signal BJT in TO-92 plastic package. The three terminals---emitter,
+   base, and collector---are identified by the flat face on the package
+   and the manufacturer's datasheet.}{bjt_lab}
+
+The BJT output ($I_C$--$V_{CE}$) characteristics, shown in Figure~\ref{fig:bjt_char},
+display three distinct operating regions: the \textit{saturation} region (both junctions
+forward-biased, used for switching), the \textit{active} region (base-emitter forward,
+base-collector reverse, used for linear amplification), and the \textit{cutoff} region
+(both reverse-biased, transistor off).
+
+\theoryimage{lab-01/assets/bjt_characteristics.png}%
+  {NPN BJT output characteristics ($I_C$ vs.\ $V_{CE}$) for five values
+   of base current $I_B$. The saturation and active regions are indicated;
+   $\beta = h_{FE} = \Delta I_C / \Delta I_B \approx 100$ in the active region.}{bjt_char}
+
+\subsubsection*{Specifications}
+Primary BJT parameters: DC current gain $h_{FE}$ (or $\beta$, ratio $I_C/I_B$, typically
+50--500), collector--emitter breakdown voltage $V_{CEO}$, maximum collector current $I_C$,
+maximum power dissipation $P_C$, and transition frequency $f_T$ (the frequency at which
+current gain falls to unity) \cite{sedra2020}.
+
+\subsubsection*{Purpose of Use}
+In the \textit{active region} the BJT linearly amplifies current and voltage; in the
+\textit{saturation/cutoff region} it operates as an electronic switch. The base--emitter
+voltage $V_{BE}$ has a well-characterized temperature dependence of $-2$\,mV/$^\circ$C,
+making BJTs useful as temperature sensors.
+
+\subsubsection*{Applications}
+BJTs are used in audio amplifiers, RF amplifiers, oscillators, relay and motor drivers,
+TTL digital logic, temperature measurement circuits, and as the output stage of
+operational amplifiers \cite{razavi2013}.

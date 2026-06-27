@@ -1,28 +1,88 @@
 \section{Theory}
+\markright{Theory}
+\subsection*{Background and Historical Context}
 
-The study of electronics begins with the visualization and measurement of electrical signals, primarily through the use of an oscilloscope \cite{korst_oscilloscopes}. The basic function of this instrument is to generate an X-Y plot that displays changes in voltage at its input relative to time \cite{korst_oscilloscopes}. The X-axis represents time, typically measured in milliseconds or microseconds, while the Y-axis represents the difference in electric potential, or voltage \cite{korst_oscilloscopes}. This allows for the continuous observation of various waveforms, such as sine waves and square waves, and the measurement of critical parameters like frequency, period, and peak-to-peak voltage \cite{korst_oscilloscopes}. To ensure a steady and readable display, a trigger level must be established, which sets the specific voltage point at which the oscilloscope starts collecting and displaying the signal \cite{korst_oscilloscopes}.
+The discipline of electronics traces its origin to the late nineteenth century, when
+physicists first began studying the behavior of electric charge in vacuum. The invention
+of the thermionic (vacuum) diode by Sir John Ambrose Fleming in 1904, and the triode by
+Lee de Forest in 1906, marked the dawn of active electronic devices capable of amplifying
+signals \cite{horowitz2015}. For the following four decades, vacuum tubes powered radio
+receivers, audio amplifiers, radar systems, and the earliest electronic computers. The
+ENIAC computer (1945), for instance, contained 17,468 vacuum tubes and consumed roughly
+150 kW of electrical power.
 
-\begin{figure}[h]
-    \centering
-    % [Placeholder: Theoretical X-Y plot of an oscilloscope display showing a sinusoidal signal with labeled time and voltage axes.]
-    \caption{Theoretical X-Y plot of an oscilloscope display showing a sinusoidal signal with labeled time and voltage axes.}
-    \label{fig:oscilloscope_plot}
-\end{figure}
+The pivotal transformation came in 1947, when William Shockley, John Bardeen, and Walter
+Brattain at Bell Laboratories demonstrated the first transistor---a compact, solid-state
+device built from germanium semiconductor material that could amplify current without a
+vacuum envelope \cite{razavi2013}. This invention earned the trio the 1956 Nobel Prize in
+Physics and laid the foundation for every modern electronic system. Silicon gradually
+replaced germanium through the 1950s, and in 1958--1959, Jack Kilby (Texas Instruments)
+and Robert Noyce (Fairchild Semiconductor) independently developed the integrated circuit
+(IC), placing multiple transistors and passive components on a single semiconductor die.
+Gordon Moore's 1965 observation---that the number of transistors on an IC doubles
+approximately every two years---has held remarkably true for over five decades, enabling
+the billions of transistors found on contemporary microprocessors \cite{sedra2020}.
 
-Electronic circuits are composed of passive and active components that interact according to fundamental principles like Ohm's Law, which states that the voltage across a resistor is proportional to the current passing through it \cite{wikipedia_resistor}. While resistors dissipate energy as heat, ideal capacitors and inductors are designed to store energy within electric and magnetic fields, respectively \cite{capacitor_handout}. Active components, such as Bipolar Junction Transistors (BJTs) and Operational Amplifiers (Op-Amps), provide the capability to increase the strength of weak signals through amplification or to control the flow of current as switches \cite{sujatha_bjt, opamp_basics}. The Operational Amplifier, a high-gain DC differential amplifier, is particularly versatile because its performance and functions—such as integration, differentiation, or summation—are determined by the external feedback components connected between its output and input terminals \cite{opamp_basics}.
+Today, electronics is the enabling technology behind communication networks, medical
+devices, power systems, transportation, and computing. The components studied in this
+experiment---resistors, capacitors, diodes, transistors, and operational amplifiers---are
+the fundamental building blocks from which all of these systems are constructed.
 
-\begin{figure}[h]
-    \centering
-    % [Placeholder: Block diagram of a differential amplifier system illustrating the principle of amplification and feedback.]
-    \caption{Block diagram of a differential amplifier system illustrating the principle of amplification and feedback.}
-    \label{fig:differential_amplifier}
-\end{figure}
+\subsection*{Fundamental Laws Governing Electronic Circuits}
 
-The successful operation of semiconductor devices depends on biasing, which is the application of specific DC voltages to establish the desired operating mode \cite{sujatha_bjt}. For instance, a BJT operates in the active mode for amplification when its emitter-base junction is forward-biased and its collector-base junction is reverse-biased \cite{sujatha_bjt}. Similarly, diodes are unidirectional devices that allow current to flow only when forward-biased, whereas Zener diodes are specifically engineered to operate in the reverse breakdown region to provide stable voltage regulation \cite{gfg_diode_zener}. Understanding these operational modes is essential for laboratory work, as it enables the practitioner to develop an intuition for expected measurement values and to identify anomalies in circuit behavior \cite{korst_oscilloscopes, sujatha_bjt}.
+All electronic circuits obey a small set of universal physical laws. Ohm's Law
+states that the voltage $V$ across a resistive element is proportional to the current $I$
+flowing through it: $V = IR$, where $R$ is the resistance in ohms. In a more general
+sense, any two-terminal element is characterized by its voltage--current (V--I)
+relationship, which may be linear (resistor), nonlinear (diode, transistor), or
+energy-storing (capacitor, inductor) \cite{floyd2012}.
 
-\begin{figure}[h]
-    \centering
-    % [Placeholder: Idealized characteristic curve (I-V curve) showing the theoretical behavior of a semiconductor junction under different biasing conditions.]
-    \caption{Idealized characteristic curve (I-V curve) showing the theoretical behavior of a semiconductor junction under different biasing conditions.}
-    \label{fig:iv_characteristic}
-\end{figure}
+Kirchhoff's Current Law (KCL) states that the algebraic sum of all currents
+entering any node of a circuit is zero (conservation of charge). Kirchhoff's
+Voltage Law (KVL) states that the algebraic sum of all voltages around any closed loop
+is zero (conservation of energy). These two laws, together with the V--I relationships of
+the individual components, form a complete system of equations that uniquely determines
+the voltages and currents at every point in a circuit \cite{floyd2012}.
+
+Figure~\ref{fig:vi_char} illustrates the contrast between the linear V--I relationship
+of a resistor and the strongly nonlinear exponential characteristic of a p--n junction
+diode, described by the Shockley equation:
+\[
+  I_D = I_S \left( e^{V_D / nV_T} - 1 \right)
+\]
+where $I_S$ is the reverse saturation current, $n$ is the ideality factor
+($1 \leq n \leq 2$), and $V_T = kT/q \approx 26\,\text{mV}$ at room temperature is the
+thermal voltage.
+
+\theoryimage{lab-01/assets/vi_characteristics.png}%
+  {V--I characteristics: linear resistor (left) and p--n junction diode
+   showing the exponential forward-bias relationship and negligible reverse
+   leakage current (right).}{vi_char}
+
+\subsection*{Active vs.\ Passive Components}
+
+Electronic components are broadly classified into passive and
+active types. Passive components---resistors, capacitors, inductors, and
+diodes---cannot supply energy to a circuit; they can only dissipate, store, or redirect
+it. Active components---transistors (BJT and MOSFET) and operational amplifiers---can
+control or amplify signals by drawing power from an external supply, delivering more
+energy to the output than they receive at the input \cite{sedra2020}. This distinction is
+fundamental: a passive filter can shape a signal but attenuates it; an active filter can
+both shape and amplify it.
+
+\subsection*{Measurement Instruments}
+
+Understanding and verifying circuit behavior requires measurement. The two principal
+instruments used in this sessional are the multimeter and the
+oscilloscope. The multimeter provides accurate DC and AC scalar measurements
+(voltage, current, resistance, continuity), while the oscilloscope displays the full
+time-domain waveform of a signal, revealing its shape, frequency, amplitude, phase, and
+transient behavior \cite{wiki:oscilloscope}. Figure~\ref{fig:scope_wave} shows a
+sinusoidal waveform as displayed on a digital storage oscilloscope, with key measurement
+parameters indicated. The oscilloscope is indispensable wherever signals change over time
+faster than the human eye or a multimeter can track.
+
+\theoryimage{lab-01/assets/oscilloscope_waveform.png}%
+  {Sinusoidal waveform displayed on a digital storage oscilloscope,
+   illustrating period $T$, peak voltage, and baseline.}{scope_wave}
+

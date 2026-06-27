@@ -1,21 +1,54 @@
 \subsection{Resistor}
+\markright{Resistor}
 
-\subsubsection{Definition}
+\subsubsection*{Definition}
+A resistor is a passive, two-terminal electronic component that implements a defined
+electrical resistance as a circuit element \cite{wiki:resistor}. It obeys Ohm's Law
+($V = IR$), producing a voltage drop proportional to the current through it, and converts
+electrical energy irreversibly into heat. Resistance is measured in ohms ($\Omega$). For
+through-hole resistors, the resistance value and tolerance are encoded in a system of
+colored bands printed around the component body (see Figure~\ref{fig:resistor_lab}): each
+color represents a digit (0--9), a multiplier, or a tolerance percentage. Common band
+systems use 4, 5, or 6 bands; the mnemonic ``Bad Beer Rots Our Young Guts But Vodka Goes
+Well'' (Black, Brown, Red, Orange, Yellow, Green, Blue, Violet, Grey, White) encodes the
+digit order 0--9 \cite{electronics_notes:resistor}.
 
-A resistor is a passive two-terminal electronic component that implements electrical resistance as a circuit element \cite{wikipedia_resistor}. It obeys Ohm's Law ($V = IR$), meaning the voltage drop across it is directly proportional to the current flowing through it. Resistance is measured in ohms ($\Omega$), and resistors values are most commonly indicated by a system of color-coded bands printed on their body.
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.44\textwidth}
+    \centering
+    \includegraphics[width=\textwidth, height=7cm, keepaspectratio]{lab-01/assets/resistors.jpg}
+    \caption{Axial-lead resistors}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.52\textwidth}
+    \centering
+    \includegraphics[width=\textwidth, height=7cm, keepaspectratio]{lab-01/assets/resistor_colorcode.png}
+    \caption{Color-band coding chart}
+  \end{subfigure}
+  \caption{Through-hole resistors and the standard color-band coding system used to
+           identify resistance values and tolerances.}
+  \label{fig:resistor_lab}
+\end{figure}
 
-\img{lab-01/assets/oscilloscope.jpeg}{Resistor and color-band coding chart}{registor}
+\subsubsection*{Specifications}
+Key resistor specifications include: resistance value (m$\Omega$ to G$\Omega$), power
+rating ($\frac{1}{8}$\,W to several hundred watts for industrial types), tolerance
+($\pm0.1\%$ for precision metal-foil to $\pm20\%$ for general-purpose carbon composition),
+and temperature coefficient of resistance (TCR)---how resistance drifts with temperature,
+expressed in ppm/$^\circ$C \cite{electronics_notes:resistor}. Metal-film resistors achieve
+TCR values of $\pm25$\,ppm/$^\circ$C, carbon-film types are typically
+$\pm100$ to $\pm500$\,ppm/$^\circ$C, and carbon-composition resistors may drift
+$\pm1000$\,ppm/$^\circ$C.
 
-\subsubsection{Specifications}
-The primary specifications of a resistor are its resistance value (ranging from fractions
-of an ohm up to several gigaohms), its tolerance (the permissible deviation from the
-nominal value, commonly $\pm1\%$, $\pm5\%$, or $\pm10\%$), and its power rating (the
-maximum heat it can safely dissipate, typically $\frac{1}{8}$\,W to $2$\,W for through-hole
-types and up to several hundred watts for industrial power resistors) \cite{electronics_notes:resistor}.
-The temperature coefficient of resistance (TCR), expressed in parts per million per degree
-Celsius (ppm/$^\circ$C), quantifies how much the resistance drifts with temperature;
-carbon-film resistors exhibit TCR values of $\pm100$ to $\pm500$\,ppm/$^\circ$C, while
-metal-film types achieve as low as $\pm25$\,ppm/$^\circ$C, and precision metal-foil
-resistors can reach $\pm0.2$\,ppm/$^\circ$C \cite{electronics_notes:resistor}.
-Resistors are available in through-hole (axial lead) and surface-mount (SMD) packages;
-SMD types are labeled using a three- or four-digit numeric code rather than color bands.
+\subsubsection*{Purpose of Use}
+The fundamental purpose of a resistor is to limit or regulate the flow of electric
+current. Beyond this, resistors divide voltages, set the bias (operating point) of
+transistors, establish the gain of amplifier stages, terminate transmission lines to
+prevent reflections, and provide pull-up or pull-down functions on digital logic lines.
+
+\subsubsection*{Applications}
+Resistors are found in every electronic system without exception. They appear in
+sensor conditioning networks, transistor biasing circuits, voltage dividers in ADC
+front-ends, LED current-limiting circuits, audio equalizers, feedback networks around
+operational amplifiers, and as load banks for power supply testing \cite{boylestad2015}.

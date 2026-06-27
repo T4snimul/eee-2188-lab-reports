@@ -1,18 +1,20 @@
 % ==========================================
 % 1. Page Geometry & Layout
 % ==========================================
-\usepackage[  
+\usepackage[
     a4paper,
     top=2.5cm, bottom=2.5cm,
-    inner=3.0cm, outer=2.5cm,
+    inner=3cm, outer=2.5cm,
     headheight=15pt
 ]{geometry}
+
 \usepackage{fmtcount}
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
 \usepackage{titlesec}
 \usepackage{lipsum}
 \usepackage[table]{xcolor} % Enables background row colors for tables
+
 
 % ==========================================
 % 2. Math & Science Packages
@@ -28,6 +30,41 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{tikz} % Required for the background watermark
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{xurl}
+\setstretch{1.25}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2em}
+\usepackage{enumitem}
+\setlist[enumerate]{topsep=4pt, itemsep=2pt, leftmargin=1.8em}
+\setlist[itemize]{topsep=4pt, itemsep=2pt, leftmargin=1.8em}
+
+\usepackage{xparse}
+\let\OriginalIncludeGraphics\includegraphics
+\RenewDocumentCommand{\includegraphics}{O{}m}{%
+  \IfFileExists{#2}{\OriginalIncludeGraphics[#1]{#2}}{%
+    \fbox{\parbox[c][5cm][c]{\linewidth}{\centering Missing image\\\detokenize{#2}}}%
+  }%
+}
+\usepackage[
+  format=plain,
+  labelfont=bf,
+  font=small,
+  justification=centering
+]{caption}
+\usepackage{subcaption}
+
+% Chapter-based numbering: Fig. 1.1, Table 1.1 …
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+
+\usepackage{enumitem}
+\setlist[enumerate]{topsep=4pt, itemsep=2pt, leftmargin=1.8em}
+\setlist[itemize]{topsep=4pt, itemsep=2pt, leftmargin=1.8em}
+
 
 % ==========================================
 % 4. Enhanced Tables (Adjusted for Cover Page)
@@ -44,16 +81,25 @@
 \usepackage{xcolor}
 \usepackage{enumitem}
 \usepackage{hyperref}
-
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+  pdfborder={0 0 0},
+  breaklinks=true
 }
+\AtBeginBibliography{\justifying}
 
 % ==========================================
 % 6. Header & Footer Configurations
 % ==========================================
 \usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{}
+
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -61,8 +107,10 @@
 \renewcommand{\sectionmark}[1]{\markright{#1}}
 
 % Even Pages Header
-\fancyhead[EL]{\small EEE 2188}
-\fancyhead[ER]{\small Electronics Sessional}
+\fancyhead[EL]{\small \CourseCode}
+\fancyhead[ER]{%
+  \small Experiment
+  \ifnum\value{chapter}<10 0\fi\arabic{chapter}}
 
 % Odd Pages Header
 \fancyhead[OL]{\small \rightmark}
@@ -78,10 +126,24 @@
 
 % Reformat the chapter structure to match the lab sheet layout
 \titleformat{\chapter}[block]
-  {\normalfont} 
-  {{\large\bfseries Experiment No:} \large\padzeroes[2]{\thechapter}} 
+  {\normalfont}
+  {{\large\bfseries Experiment No:} \large\padzeroes[2]{\thechapter}}
   {0pt}
-  {\\[1.5ex]{\large\bfseries Name of Experiment:} \large} 
+  {\\[1.5ex]{\large\bfseries Name of Experiment:} \large}
 
-% Remove the massive default chapter top spacing
-\titlespacing*{\chapter}{0pt}{-20pt}{2ex}
+\usepackage{titlesec}
+
+\newcommand{\twodigits}[1]{%
+  \ifnum#1<10 0\fi\number#1%
+}
+
+\titleformat{\chapter}[block]
+  {\normalfont}
+  {{\large\bfseries Experiment No:} \large\twodigits{\value{chapter}}}
+  {0pt}
+  {\\[1.5ex]{\large\bfseries Name of Experiment:} \large}
+
+\titlespacing*{\chapter}{0pt}{-40pt}{2ex}
+\titlespacing*{\section}{0pt}{1.2em}{0.6em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.5em}
+\titlespacing*{\subsubsection}{0pt}{0.7em}{0.4em}

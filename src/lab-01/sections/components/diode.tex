@@ -1,0 +1,40 @@
+\subsection{Diode}
+\markright{Diode}
+
+\subsubsection*{Definition}
+A diode is a two-terminal semiconductor device formed by a p--n junction that allows
+current to flow primarily in one direction \cite{boylestad2015}. The terminal attached
+to the p-type material is the anode; the terminal at the n-type side is the cathode. In
+forward bias (anode positive), the junction barrier is lowered and current flows; in
+reverse bias, the barrier is increased and only a negligible leakage current flows until
+reverse breakdown is reached. The internal structure of the p--n junction is illustrated
+in Figure~\ref{fig:pnjunction}.
+
+\theoryimage{lab-01/assets/pn_junction.png}%
+  {Internal structure of a p--n junction diode showing the p-type region
+   (holes), depletion region, n-type region (electrons), and conventional
+   current direction under forward bias.}{pnjunction}
+
+\labimage{lab-01/assets/diode.jpeg}%
+  {1N4007 silicon rectifier diodes (DO-41 package) on a tape reel: rated
+   1\,A average forward current and 1000\,V peak inverse voltage.}%
+  {diode_lab}
+
+\subsubsection*{Specifications}
+Key specifications are: forward voltage drop $V_F$ ($\approx 0.6$--$0.7$\,V for silicon,
+$\approx 0.2$--$0.4$\,V for Schottky), maximum average forward current $I_F$, peak
+inverse voltage (PIV), and reverse recovery time $t_{rr}$ (important for high-frequency
+switching) \cite{sedra2020}. The 1N4007---the most common general-purpose rectifier---has
+$I_F = 1$\,A, PIV $= 1000$\,V, and $V_F \approx 1.1$\,V at rated current.
+
+\subsubsection*{Purpose of Use}
+The primary function of a diode is rectification: converting bidirectional AC to
+unidirectional DC. Additional uses include voltage clamping (protecting circuits from
+transient spikes), free-wheeling (absorbing inductive kickback), signal demodulation,
+and logic level shifting.
+
+\subsubsection*{Applications}
+Diodes are found in AC--DC power supply rectifier bridges, battery charger protection
+circuits (preventing reverse discharge), AM radio demodulators, inductive load protection
+(flyback diodes across relay coils), and overvoltage protection at IC input pins
+\cite{floyd2012}.

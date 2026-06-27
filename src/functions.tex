@@ -1,3 +1,39 @@
+% ---------------------------------------------------------------
+% Helper: lab equipment image
+%   \labimage{path}{caption text}{label-key}
+% ---------------------------------------------------------------
+\newcommand{\labimage}[3]{%
+  \begin{figure}[H]
+    \centering
+    \IfFileExists{#1}{%
+      \includegraphics[width=0.55\textwidth,
+                       height=5.5cm,
+                       keepaspectratio]{#1}%
+    }{%
+      \fbox{\parbox[c][5.5cm][c]{0.55\textwidth}{\centering Missing image\\\detokenize{#1}}}%
+    }%
+    \caption{#2}
+    \label{fig:#3}
+  \end{figure}%
+}
+
+% ---------------------------------------------------------------
+% Helper: theory diagram
+%   \labimage{path}{caption text}{label-key}
+% ---------------------------------------------------------------
+\newcommand{\theoryimage}[3]{%
+  \begin{figure}[H]
+    \centering
+    \IfFileExists{#1}{%
+      \includegraphics[width=0.88\textwidth]{#1}%
+    }{%
+      \fbox{\parbox[c][5cm][c]{0.88\textwidth}{\centering Missing image\\\detokenize{#1}}}%
+    }%
+    \caption{#2}
+    \label{fig:#3}
+  \end{figure}%
+}
+
 \newcommand{\img}[3]{
   \begin{figure}[H]
     \centering

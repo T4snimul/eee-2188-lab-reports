@@ -1,0 +1,42 @@
+\subsection{Operational Amplifier (Op-Amp)}
+\markright{Operational Amplifier (Op-Amp)}
+
+\subsubsection*{Definition}
+An operational amplifier (op-amp) is a high-gain, DC-coupled differential voltage
+amplifier realized as an integrated circuit \cite{wiki:opamp}. It was originally
+developed in the 1940s for use in analog computers, where it performed mathematical
+\textit{operations} (summation, integration, differentiation) on voltages---hence the
+name. The op-amp has two differential inputs (inverting~$-$ and non-inverting~$+$) and
+one output; virtually all practical applications surround it with a negative feedback
+network to set a precise closed-loop behavior \cite{horowitz2015}. The most iconic
+general-purpose op-amp, the LM741, has been in production since 1968 and remains a
+standard teaching device.
+
+\labimage{lab-01/assets/lm741.jpeg}%
+  {LM741CN operational amplifier in DIP-8 package. Pin 2: inverting input;
+   Pin 3: non-inverting input; Pin 6: output; Pins 7/4: $\pm$V supply.}{opamp_lab}
+
+The inverting amplifier configuration---the most commonly used op-amp circuit---is shown
+in Figure~\ref{fig:opamp_inv}. Negative feedback through $R_f$ forces the inverting
+input to a \textit{virtual ground}, making the closed-loop gain precisely
+$A_v = -R_f / R_\text{in}$, independent of the op-amp's open-loop gain.
+
+\theoryimage{lab-01/assets/opamp_inverting.png}%
+  {Op-amp inverting amplifier: the output is $180^\circ$ out of phase with
+   the input, and the closed-loop voltage gain is $A_v = -R_f/R_\text{in}$.}{opamp_inv}
+
+\subsubsection*{Specifications}
+For an ideal op-amp: $A_{OL} = \infty$, $Z_{in} = \infty$, $Z_{out} = 0$, bandwidth
+$= \infty$ \cite{electronics_tuts:opamp}. The practical LM741 has: open-loop gain
+$\approx 200{,}000$, input impedance $\approx 2$\,M$\Omega$, output impedance
+$\approx 75$\,$\Omega$, unity-gain bandwidth $\approx 1$\,MHz, slew rate
+$0.5$\,V/$\mu$s, and CMRR of 70--90\,dB \cite{horowitz2015}.
+
+\subsubsection*{Purpose of Use}
+Op-amps amplify weak signals, implement mathematical operations, compare two voltages
+(comparator mode), buffer high-impedance sources, and provide precise reference voltages.
+
+\subsubsection*{Applications}
+Op-amps are found in audio preamplifiers and equalizers, active filters, sensor signal
+conditioning (strain gauges, thermocouples), analog-to-digital converter input stages,
+signal generators, and industrial control loop compensators \cite{sedra2020}.

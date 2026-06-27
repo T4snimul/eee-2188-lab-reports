@@ -1,0 +1,29 @@
+\subsection{Voltage Regulator (LM7805CV)}
+\markright{Voltage Regulator}
+
+\subsubsection*{Definition}
+A linear voltage regulator is a three-terminal IC that maintains a fixed, stable DC
+output voltage regardless of variations in the input supply or load current
+\cite{sedra2020}. The LM7805CV is a member of the 78xx series, providing a fixed
+$+5$\,V output. Internally it uses a Zener-diode reference, an error amplifier, and a
+pass transistor connected as an emitter follower to regulate the output.
+
+\labimage{lab-01/assets/lm7805.jpeg}%
+  {LM7805CV $+5$\,V linear voltage regulator in TO-220 package. Pins
+   from left: input, ground, output.}{lm7805_lab}
+
+\subsubsection*{Specifications}
+The LM7805 accepts input voltages from 7\,V to 35\,V and delivers a regulated $+5$\,V
+output at up to 1\,A continuous current ($1.5$\,A with heatsink). Line regulation is
+typically 3\,mV (output change for full input swing); load regulation is about 15\,mV
+\cite{boylestad2015}. A 0.33\,$\mu$F input decoupling capacitor and 0.1\,$\mu$F output
+capacitor are recommended for stability.
+
+\subsubsection*{Purpose of Use}
+The LM7805 converts an unregulated DC supply (e.g., a 9\,V battery or 12\,V rectified
+supply) into a stable $+5$\,V rail for powering digital logic circuits, microcontrollers,
+and sensor modules.
+
+\subsubsection*{Applications}
+The 78xx family is used in laboratory bench power supply circuits, embedded system
+prototypes, battery-powered sensor nodes, and educational PCB designs \cite{floyd2012}.

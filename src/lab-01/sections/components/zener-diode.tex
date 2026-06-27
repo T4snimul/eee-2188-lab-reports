@@ -1,0 +1,33 @@
+\subsection{Zener Diode}
+\markright{Zener Diode}
+
+\subsubsection*{Definition}
+A Zener diode is a specially doped silicon p--n junction designed to operate
+reproducibly in reverse breakdown at a controlled voltage, called the \textit{Zener
+voltage} $V_Z$ \cite{boylestad2015}. At voltages below $V_Z$ the device blocks current
+like a normal diode; once $V_Z$ is reached, current flows freely in reverse while the
+voltage across the device remains nearly constant. This voltage-clamping property makes
+the Zener diode the simplest voltage reference element.
+
+\labimage{lab-01/assets/zener.jpg}%
+  {Zener diode in DO-41 glass package; the band marks the cathode
+   (negative terminal in the reference voltage context).}{zener_lab}
+
+\subsubsection*{Specifications}
+The Zener voltage $V_Z$ is available in standard values from about 2.4\,V to 200\,V.
+Other key parameters are power dissipation rating $P_Z$ (commonly 400\,mW or 1\,W),
+dynamic impedance $Z_Z$ (a few ohms---lower is better for regulation), and temperature
+coefficient of $V_Z$ \cite{sedra2020}. Zener diodes with $V_Z \approx 5.1$\,V have a
+near-zero temperature coefficient, making them the preferred choice for stable voltage
+references.
+
+\subsubsection*{Purpose of Use}
+The Zener diode maintains a stable reference voltage across a load despite variations in
+the input supply or load current. Placed in reverse bias with a series resistor, it
+clamps the output to $V_Z$ as long as the Zener current remains within its operating
+range.
+
+\subsubsection*{Applications}
+Zener diodes provide voltage references in linear power supplies, protect inputs from
+transient overvoltage, set threshold voltages in comparator circuits, stabilize transistor
+bias voltages, and regulate voltages in battery-powered devices \cite{boylestad2015}.
