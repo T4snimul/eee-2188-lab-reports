@@ -1,0 +1,586 @@
+PWD d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src
+INPUT C:\Users\tanim\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\main.tex
+OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.log
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT .\preamble.tex
+INPUT .\preamble.tex
+INPUT .\preamble.tex
+INPUT .\preamble.tex
+INPUT preamble.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fmtcount.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fmtcount.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fcprefix.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fcprefix.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fcnumparser.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fcnumparser.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\xetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-unicode.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-unicode.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-unicode.def
+INPUT C:\Program Files\MiKTeX\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric-comp.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric-comp.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric-comp.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\biblatex-ieee\ieee.cbx
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\biblatex-ieee\ieee.cbx
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\biblatex-ieee\ieee.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric-verb.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric-verb.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric-verb.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvipdfmx.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\chngcntr\chngcntr.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\chngcntr\chngcntr.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hxetex.def
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpagemodern.sty
+INPUT .\functions.tex
+INPUT .\functions.tex
+INPUT .\functions.tex
+INPUT .\functions.tex
+INPUT functions.tex
+INPUT .\metadata.tex
+INPUT .\metadata.tex
+INPUT .\metadata.tex
+INPUT .\metadata.tex
+INPUT metadata.tex
+INPUT .\cover\main.tex
+INPUT .\cover\main.tex
+INPUT .\cover\main.tex
+INPUT .\cover\main.tex
+INPUT cover\main.tex
+INPUT .\cover\background.tex
+INPUT .\cover\background.tex
+INPUT .\cover\background.tex
+INPUT .\cover\background.tex
+INPUT cover\background.tex
+INPUT .\cover\layout.tex
+INPUT .\cover\layout.tex
+INPUT .\cover\layout.tex
+INPUT .\cover\layout.tex
+INPUT cover\layout.tex
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
+OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bcf
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT .\lab-01\main.tex
+INPUT .\lab-01\main.tex
+INPUT .\lab-01\main.tex
+INPUT .\lab-01\main.tex
+INPUT lab-01\main.tex
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.xdv
+INPUT .\lab-01\sections\objectives.tex
+INPUT .\lab-01\sections\objectives.tex
+INPUT .\lab-01\sections\objectives.tex
+INPUT .\lab-01\sections\objectives.tex
+INPUT lab-01\sections\objectives.tex
+INPUT .\lab-01\sections\theory.tex
+INPUT .\lab-01\sections\theory.tex
+INPUT .\lab-01\sections\theory.tex
+INPUT .\lab-01\sections\theory.tex
+INPUT lab-01\sections\theory.tex
+INPUT .\lab-01\assets\vi_characteristics.png
+INPUT .\lab-01\assets\vi_characteristics.png
+INPUT .\lab-01\assets\oscilloscope_waveform.png
+INPUT .\lab-01\assets\oscilloscope_waveform.png
+INPUT .\lab-01\sections\components\main.tex
+INPUT .\lab-01\sections\components\main.tex
+INPUT .\lab-01\sections\components\main.tex
+INPUT .\lab-01\sections\components\main.tex
+INPUT lab-01\sections\components\main.tex
+INPUT .\lab-01\sections\components\resistor.tex
+INPUT .\lab-01\sections\components\resistor.tex
+INPUT .\lab-01\sections\components\resistor.tex
+INPUT .\lab-01\sections\components\resistor.tex
+INPUT lab-01\sections\components\resistor.tex
+INPUT .\lab-01\assets\resistors.jpg
+INPUT .\lab-01\assets\resistors.jpg
+INPUT .\lab-01\assets\resistor_colorcode.png
+INPUT .\lab-01\assets\resistor_colorcode.png
+INPUT .\lab-01\sections\components\multimeter.tex
+INPUT .\lab-01\sections\components\multimeter.tex
+INPUT .\lab-01\sections\components\multimeter.tex
+INPUT .\lab-01\sections\components\multimeter.tex
+INPUT lab-01\sections\components\multimeter.tex
+INPUT .\lab-01\assets\multimeter.jpg
+INPUT .\lab-01\assets\multimeter.jpg
+INPUT .\lab-01\sections\components\breadboard.tex
+INPUT .\lab-01\sections\components\breadboard.tex
+INPUT .\lab-01\sections\components\breadboard.tex
+INPUT .\lab-01\sections\components\breadboard.tex
+INPUT lab-01\sections\components\breadboard.tex
+INPUT .\lab-01\assets\breadboard.jpg
+INPUT .\lab-01\assets\breadboard.jpg
+INPUT .\lab-01\sections\components\capacitor.tex
+INPUT .\lab-01\sections\components\capacitor.tex
+INPUT .\lab-01\sections\components\capacitor.tex
+INPUT .\lab-01\sections\components\capacitor.tex
+INPUT lab-01\sections\components\capacitor.tex
+INPUT .\lab-01\assets\capacitor_structure.png
+INPUT .\lab-01\assets\capacitor_structure.png
+INPUT .\lab-01\assets\capacitor.jpeg
+INPUT .\lab-01\assets\capacitor.jpeg
+INPUT .\lab-01\assets\ceramic_capacitor.jpeg
+INPUT .\lab-01\assets\ceramic_capacitor.jpeg
+INPUT .\lab-01\assets\fim_capacitor.jpeg
+INPUT .\lab-01\assets\fim_capacitor.jpeg
+INPUT .\lab-01\sections\components\diode.tex
+INPUT .\lab-01\sections\components\diode.tex
+INPUT .\lab-01\sections\components\diode.tex
+INPUT .\lab-01\sections\components\diode.tex
+INPUT lab-01\sections\components\diode.tex
+INPUT .\lab-01\assets\pn_junction.png
+INPUT .\lab-01\assets\pn_junction.png
+INPUT .\lab-01\assets\diode.jpeg
+INPUT .\lab-01\assets\diode.jpeg
+INPUT .\lab-01\sections\components\zener-diode.tex
+INPUT .\lab-01\sections\components\zener-diode.tex
+INPUT .\lab-01\sections\components\zener-diode.tex
+INPUT .\lab-01\sections\components\zener-diode.tex
+INPUT lab-01\sections\components\zener-diode.tex
+INPUT .\lab-01\assets\zener.jpg
+INPUT .\lab-01\assets\zener.jpg
+INPUT .\lab-01\sections\components\led.tex
+INPUT .\lab-01\sections\components\led.tex
+INPUT .\lab-01\sections\components\led.tex
+INPUT .\lab-01\sections\components\led.tex
+INPUT lab-01\sections\components\led.tex
+INPUT .\lab-01\assets\led.jpeg
+INPUT .\lab-01\assets\led.jpeg
+INPUT .\lab-01\sections\components\veroboard.tex
+INPUT .\lab-01\sections\components\veroboard.tex
+INPUT .\lab-01\sections\components\veroboard.tex
+INPUT .\lab-01\sections\components\veroboard.tex
+INPUT lab-01\sections\components\veroboard.tex
+INPUT .\lab-01\assets\veroboard.jpg
+INPUT .\lab-01\assets\veroboard.jpg
+INPUT .\lab-01\sections\components\oscilloscope.tex
+INPUT .\lab-01\sections\components\oscilloscope.tex
+INPUT .\lab-01\sections\components\oscilloscope.tex
+INPUT .\lab-01\sections\components\oscilloscope.tex
+INPUT lab-01\sections\components\oscilloscope.tex
+INPUT .\lab-01\assets\protek-5100.jpeg
+INPUT .\lab-01\assets\protek-5100.jpeg
+INPUT .\lab-01\assets\rs_rtc1002.jpeg
+INPUT .\lab-01\assets\rs_rtc1002.jpeg
+INPUT .\lab-01\assets\analog_oscilloscope.jpeg
+INPUT .\lab-01\assets\analog_oscilloscope.jpeg
+INPUT .\lab-01\sections\components\function-generator.tex
+INPUT .\lab-01\sections\components\function-generator.tex
+INPUT .\lab-01\sections\components\function-generator.tex
+INPUT .\lab-01\sections\components\function-generator.tex
+INPUT lab-01\sections\components\function-generator.tex
+INPUT .\lab-01\assets\protek9205c.jpeg
+INPUT .\lab-01\assets\protek9205c.jpeg
+INPUT .\lab-01\sections\components\op-amp.tex
+INPUT .\lab-01\sections\components\op-amp.tex
+INPUT .\lab-01\sections\components\op-amp.tex
+INPUT .\lab-01\sections\components\op-amp.tex
+INPUT lab-01\sections\components\op-amp.tex
+INPUT .\lab-01\assets\lm741.jpeg
+INPUT .\lab-01\assets\lm741.jpeg
+INPUT .\lab-01\assets\opamp_inverting.png
+INPUT .\lab-01\assets\opamp_inverting.png
+INPUT .\lab-01\sections\components\bjt.tex
+INPUT .\lab-01\sections\components\bjt.tex
+INPUT .\lab-01\sections\components\bjt.tex
+INPUT .\lab-01\sections\components\bjt.tex
+INPUT lab-01\sections\components\bjt.tex
+INPUT .\lab-01\assets\bjt_to92.jpg
+INPUT .\lab-01\assets\bjt_to92.jpg
+INPUT .\lab-01\assets\bjt_characteristics.png
+INPUT .\lab-01\assets\bjt_characteristics.png
+INPUT .\lab-01\sections\components\mosfet.tex
+INPUT .\lab-01\sections\components\mosfet.tex
+INPUT .\lab-01\sections\components\mosfet.tex
+INPUT .\lab-01\sections\components\mosfet.tex
+INPUT lab-01\sections\components\mosfet.tex
+INPUT .\lab-01\assets\mosfet_symbol.png
+INPUT .\lab-01\assets\mosfet_symbol.png
+INPUT .\lab-01\assets\mosfet_to220.jpeg
+INPUT .\lab-01\assets\mosfet_to220.jpeg
+INPUT .\lab-01\sections\components\voltage-regulator.tex
+INPUT .\lab-01\sections\components\voltage-regulator.tex
+INPUT .\lab-01\sections\components\voltage-regulator.tex
+INPUT .\lab-01\sections\components\voltage-regulator.tex
+INPUT lab-01\sections\components\voltage-regulator.tex
+INPUT .\lab-01\assets\lm7805.jpeg
+INPUT .\lab-01\assets\lm7805.jpeg
+INPUT .\lab-01\sections\components\soldering-iron.tex
+INPUT .\lab-01\sections\components\soldering-iron.tex
+INPUT .\lab-01\sections\components\soldering-iron.tex
+INPUT .\lab-01\sections\components\soldering-iron.tex
+INPUT lab-01\sections\components\soldering-iron.tex
+INPUT .\lab-01\assets\soldering_iron.jpeg
+INPUT .\lab-01\assets\soldering_iron.jpeg
+INPUT .\lab-01\sections\discussion.tex
+INPUT .\lab-01\sections\discussion.tex
+INPUT .\lab-01\sections\discussion.tex
+INPUT .\lab-01\sections\discussion.tex
+INPUT lab-01\sections\discussion.tex
+INPUT .\lab-01\sections\conclusion.tex
+INPUT .\lab-01\sections\conclusion.tex
+INPUT .\lab-01\sections\conclusion.tex
+INPUT .\lab-01\sections\conclusion.tex
+INPUT lab-01\sections\conclusion.tex
+INPUT .\lab-01\sections\references.tex
+INPUT .\lab-01\sections\references.tex
+INPUT .\lab-01\sections\references.tex
+INPUT .\lab-01\sections\references.tex
+INPUT lab-01\sections\references.tex
+INPUT .\lab-02\main.tex
+INPUT .\lab-02\main.tex
+INPUT .\lab-02\main.tex
+INPUT .\lab-02\main.tex
+INPUT lab-02\main.tex
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.run.xml
+OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.run.xml
