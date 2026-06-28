@@ -17,7 +17,7 @@
 \endgroup
 
 
-\refsection{0}
+\refsection{1}
   \datalist[entry]{none/global//global/global/global}
     \entry{horowitz2015}{book}{}{}
       \name{author}{2}{}{%
@@ -569,6 +569,169 @@
       \verb{url}
       \verb https://en.wikipedia.org/wiki/Soldering_iron
       \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{lab2_boylestad2015}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=8badf6f5cd034153c1b8f209f1d539ca}{%
+           family={Boylestad},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=73f3ba640ee56c4e4ebc64767f679796}{%
+           family={Nashelsky},
+           familyi={N\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{fullhash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{fullhashraw}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{bibnamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorbibnamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authornamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorfullhash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorfullhashraw}{ec1c6a27869deb4d710aba450b8f07c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{11th}
+      \field{title}{Electronic Devices and Circuit Theory}
+      \field{year}{2015}
+      \keyw{lab2}
+    \endentry
+    \entry{lab2_sedra2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=6274f02c652321416b74b77a1091a91f}{%
+           family={Sedra},
+           familyi={S\bibinitperiod},
+           given={Adel\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f81b39065083ba18642fa0aef9f114af}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Kenneth\bibnamedelima C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{fullhash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{fullhashraw}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{bibnamehash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{authorbibnamehash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{authornamehash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{authorfullhash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{authorfullhashraw}{4f054d7e6cf584e2fcd724eb800a4125}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8th}
+      \field{title}{Microelectronic Circuits}
+      \field{year}{2020}
+      \keyw{lab2}
+    \endentry
+    \entry{lab2_razavi2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c7a8cbdc611fb566c84f257674d0a44f}{%
+           family={Razavi},
+           familyi={R\bibinitperiod},
+           given={Behzad},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{fullhash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{fullhashraw}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{bibnamehash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{authorbibnamehash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{authornamehash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{authorfullhash}{c7a8cbdc611fb566c84f257674d0a44f}
+      \strng{authorfullhashraw}{c7a8cbdc611fb566c84f257674d0a44f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Fundamentals of Microelectronics}
+      \field{year}{2013}
+      \keyw{lab2}
+    \endentry
+    \entry{lab2_onsemi_1n4007}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=04d6d002c53dc55a907e40f8c47a640e}{%
+           family={{onsemi}},
+           familyi={o\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {onsemi}%
+      }
+      \strng{namehash}{04d6d002c53dc55a907e40f8c47a640e}
+      \strng{fullhash}{04d6d002c53dc55a907e40f8c47a640e}
+      \strng{fullhashraw}{04d6d002c53dc55a907e40f8c47a640e}
+      \strng{bibnamehash}{04d6d002c53dc55a907e40f8c47a640e}
+      \strng{authorbibnamehash}{04d6d002c53dc55a907e40f8c47a640e}
+      \strng{authornamehash}{04d6d002c53dc55a907e40f8c47a640e}
+      \strng{authorfullhash}{04d6d002c53dc55a907e40f8c47a640e}
+      \strng{authorfullhashraw}{04d6d002c53dc55a907e40f8c47a640e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Jun.\ 2026}
+      \field{title}{{1N4001/D 1N4001 - 1N4007 General-Purpose Rectifiers Datasheet}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf
+      \endverb
+      \keyw{lab2}
+    \endentry
+    \entry{lab2_manual}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1372e9d17131618ce171dafff0ef8daf}{%
+           family={{Department of Mechatronics Engineering, RUET}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1372e9d17131618ce171dafff0ef8daf}
+      \strng{fullhash}{1372e9d17131618ce171dafff0ef8daf}
+      \strng{fullhashraw}{1372e9d17131618ce171dafff0ef8daf}
+      \strng{bibnamehash}{1372e9d17131618ce171dafff0ef8daf}
+      \strng{authorbibnamehash}{1372e9d17131618ce171dafff0ef8daf}
+      \strng{authornamehash}{1372e9d17131618ce171dafff0ef8daf}
+      \strng{authorfullhash}{1372e9d17131618ce171dafff0ef8daf}
+      \strng{authorfullhashraw}{1372e9d17131618ce171dafff0ef8daf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Laboratory manual}
+      \field{title}{{EEE 2188 Electronics Sessional Lab Manual: Experiment No. 02, Study of V-I Characteristics of P-N Junction Diode}}
+      \field{year}{2026}
+      \keyw{lab2}
     \endentry
   \enddatalist
 \endrefsection

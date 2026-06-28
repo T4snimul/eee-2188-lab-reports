@@ -23,6 +23,7 @@
 \usepackage{amssymb}
 \usepackage[style=ieee, backend=biber]{biblatex}
 \addbibresource{lab-01/references.bib}
+\addbibresource{lab-02/sections/references.bib}
 
 % ==========================================
 % 3. Graphics & Visualization
@@ -30,6 +31,8 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{tikz} % Required for the background watermark
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 \usepackage{setspace}
 \usepackage{ragged2e}
 \usepackage{xurl}
@@ -118,7 +121,7 @@
 \fancyhead[OR]{\small \leftmark}
 
 % Footers
-\fancyfoot[C]{\small Page \thepage}
+\fancyfoot[C]{\small \thepage}
 
 % Adjust the line thickness under the header
 \renewcommand{\headrulewidth}{0.5pt}

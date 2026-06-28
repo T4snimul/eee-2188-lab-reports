@@ -1,0 +1,57 @@
+\section{Theory}
+\markright{Theory}
+
+A p-n junction diode is a two-terminal nonlinear semiconductor device formed by joining
+p-type and n-type semiconductor regions. The p-type region contains holes as majority
+carriers, while the n-type region contains electrons as majority carriers. Around the
+junction, mobile carriers diffuse and recombine, leaving fixed ionized atoms. This
+carrier-free zone is known as the depletion region. The electric field across this region
+creates a potential barrier that must be reduced before appreciable current can flow
+\cite{lab2_boylestad2015, lab2_sedra2020}.
+
+The terminal connected to the p-type side is called the anode, and the terminal connected
+to the n-type side is called the cathode. A diode conducts heavily when it is forward
+biased and ideally blocks current when it is reverse biased. Therefore, it acts as a
+unidirectional current device and is widely used in rectifiers, wave-shaping circuits,
+switching circuits, detectors, clippers, and clampers.
+
+\subsection*{Forward Bias}
+
+In forward bias, the positive terminal of the supply is connected to the anode and the
+negative terminal is connected to the cathode. The applied voltage reduces the potential
+barrier across the depletion region. When the forward voltage reaches the cut-in voltage,
+majority carriers cross the junction in large numbers and the diode current rises rapidly.
+For a silicon diode, the cut-in voltage is approximately $0.7\,\text{V}$; for a germanium
+diode it is approximately $0.3\,\text{V}$.
+
+For an idealized p-n junction diode, the current-voltage relationship is expressed by the
+Shockley diode equation:
+\[
+    I_D = I_S\left(e^{V_D/(\eta V_T)} - 1\right)
+\]
+where $I_D$ is the diode current, $I_S$ is the reverse saturation current, $V_D$ is the
+voltage across the diode, $\eta$ is the emission coefficient, and
+$V_T = kT/q \approx 26\,\text{mV}$ at room temperature. For silicon diodes, $\eta$ is
+commonly close to 2 in practical low-current operation \cite{lab2_razavi2013}.
+The 1N4007 used in this experiment is a general-purpose silicon rectifier diode with a
+high repetitive peak reverse voltage rating, making it suitable for safe low-voltage
+laboratory forward and reverse-bias observation \cite{lab2_onsemi_1n4007}.
+
+\subsection*{Reverse Bias}
+
+In reverse bias, the negative terminal of the supply is connected to the anode and the
+positive terminal is connected to the cathode. The applied voltage increases the width of
+the depletion region and raises the potential barrier. As a result, majority carrier
+current is nearly zero. Only a very small reverse saturation current flows due to minority
+carriers, generally in the microampere range for practical diodes.
+
+If the reverse voltage is increased beyond the breakdown rating, avalanche or Zener
+breakdown may occur. In this experiment the reverse voltage is kept low, so the diode
+behaves almost like an open switch in reverse bias.
+
+\subsection*{Expected V--I Characteristic}
+
+The forward characteristic of a silicon diode remains almost flat until the applied diode
+voltage approaches the knee region. Beyond the knee voltage, a small increase in diode
+voltage produces a large increase in current. The reverse characteristic remains nearly
+horizontal for ordinary reverse voltages because the reverse current is very small.

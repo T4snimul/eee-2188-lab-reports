@@ -1,7 +1,7 @@
-PWD d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src
+PWD d:\Academics\2-1\Lab Reports\EEE 2188\src
 INPUT C:\Users\tanim\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\main.tex
-OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.log
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\main.tex
+OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
@@ -255,6 +255,65 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.c
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-xetex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsstackedplots.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.scaling.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.markers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsticks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.paths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
@@ -347,30 +406,30 @@ INPUT .\cover\layout.tex
 INPUT .\cover\layout.tex
 INPUT .\cover\layout.tex
 INPUT cover\layout.tex
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
-OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
+OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bcf
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.bbl
+OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bcf
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
-OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
 INPUT .\lab-01\main.tex
 INPUT .\lab-01\main.tex
 INPUT .\lab-01\main.tex
@@ -410,7 +469,7 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.xdv
+OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.xdv
 INPUT .\lab-01\sections\objectives.tex
 INPUT .\lab-01\sections\objectives.tex
 INPUT .\lab-01\sections\objectives.tex
@@ -579,8 +638,53 @@ INPUT .\cover\ruet_logo.png
 INPUT .\cover\ruet_logo.png
 INPUT .\cover\ruet_logo.png
 INPUT .\cover\ruet_logo.png
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.aux
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.out
-INPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.run.xml
-OUTPUT d:\Academics\2-1\EEE 2187\Sessionals\EEE 2187 Lab 01\src\build\main.run.xml
+INPUT .\lab-02\sections\objectives.tex
+INPUT .\lab-02\sections\objectives.tex
+INPUT .\lab-02\sections\objectives.tex
+INPUT .\lab-02\sections\objectives.tex
+INPUT lab-02\sections\objectives.tex
+INPUT .\lab-02\sections\theory.tex
+INPUT .\lab-02\sections\theory.tex
+INPUT .\lab-02\sections\theory.tex
+INPUT .\lab-02\sections\theory.tex
+INPUT lab-02\sections\theory.tex
+INPUT .\lab-02\sections\apparatus.tex
+INPUT .\lab-02\sections\apparatus.tex
+INPUT .\lab-02\sections\apparatus.tex
+INPUT .\lab-02\sections\apparatus.tex
+INPUT lab-02\sections\apparatus.tex
+INPUT .\lab-02\sections\procedure.tex
+INPUT .\lab-02\sections\procedure.tex
+INPUT .\lab-02\sections\procedure.tex
+INPUT .\lab-02\sections\procedure.tex
+INPUT lab-02\sections\procedure.tex
+INPUT .\lab-02\sections\observations.tex
+INPUT .\lab-02\sections\observations.tex
+INPUT .\lab-02\sections\observations.tex
+INPUT .\lab-02\sections\observations.tex
+INPUT lab-02\sections\observations.tex
+INPUT .\lab-02\sections\simulation.tex
+INPUT .\lab-02\sections\simulation.tex
+INPUT .\lab-02\sections\simulation.tex
+INPUT .\lab-02\sections\simulation.tex
+INPUT lab-02\sections\simulation.tex
+INPUT .\lab-02\sections\discussion.tex
+INPUT .\lab-02\sections\discussion.tex
+INPUT .\lab-02\sections\discussion.tex
+INPUT .\lab-02\sections\discussion.tex
+INPUT lab-02\sections\discussion.tex
+INPUT .\lab-02\sections\conclusion.tex
+INPUT .\lab-02\sections\conclusion.tex
+INPUT .\lab-02\sections\conclusion.tex
+INPUT .\lab-02\sections\conclusion.tex
+INPUT lab-02\sections\conclusion.tex
+INPUT .\lab-02\sections\references.tex
+INPUT .\lab-02\sections\references.tex
+INPUT .\lab-02\sections\references.tex
+INPUT .\lab-02\sections\references.tex
+INPUT lab-02\sections\references.tex
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.run.xml
+OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.run.xml

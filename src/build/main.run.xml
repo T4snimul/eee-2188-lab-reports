@@ -84,6 +84,7 @@
     </requires>
     <requires type="editable">
       <file>lab-01/references.bib</file>
+      <file>lab-02/sections/references.bib</file>
     </requires>
   </external>
 </requests>

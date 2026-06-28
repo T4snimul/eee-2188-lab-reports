@@ -1,0 +1,146 @@
+Department of Mechatronics Engineering
+Rajshahi University of Engineering & Technology
+MTE 2188: Electronics Sessional
+
+EXPERIMENT NO. 02
+Name of the Experiment: Study of V-I Characteristics of P-N Junction Diode.
+Objective:
+i.
+ii.
+iii.
+
+Study of p-n junction diode.
+Understanding the working of p-n junction diode in forward and reverse bias.
+Draw the characteristics of p-n junction diode in forward and reverse bias mode.
+
+Apparatus Required: p-n junction diode IN4007, Regulated Power Supply, Resistor 1kΩ,
+Ammeter (0-20mA), Voltmeter (0-20V), Bread Board, Connecting wires.
+Theory: A diode is a nonlinear circuit element. Donor impurities (pentavalent) are introduced
+into one-side and acceptor impurities into the other side of a single crystal of an intrinsic
+semiconductor to form a p-n junction diode with a junction called depletion region (this region is
+depleted off the charge carriers) as shown in Fig. 2.1. This region gives rise to a potential barrier
+called Cut-in Voltage. This is the voltage across the diode at which it starts conducting. The P-N
+junction can conduct beyond this potential.
+
+Fig. 2.1. Symbol for PN Diode
+a. Forward Biasing:
+The P-N junction supports unidirectional current flow. If +ve terminal of the input supply
+is connected to anode (P-side) and –ve terminal of the input supply is connected the
+cathode. Then diode is said to be forward biased as shown in Fig. 2.2.
+
+Page 1
+
+Fig. 2.2. PN Diode in Forward Bias
+In this condition the height of the potential barrier at the junction is lowered by an
+amount equal to given forward biasing voltage. Both the holes from p-side and electrons
+from n-side cross the junction simultaneously and constitute a forward current from nside (injected minority current – due to holes crossing the junction and entering P- side of
+the diode). Assuming current flowing through the diode to be very large, the diode can be
+approximated as short- circuited switch.
+b. Reverse Biasing:
+If –ve terminal of the input supply is connected to anode (p-side) and +ve terminal of the
+input supply is connected to cathode (n-side) then the diode is said to be reverse biased
+as shown in Fig. 2.3.
+
+Fig. 2.3. PN Diode in Reverse Bias
+In this condition an amount equal to reverse biasing voltage increases the height of the
+potential barrier at the junction. Both the holes on P-side and electrons on N-side tend to
+move away from the junction there by increasing the depleted region. However the
+Page 2
+
+process cannot continue indefinitely, thus a small current called reverse saturation current
+(in μA) continues to flow in the diode. This current is negligible hence the diode can be
+approximated as an open circuited switch.
+One final point, if the reverse bias voltage Vr applied to the diode is increased to a
+sufficiently high enough value, it will cause the diode’s PN junction to overheat and fail
+due to the avalanche effect around the junction. This may cause the diode to become
+shorted and will result in the flow of maximum circuit current and this is shown as a step
+downward slope in the reverse static characteristics curve as shown in Fig. 5.4.
+
+Fig. 2.4.V-I Characteristics of PN Junction Diode
+The volt-ampere characteristics of a diode explained by the following equations
+I=IO (e VD/ η VT– 1)
+Where I = current flowing in the diode, I0= reverse saturation current VD = Voltage
+applied to the diode
+VT= volt- equivalent of temperature = k T/q = T/ 11,600 = 26mV (@ room temp) and
+η= 1(for Ge) and 2 (for Si)
+It is observed that Ge diodes has smaller cut-in-voltage (0.3 V) when compared to Si
+diode (0.7 V). The reverse saturation current in Ge diode is larger in magnitude when
+compared to silicon diode.
+Page 3
+
+Schematic Diagram:
+
+Fig. 2.5. Forward Biasing of PN Junction Diode
+
+Fig. 2.6. Reverse Biasing of PN Junction
+Diode Experimental Procedure:
+Forward Bias:
+1. Connections are made as per the circuit diagram.
+2. For forward bias, the (+ve) supply is connected to the anode of the diode and (–ve)
+supply is connected to the cathode of the diode.
+3. Switch on the power supply and increase the input voltage (supply voltage) in steps.
+4. Note down the corresponding current flowing through the diode and voltage across the
+diode for each and every step of the input voltage.
+Page 4
+
+5. The reading of voltage and current are tabulated.
+6. Graph is plotted between voltage (VF) on X-axis and current (IF) on Y-axis.
+Observations:
+Forward Bias:
+S.No.
+
+Applied Voltage
+
+Voltage Across Diode
+
+Forward current
+
+(V)
+
+VF (Volt)
+
+IF (mA)
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+Graph: V-I Characteristics of diode: (To be plotted using readings)
+Result: The graph has been plotted between voltage and current, and corresponding V-I
+characteristic of p-n junction diode has been studied.
+Result Analysis & Discussion: This section should be written individually by each student.
+Inferences & Conclusion: This section should be written individually by each student.
+Learning Outcomes:
+1. Knowledge of proper connection of diode in forward and reverse bias in practical
+applications.
+2. Understanding the concept of potential barrier and correspondingly knee voltage.
+3. Knowledge of order of magnitude of current in forward and reverse bias in p-n junction
+diode.
+Page 5
+
+Applications:
+1. P-N junction diode is used in clipping circuits as wave shaping circuits in computers,
+radio, radars etc.
+2. It is used as switches in digital logic designs.
+3. It is used in detector and demodulator circuits.
+4. It is used in clamping circuits in TV receivers as well as voltage multipliers.
+5. It is used as rectifiers in DC power supply manufacturing.
+Precautions:
+1.
+2.
+3.
+4.
+
+Select proper multi-meter range during forward bias and reverse bias.
+Connect diode with correct polarity for forward and reverse bias operation.
+Make all connections tight.
+Get the connections checked according to the circuit diagram before switching on the
+supply.
+
+Page 6
+
+
