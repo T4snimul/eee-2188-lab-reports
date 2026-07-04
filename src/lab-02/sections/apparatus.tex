@@ -1,32 +1,15 @@
 \section{Apparatus Required}
 \markright{Apparatus Required}
 
-\begin{table}[H]
-    \centering
-    \caption{Apparatus required for the experiment}
-    \label{tab:lab2_apparatus}
-    \renewcommand{\arraystretch}{1.45}
-    \setlength{\tabcolsep}{10pt}
-    \begin{tabular}{|c|p{0.34\textwidth}|p{0.38\textwidth}|}
-        \hline
-        \textbf{S. No.} & \textbf{Apparatus} & \textbf{Specification} \\
-        \hline
-        1 & P-n junction diode & 1N4007 silicon diode \\
-        \hline
-        2 & Regulated DC power supply & Variable DC output \\
-        \hline
-        3 & Resistor & $10\,\text{k}\Omega$ \\
-        \hline
-        4 & Ammeter & $0$--$20\,\text{mA}$ range \\
-        \hline
-        5 & Voltmeter & $0$--$20\,\text{V}$ range \\
-        \hline
-        6 & Breadboard & For temporary circuit construction \\
-        \hline
-        7 & Connecting wires & As required \\
-        \hline
-    \end{tabular}
-\end{table}
+\begin{enumerate}
+    \item P-n junction diode: 1N4007 silicon diode.
+    \item Regulated DC power supply: variable DC output.
+    \item Resistor: $10\,\text{k}\Omega$.
+    \item Ammeter (0-20mA)
+    \item Voltmeter (0-20V)
+    \item Breadboard.
+    \item Connecting wires.
+\end{enumerate}
 
 \subsection*{Circuit Diagrams}
 
@@ -43,11 +26,10 @@
             \draw (1.1,0.85) rectangle (2.1,1.55);
             \node[lablabel] at (1.6,1.85) {$10\,\text{k}\Omega$};
             \draw (2.1,1.2) -- (3.0,1.2);
-            \draw (3.0,0.8) -- (3.0,1.6) -- (3.75,1.2) -- cycle;
+            \draw (3.0,0.8) -- (3.0,1.6) -- (3.85,1.2) -- cycle;
             \draw (3.85,0.75) -- (3.85,1.65);
             \node[lablabel] at (3.42,0.52) {D};
             \draw (3.85,1.2) -- (5.0,1.2) -- (5.0,-1.2) -- (0,-1.2) -- (0,-0.45);
-            \draw (3.0,2.0) -- (3.85,2.0);
             \node[lablabel] at (3.42,2.28) {$V_F$};
         \end{tikzpicture}
         \caption{Forward bias}
@@ -66,10 +48,9 @@
             \node[lablabel] at (1.6,1.85) {$10\,\text{k}\Omega$};
             \draw (2.1,1.2) -- (3.0,1.2);
             \draw (3.0,0.75) -- (3.0,1.65);
-            \draw (3.1,0.8) -- (3.1,1.6) -- (3.85,1.2) -- cycle;
+            \draw (3.0,1.2) -- (3.85,0.8) -- (3.85,1.6) -- cycle;
             \node[lablabel] at (3.45,0.52) {D};
             \draw (3.85,1.2) -- (5.0,1.2) -- (5.0,-1.2) -- (0,-1.2) -- (0,-0.45);
-            \draw (3.0,2.0) -- (3.85,2.0);
             \node[lablabel] at (3.42,2.28) {$V_R$};
         \end{tikzpicture}
         \caption{Reverse bias}

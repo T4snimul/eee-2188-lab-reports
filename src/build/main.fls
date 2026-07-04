@@ -648,6 +648,10 @@ INPUT .\lab-02\sections\theory.tex
 INPUT .\lab-02\sections\theory.tex
 INPUT .\lab-02\sections\theory.tex
 INPUT lab-02\sections\theory.tex
+INPUT .\lab-02\schematics\rb-graph.png
+INPUT .\lab-02\schematics\rb-graph.png
+INPUT .\lab-02\schematics\rb-graph.png
+INPUT .\lab-02\schematics\rb-graph.png
 INPUT .\lab-02\sections\apparatus.tex
 INPUT .\lab-02\sections\apparatus.tex
 INPUT .\lab-02\sections\apparatus.tex
@@ -668,6 +672,14 @@ INPUT .\lab-02\sections\simulation.tex
 INPUT .\lab-02\sections\simulation.tex
 INPUT .\lab-02\sections\simulation.tex
 INPUT lab-02\sections\simulation.tex
+INPUT .\lab-02\schematics\fb-diagram.png
+INPUT .\lab-02\schematics\fb-diagram.png
+INPUT .\lab-02\schematics\fb-graph.png
+INPUT .\lab-02\schematics\fb-graph.png
+INPUT .\lab-02\schematics\rb-diagram.png
+INPUT .\lab-02\schematics\rb-diagram.png
+INPUT .\lab-02\schematics\rb-graph.png
+INPUT .\lab-02\schematics\rb-graph.png
 INPUT .\lab-02\sections\discussion.tex
 INPUT .\lab-02\sections\discussion.tex
 INPUT .\lab-02\sections\discussion.tex

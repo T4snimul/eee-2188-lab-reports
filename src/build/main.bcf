@@ -2453,7 +2453,8 @@
     <bcf:citekey order="1" intorder="2">lab2_sedra2020</bcf:citekey>
     <bcf:citekey order="2" intorder="1">lab2_razavi2013</bcf:citekey>
     <bcf:citekey order="3" intorder="1">lab2_onsemi_1n4007</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">lab2_manual</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">lab2_boylestad2015</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">lab2_onsemi_1n4007</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

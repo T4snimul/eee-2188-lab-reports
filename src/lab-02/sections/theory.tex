@@ -7,13 +7,15 @@ carriers, while the n-type region contains electrons as majority carriers. Aroun
 junction, mobile carriers diffuse and recombine, leaving fixed ionized atoms. This
 carrier-free zone is known as the depletion region. The electric field across this region
 creates a potential barrier that must be reduced before appreciable current can flow
-\cite{lab2_boylestad2015, lab2_sedra2020}.
+\cite{lab2_boylestad2015,lab2_sedra2020}.
 
 The terminal connected to the p-type side is called the anode, and the terminal connected
 to the n-type side is called the cathode. A diode conducts heavily when it is forward
 biased and ideally blocks current when it is reverse biased. Therefore, it acts as a
 unidirectional current device and is widely used in rectifiers, wave-shaping circuits,
 switching circuits, detectors, clippers, and clampers.
+
+\theoryimage{lab-02/schematics/rb-graph.png}{Showing the construction of a silicon p-n junction diode}{lab2_pn_construction}
 
 \subsection*{Forward Bias}
 
@@ -27,7 +29,7 @@ diode it is approximately $0.3\,\text{V}$.
 For an idealized p-n junction diode, the current-voltage relationship is expressed by the
 Shockley diode equation:
 \[
-    I_D = I_S\left(e^{V_D/(\eta V_T)} - 1\right)
+  I_D = I_S\left(e^{V_D/(\eta V_T)} - 1\right)
 \]
 where $I_D$ is the diode current, $I_S$ is the reverse saturation current, $V_D$ is the
 voltage across the diode, $\eta$ is the emission coefficient, and
@@ -49,9 +51,12 @@ If the reverse voltage is increased beyond the breakdown rating, avalanche or Ze
 breakdown may occur. In this experiment the reverse voltage is kept low, so the diode
 behaves almost like an open switch in reverse bias.
 
+\theoryimage{lab-02/schematics/rb-graph.png}{Illustrating the depletion region in forward and reverse bias}{lab2_pn_construction}
+
 \subsection*{Expected V--I Characteristic}
 
 The forward characteristic of a silicon diode remains almost flat until the applied diode
 voltage approaches the knee region. Beyond the knee voltage, a small increase in diode
 voltage produces a large increase in current. The reverse characteristic remains nearly
-horizontal for ordinary reverse voltages because the reverse current is very small.
+horizontal for ordinary reverse voltages because the reverse current is very small
+\cite{lab2_boylestad2015,lab2_onsemi_1n4007}.

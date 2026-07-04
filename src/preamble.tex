@@ -2,10 +2,10 @@
 % 1. Page Geometry & Layout
 % ==========================================
 \usepackage[
-    a4paper,
-    top=2.5cm, bottom=2.5cm,
-    inner=3cm, outer=2.5cm,
-    headheight=15pt
+  a4paper,
+  top=2.5cm, bottom=2.5cm,
+  inner=3cm, outer=2.5cm,
+  headheight=15pt
 ]{geometry}
 
 \usepackage{fmtcount}
@@ -42,8 +42,8 @@
 \setlength{\parindent}{0pt}
 \setlength{\emergencystretch}{2em}
 \usepackage{enumitem}
-\setlist[enumerate]{topsep=4pt, itemsep=2pt, leftmargin=1.8em}
-\setlist[itemize]{topsep=4pt, itemsep=2pt, leftmargin=1.8em}
+\setlist[enumerate]{topsep=4pt, itemsep=0pt, parsep=0pt, partopsep=0pt, leftmargin=1.8em}
+\setlist[itemize]{topsep=4pt, itemsep=0pt, parsetp=0pt, partopsep=0pt, leftmargin=1.8em}
 
 \usepackage{xparse}
 \let\OriginalIncludeGraphics\includegraphics
@@ -130,10 +130,10 @@
 
 % Reformat the chapter structure to match the lab sheet layout
 \titleformat{\chapter}[block]
-  {\normalfont}
-  {{\large\bfseries Experiment No:} \large\padzeroes[2]{\thechapter}}
-  {0pt}
-  {\\[1.5ex]{\large\bfseries Name of Experiment:} \large}
+{\normalfont}
+{{\large\bfseries Experiment No:} \large\padzeroes[2]{\thechapter}}
+{0pt}
+{\\[1.5ex]{\large\bfseries Name of Experiment:} \large}
 
 \usepackage{titlesec}
 
@@ -142,10 +142,10 @@
 }
 
 \titleformat{\chapter}[block]
-  {\normalfont}
-  {{\large\bfseries Experiment No:} \large\twodigits{\value{chapter}}}
-  {0pt}
-  {\\[1.5ex]{\large\bfseries Name of Experiment:} \large}
+{\normalfont}
+{{\large\bfseries Experiment No:} \large\twodigits{\value{chapter}}}
+{0pt}
+{\\[1.5ex]{\large\bfseries Name of Experiment:} \large}
 
 \titlespacing*{\chapter}{0pt}{-40pt}{2ex}
 \titlespacing*{\section}{0pt}{1.2em}{0.6em}

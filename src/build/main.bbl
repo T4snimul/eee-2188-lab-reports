@@ -710,29 +710,6 @@
       \endverb
       \keyw{lab2}
     \endentry
-    \entry{lab2_manual}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=1372e9d17131618ce171dafff0ef8daf}{%
-           family={{Department of Mechatronics Engineering, RUET}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{1372e9d17131618ce171dafff0ef8daf}
-      \strng{fullhash}{1372e9d17131618ce171dafff0ef8daf}
-      \strng{fullhashraw}{1372e9d17131618ce171dafff0ef8daf}
-      \strng{bibnamehash}{1372e9d17131618ce171dafff0ef8daf}
-      \strng{authorbibnamehash}{1372e9d17131618ce171dafff0ef8daf}
-      \strng{authornamehash}{1372e9d17131618ce171dafff0ef8daf}
-      \strng{authorfullhash}{1372e9d17131618ce171dafff0ef8daf}
-      \strng{authorfullhashraw}{1372e9d17131618ce171dafff0ef8daf}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Laboratory manual}
-      \field{title}{{EEE 2188 Electronics Sessional Lab Manual: Experiment No. 02, Study of V-I Characteristics of P-N Junction Diode}}
-      \field{year}{2026}
-      \keyw{lab2}
-    \endentry
   \enddatalist
 \endrefsection
 \endinput
