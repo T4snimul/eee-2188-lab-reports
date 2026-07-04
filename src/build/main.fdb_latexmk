@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber build/main"] 1783191908.29068 "build/main.bcf" "build/main.bbl" "build/main" 1783194305.82352 0
-  "build/main.bcf" 1783194258 113487 1d163d712a1f1f99004393b223bd0d18 "xelatex"
+["biber build/main"] 1783197574.21175 "build/main.bcf" "build/main.bbl" "build/main" 1783197667.16655 0
+  "build/main.bcf" 1783197589 114209 b61c61643e723bb2d29f6bb943408d79 "xelatex"
   "lab-01/references.bib" 1782494642 6783 463eb73a3c33fa9bf8f0ee7251c84738 ""
-  "lab-02/sections/references.bib" 1783190844 1128 76b9a8c35446f714b73e1d72dbb0e31a ""
+  "lab-02/sections/references.bib" 1783196733 1723 19abd29a11ecee2003426b4c77cf9c8d ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1783194258.6171 "build/main.xdv" "build/main.pdf" "build/main" 1783194305.83212 0
-  "build/main.xdv" 1783194258 559096 9d6507b6890842479f6136dd4dcf1cb1 "xelatex"
+["xdvipdfmx"] 1783197592.31411 "build/main.xdv" "build/main.pdf" "build/main" 1783197667.1753 0
+  "build/main.xdv" 1783197589 576348 0bf04b5be4ddc5171fe0d120ab2425c2 "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1783194253.71381 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1783194305.82378 0
+["xelatex"] 1783197584.88464 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1783197667.16676 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -244,10 +244,10 @@
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "build/main.aux" 1783194257 24035 717b384410ef72feb2eceb0c533ed8ba "xelatex"
-  "build/main.bbl" 1783191910 29841 0f43b6ab7b9f2aa2a44ddfac450059dc "biber build/main"
-  "build/main.out" 1783194258 4960 c862d24ad4f0c68d9ff09edcd79b3250 "xelatex"
-  "build/main.run.xml" 1783194258 2494 a3c00d7b7ea6cdf4a6d40dd52a62512d "xelatex"
+  "build/main.aux" 1783197589 26471 fe01a5303ac27756b5c3b2eeadae3179 "xelatex"
+  "build/main.bbl" 1783197576 32404 5c712c545b076b656fbb93ecceddbe83 "biber build/main"
+  "build/main.out" 1783197589 5348 b4c92ea60866091b61a8957b4e03d08c "xelatex"
+  "build/main.run.xml" 1783197589 2494 a3c00d7b7ea6cdf4a6d40dd52a62512d "xelatex"
   "cover/background.tex" 1782212937 586 4650988d5bb8dad5d0b3099fcc416e02 ""
   "cover/layout.tex" 1782510752 2157 d697028fca3136dd8394d6730c8a9549 ""
   "cover/main.tex" 1782513137 46 88e26ffaacba6a6f97d058ab3a9255de ""
@@ -303,23 +303,28 @@
   "lab-01/sections/objectives.tex" 1782568298 376 cb67c39768c4464bfd1a056b0f75f1d2 ""
   "lab-01/sections/references.tex" 1782212937 39 e4890250de2ad459f101c5bad33713c2 ""
   "lab-01/sections/theory.tex" 1782503784 5337 f80a892942a4f1971060d6c2837f81b2 ""
-  "lab-02/main.tex" 1782667679 636 913b8ca3ae0aa14a530b47a37063788f ""
-  "lab-02/schematics/fb-diagram.png" 1783186761 18141 61a5a42588d081ec77e85fa67d4d7306 ""
-  "lab-02/schematics/fb-graph.png" 1783186634 23612 c1d81020c9c9c9d662f0e969a290a8ed ""
-  "lab-02/schematics/rb-diagram.png" 1783187602 16592 a6c1a83a93c6300330f7c28889d3baa1 ""
-  "lab-02/schematics/rb-graph.png" 1783187460 20925 0ebeaedd4a074c9943aa31a947ab1d3a ""
-  "lab-02/sections/apparatus.tex" 1783193450 2469 453f74baa34e66a311da1a051739c276 ""
+  "lab-02/assets/fb-diagram.png" 1783186761 18141 61a5a42588d081ec77e85fa67d4d7306 ""
+  "lab-02/assets/fb-graph.png" 1783196982 27297 001181ba9d9ba53f6ca2194452a7d81a ""
+  "lab-02/assets/forward-bias.jpg" 1783195811 35215 8a9ab599e66ae7d7c09c1d068076c599 ""
+  "lab-02/assets/pn-diode-symbol.png" 1783194969 2113 2e0788ddc00e86f923b38531b8c8d5c3 ""
+  "lab-02/assets/rb-diagram.png" 1783187602 16592 a6c1a83a93c6300330f7c28889d3baa1 ""
+  "lab-02/assets/rb-graph.png" 1783196945 23410 ec013e473b552737aeb459208bda02eb ""
+  "lab-02/assets/reverse-bias.jpg" 1783195788 39063 a9ef886a1c5424aaff5e8f24948c8b92 ""
+  "lab-02/assets/vi-characteristics.png" 1783195523 29169 55894b94acf651d6b08b4ce7a125c42a ""
+  "lab-02/main.tex" 1783196647 733 27aa8ca18f862dcfbacf59408f18f6f5 ""
+  "lab-02/sections/apparatus.tex" 1783196648 351 ad472c87aae6830044c7602d6b5fa885 ""
+  "lab-02/sections/circuit-diagrams.tex" 1783196726 1981 c5ad58a7f5d2138faff0da81c7c8103a ""
   "lab-02/sections/conclusion.tex" 1783190851 637 f0b8b492739a26403469002695d812e7 ""
   "lab-02/sections/discussion.tex" 1783190851 735 4029b96535bc982b396d7eeb3d357432 ""
   "lab-02/sections/objectives.tex" 1782665432 434 40c9deedd5d1685dc6724d438147a541 ""
-  "lab-02/sections/observations.tex" 1783190851 4430 fb26b537f0622c655aa5bd64266c691a ""
+  "lab-02/sections/observations.tex" 1783197338 5794 defc9462aa772ef77fdb547bd2573eaa ""
   "lab-02/sections/procedure.tex" 1783193408 1196 861ee7e06074903005f950869ede1e4b ""
   "lab-02/sections/references.tex" 1782667881 40 f432cb32d1625914478fb31dbf677237 ""
-  "lab-02/sections/simulation.tex" 1783194189 1617 9287d329b968abbc14ffbad58e904b03 ""
-  "lab-02/sections/theory.tex" 1783192467 3685 d12241b3ba0174622c42db7a912e5cc3 ""
+  "lab-02/sections/simulation.tex" 1783197385 1621 c79b7b6b239b3244d5a7cd445b49de41 ""
+  "lab-02/sections/theory.tex" 1783197567 4514 43f69525996f0a01498d93f59c55fe20 ""
   "main.tex" 1783191435 206 46e6c8a407917ae53a72134eec372777 ""
   "metadata.tex" 1782625622 676 a750cc6c465330f214a99ab8b167cb79 ""
-  "preamble.tex" 1783194252 4148 4367b274f96d3ab190a3ae8b9b562a56 ""
+  "preamble.tex" 1783197245 4151 70a73d68df91b67a423be992a48eb72c ""
   (generated)
   "build/main.aux"
   "build/main.bcf"

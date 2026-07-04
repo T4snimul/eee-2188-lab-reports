@@ -1,0 +1,49 @@
+\section{Circuit Diagrams}
+\markright{Apparatus Required}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.48\textwidth}
+    \centering
+    \begin{tikzpicture}[line width=0.9pt, scale=0.95, lablabel/.style={fill=white, inner sep=1.5pt}]
+      \draw (0,0) circle (0.45);
+      \node at (0,0.18) {$+$};
+      \node at (0,-0.22) {$-$};
+      \node[lablabel] at (-0.65,0) {$V_S$};
+      \draw (0,0.45) -- (0,1.2) -- (1.1,1.2);
+      \draw (1.1,0.85) rectangle (2.1,1.55);
+      \node[lablabel] at (1.6,1.85) {$10\,\text{k}\Omega$};
+      \draw (2.1,1.2) -- (3.0,1.2);
+      \draw (3.0,0.8) -- (3.0,1.6) -- (3.85,1.2) -- cycle;
+      \draw (3.85,0.75) -- (3.85,1.65);
+      \node[lablabel] at (3.42,0.52) {D};
+      \draw (3.85,1.2) -- (5.0,1.2) -- (5.0,-1.2) -- (0,-1.2) -- (0,-0.45);
+      \node[lablabel] at (3.42,2.28) {$V_F$};
+    \end{tikzpicture}
+    \caption{Forward bias}
+    \label{fig:lab2_forward_circuit}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}{0.48\textwidth}
+    \centering
+    \begin{tikzpicture}[line width=0.9pt, scale=0.95, lablabel/.style={fill=white, inner sep=1.5pt}]
+      \draw (0,0) circle (0.45);
+      \node at (0,0.18) {$+$};
+      \node at (0,-0.22) {$-$};
+      \node[lablabel] at (-0.65,0) {$V_S$};
+      \draw (0,0.45) -- (0,1.2) -- (1.1,1.2);
+      \draw (1.1,0.85) rectangle (2.1,1.55);
+      \node[lablabel] at (1.6,1.85) {$10\,\text{k}\Omega$};
+      \draw (2.1,1.2) -- (3.0,1.2);
+      \draw (3.0,0.75) -- (3.0,1.65);
+      \draw (3.0,1.2) -- (3.85,0.8) -- (3.85,1.6) -- cycle;
+      \node[lablabel] at (3.45,0.52) {D};
+      \draw (3.85,1.2) -- (5.0,1.2) -- (5.0,-1.2) -- (0,-1.2) -- (0,-0.45);
+      \node[lablabel] at (3.42,2.28) {$V_R$};
+    \end{tikzpicture}
+    \caption{Reverse bias}
+    \label{fig:lab2_reverse_circuit}
+  \end{subfigure}
+  \caption{Biasing circuits used to study the V--I characteristics of a p-n junction diode.}
+  \label{fig:lab2_biasing_circuits}
+\end{figure}

@@ -2451,10 +2451,18 @@
   <bcf:section number="2">
     <bcf:citekey order="1" intorder="1">lab2_boylestad2015</bcf:citekey>
     <bcf:citekey order="1" intorder="2">lab2_sedra2020</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">lab2_razavi2013</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">lab2_onsemi_1n4007</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">lab2_boylestad2015</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">lab2_onsemi_1n4007</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">lab2_polytechnichub_pn_diode</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">lab2_polytechnichub_pn_diode</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">lab2_razavi2013</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">lab2_onsemi_1n4007</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">lab2_boylestad2015</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">lab2_onsemi_1n4007</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

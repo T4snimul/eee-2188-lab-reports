@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  5 JUL 2026 01:45
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  5 JUL 2026 02:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -969,11 +969,7 @@ Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
 ))
 \@quotelevel=\count516
 \@quotereset=\count517
- (d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
-
-LaTeX Warning: Label `fig:lab2_pn_construction' multiply defined.
-
-)
+ (d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -1350,35 +1346,37 @@ Overfull \hbox (6.58475pt too wide) in paragraph at lines 7--7
 ]
 Chapter 2.
 (lab-02/sections/objectives.tex) (lab-02/sections/theory.tex
-File: lab-02/schematics/rb-graph.png Graphic file (type bmp)
-<lab-02/schematics/rb-graph.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+File: lab-02/assets/pn-diode-symbol.png Graphic file (type bmp)
+<lab-02/assets/pn-diode-symbol.png>
  [25
 
 
 
-] [26]
-File: lab-02/schematics/rb-graph.png Graphic file (type bmp)
-<lab-02/schematics/rb-graph.png>
-) (lab-02/sections/apparatus.tex [27]) (lab-02/sections/procedure.tex) (lab-02/sections/observations.tex
-Underfull \vbox (badness 5939) has occurred while \output is active []
+]
+File: lab-02/assets/forward-bias.jpg Graphic file (type bmp)
+<lab-02/assets/forward-bias.jpg>
+File: lab-02/assets/reverse-bias.jpg Graphic file (type bmp)
+<lab-02/assets/reverse-bias.jpg>
 
- [28] [29]) (lab-02/sections/simulation.tex
-File: lab-02/schematics/fb-diagram.png Graphic file (type bmp)
-<lab-02/schematics/fb-diagram.png>
-File: lab-02/schematics/fb-graph.png Graphic file (type bmp)
-<lab-02/schematics/fb-graph.png>
-File: lab-02/schematics/rb-diagram.png Graphic file (type bmp)
-<lab-02/schematics/rb-diagram.png>
-File: lab-02/schematics/rb-graph.png Graphic file (type bmp)
-<lab-02/schematics/rb-graph.png>
-) (lab-02/sections/discussion.tex) (lab-02/sections/conclusion.tex
-Underfull \vbox (badness 2781) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30] [31]) (lab-02/sections/references.tex)
-Package biblatex Info: Reference section=0 on input line 22.
+ [26]
+File: lab-02/assets/vi-characteristics.png Graphic file (type bmp)
+<lab-02/assets/vi-characteristics.png>
+) (lab-02/sections/apparatus.tex) (lab-02/sections/circuit-diagrams.tex) (lab-02/sections/procedure.tex [27]) (lab-02/sections/observations.tex [28]
+Underfull \vbox (badness 7326) has occurred while \output is active []
+
+ [29]) (lab-02/sections/simulation.tex [30]
+File: lab-02/assets/fb-diagram.png Graphic file (type bmp)
+<lab-02/assets/fb-diagram.png>
+File: lab-02/assets/fb-graph.png Graphic file (type bmp)
+<lab-02/assets/fb-graph.png>
+File: lab-02/assets/rb-diagram.png Graphic file (type bmp)
+<lab-02/assets/rb-diagram.png>
+File: lab-02/assets/rb-graph.png Graphic file (type bmp)
+<lab-02/assets/rb-graph.png>
+) (lab-02/sections/discussion.tex) (lab-02/sections/conclusion.tex [31]) (lab-02/sections/references.tex)
+Package biblatex Info: Reference section=0 on input line 23.
 ) [32] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux)
@@ -1386,23 +1384,19 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C862D24AD4F0C68D9FF09EDCD79B3250;4960.
+(rerunfilecheck)             Checksum: B4C92EA60866091B61A8957B4E03D08C;5348.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45448 strings out of 402628
- 1053307 string characters out of 5443460
- 2127425 words of memory out of 5000000
- 73771 multiletter control sequences out of 15000+600000
+ 45501 strings out of 402628
+ 1055219 string characters out of 5443460
+ 2128974 words of memory out of 5000000
+ 73817 multiletter control sequences out of 15000+600000
  634482 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,16n,120p,786b,5514s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.xdv (34 pages, 559100 bytes).
+Output written on d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.xdv (34 pages, 576348 bytes).

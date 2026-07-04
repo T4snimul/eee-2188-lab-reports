@@ -7,14 +7,20 @@ The diode current was calculated from the voltage drop across the series resisto
 \]
 For both forward and reverse bias, the current is reported in mA.
 
-\subsection*{Forward Bias Observation}
+The observation section records the measured diode voltage together with the corresponding
+current for each supply setting. These values were then plotted to show how the diode
+responds when the bias is changed gradually in either direction.
+
+\subsection{Forward Bias}
+\subsubsection*{Data Table}
 
 \begin{table}[H]
   \centering
+  \small
   \caption{Observed forward-bias readings for the silicon p-n junction diode}
   \label{tab:lab2_forward_observation}
-  \renewcommand{\arraystretch}{1.45}
-  \setlength{\tabcolsep}{9pt}
+  \renewcommand{\arraystretch}{1.15}
+  \setlength{\tabcolsep}{6pt}
   \begin{tabular}{|c|c|c|c|}
     \hline
     \textbf{S. No.} & \textbf{Applied Voltage (V)} & \textbf{$V_F$ (V)} & \textbf{$I_F$ (mA)} \\
@@ -38,37 +44,12 @@ For both forward and reverse bias, the current is reported in mA.
   \end{tabular}
 \end{table}
 
-\subsection*{Reverse Bias Observation}
+The forward-bias data show the familiar rise in current as the applied voltage increases.
+The current remains small at first because the diode has not yet reached the point where
+the barrier is sufficiently reduced, but it increases steadily once conduction begins.
+This trend is visible in the table values and becomes clearer in the graph that follows.
 
-\begin{table}[H]
-  \centering
-  \caption{Observed reverse-bias readings for the silicon p-n junction diode}
-  \label{tab:lab2_reverse_observation}
-  \renewcommand{\arraystretch}{1.45}
-  \setlength{\tabcolsep}{9pt}
-  \begin{tabular}{|c|c|c|c|}
-    \hline
-    \textbf{S. No.} & \textbf{Applied Voltage (V)} & \textbf{$V_R$ (V)} & \textbf{$I_R$ (mA)} \\
-    \hline
-    1               & 2                            & 1.98               & 0.000               \\
-    \hline
-    2               & 4                            & 3.96               & 0.000               \\
-    \hline
-    3               & 5                            & 4.95               & 0.000               \\
-    \hline
-    4               & 8                            & 7.92               & 0.000               \\
-    \hline
-    5               & 9                            & 8.93               & 0.000               \\
-    \hline
-    6               & 10                           & 9.90               & 0.000               \\
-    \hline
-    7               & 11                           & 10.89              & 0.000               \\
-    \hline
-    8               & 11.5                         & 11.39              & 0.000               \\
-    \hline
-  \end{tabular}
-\end{table}
-
+\subsubsection*{Graph}
 \begin{figure}[H]
   \centering
   \begin{tikzpicture}
@@ -102,6 +83,46 @@ For both forward and reverse bias, the current is reported in mA.
   \label{fig:lab2_observed_forward_vi}
 \end{figure}
 
+
+\subsection{Reverse Bias}
+
+\subsubsection*{Data Table}
+\begin{table}[H]
+  \centering
+  \small
+  \caption{Observed reverse-bias readings for the silicon p-n junction diode}
+  \label{tab:lab2_reverse_observation}
+  \renewcommand{\arraystretch}{1.15}
+  \setlength{\tabcolsep}{6pt}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{S. No.} & \textbf{Applied Voltage (V)} & \textbf{$V_R$ (V)} & \textbf{$I_R$ (mA)} \\
+    \hline
+    1               & 2                            & 1.98               & 0.000               \\
+    \hline
+    2               & 4                            & 3.96               & 0.000               \\
+    \hline
+    3               & 5                            & 4.95               & 0.000               \\
+    \hline
+    4               & 8                            & 7.92               & 0.000               \\
+    \hline
+    5               & 9                            & 8.93               & 0.000               \\
+    \hline
+    6               & 10                           & 9.90               & 0.000               \\
+    \hline
+    7               & 11                           & 10.89              & 0.000               \\
+    \hline
+    8               & 11.5                         & 11.39              & 0.000               \\
+    \hline
+  \end{tabular}
+\end{table}
+
+The reverse-bias readings remain effectively zero on the meter scale used in the lab.
+This is expected because the diode blocks current in reverse bias and only a tiny leakage
+current flows under normal operating conditions. The recorded values therefore confirm
+that the diode behaves almost like an open circuit for the reverse-bias range used here.
+
+\subsubsection*{Graph}
 \begin{figure}[H]
   \centering
   \begin{tikzpicture}
@@ -133,3 +154,8 @@ For both forward and reverse bias, the current is reported in mA.
   \caption{Observed reverse V--I characteristic of the silicon p-n junction diode.}
   \label{fig:lab2_observed_reverse_vi}
 \end{figure}
+
+Taken together, the forward and reverse results show the asymmetric behavior of the
+silicon p-n junction diode. The diode conducts more readily in forward bias, while the
+reverse-bias current remains too small to be distinguished clearly with the measurement
+range used in this experiment.
