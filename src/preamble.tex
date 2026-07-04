@@ -109,6 +109,10 @@
 \fancyhf{}
 \renewcommand{\chaptermark}[1]{\markboth{Experiment\ \thechapter}{}}
 \renewcommand{\sectionmark}[1]{\markright{#1}}
+\makeatletter
+\newcommand{\currentchaptername}{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}\renewcommand{\currentchaptername}{#1}}
+\makeatother
 
 % Even Pages Header
 \fancyhead[EL]{\small \CourseCode}
@@ -117,8 +121,10 @@
   \ifnum\value{chapter}<10 0\fi\arabic{chapter}}
 
 % Odd Pages Header
-\fancyhead[OL]{\small \rightmark}
-\fancyhead[OR]{\small \chaptername}
+\fancyhead[OL]{\small \currentchaptername}
+\fancyhead[OR]{%
+  \small Experiment
+  \ifnum\value{chapter}<10 0\fi\arabic{chapter}}
 
 % Footers
 \fancyfoot[C]{\small \thepage}
