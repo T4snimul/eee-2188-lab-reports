@@ -15,15 +15,25 @@
 \usepackage{lipsum}
 \usepackage[table]{xcolor} % Enables background row colors for tables
 
+% ==========================================
+% Code Listing Configuration
+% ==========================================
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\large\color{red},
+  breaklines=true,
+  frame=single,
+  showstringspaces=false,
+  numberstyle=\normalsize\color{black},
+  numbersep=10pt,
+  rulecolor=\color{black}
+}
 
 % ==========================================
 % 2. Math & Science Packages
 % ==========================================
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage[style=ieee, backend=biber]{biblatex}
-\addbibresource{lab-01/references.bib}
-\addbibresource{lab-02/sections/references.bib}
 
 % ==========================================
 % 3. Graphics & Visualization
@@ -93,7 +103,6 @@
   pdfborder={0 0 0},
   breaklinks=true
 }
-\AtBeginBibliography{\justifying}
 
 % ==========================================
 % 6. Header & Footer Configurations
