@@ -770,5 +770,97 @@
     \endentry
   \enddatalist
 \endrefsection
+
+\refsection{3}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{lab03_boylestad2013}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=8badf6f5cd034153c1b8f209f1d539ca}{%
+           family={Boylestad},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=73f3ba640ee56c4e4ebc64767f679796}{%
+           family={Nashelsky},
+           familyi={N\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{fullhash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{fullhashraw}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{bibnamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorbibnamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authornamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorfullhash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorfullhashraw}{ec1c6a27869deb4d710aba450b8f07c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{11th}
+      \field{title}{Electronic Devices and Circuit Theory}
+      \field{year}{2013}
+    \endentry
+    \entry{lab03_mehta2012}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=d2fadef4bce9c97219ca6721f6c8649d}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={V.\bibnamedelimi K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=408036a0f798c7a8fd45f28c69db84d1}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Rohit},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {S. Chand Publishing}%
+      }
+      \strng{namehash}{cde7c55c920c2dc559a0dee44a9cc871}
+      \strng{fullhash}{cde7c55c920c2dc559a0dee44a9cc871}
+      \strng{fullhashraw}{cde7c55c920c2dc559a0dee44a9cc871}
+      \strng{bibnamehash}{cde7c55c920c2dc559a0dee44a9cc871}
+      \strng{authorbibnamehash}{cde7c55c920c2dc559a0dee44a9cc871}
+      \strng{authornamehash}{cde7c55c920c2dc559a0dee44a9cc871}
+      \strng{authorfullhash}{cde7c55c920c2dc559a0dee44a9cc871}
+      \strng{authorfullhashraw}{cde7c55c920c2dc559a0dee44a9cc871}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{11th}
+      \field{title}{Principles of Electronics}
+      \field{year}{2012}
+    \endentry
+    \entry{lab03_gemini2026image}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=34da1ac690484785379eb4e96230dc30}{%
+           family={{Google Gemini}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{34da1ac690484785379eb4e96230dc30}
+      \strng{fullhash}{34da1ac690484785379eb4e96230dc30}
+      \strng{fullhashraw}{34da1ac690484785379eb4e96230dc30}
+      \strng{bibnamehash}{34da1ac690484785379eb4e96230dc30}
+      \strng{authorbibnamehash}{34da1ac690484785379eb4e96230dc30}
+      \strng{authornamehash}{34da1ac690484785379eb4e96230dc30}
+      \strng{authorfullhash}{34da1ac690484785379eb4e96230dc30}
+      \strng{authorfullhashraw}{34da1ac690484785379eb4e96230dc30}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{AI-generated image}
+      \field{note}{Generated on July 12, 2026, via prompt request}
+      \field{title}{Comparison of {AC} input and {DC} output after half-wave rectification}
+      \field{year}{2026}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

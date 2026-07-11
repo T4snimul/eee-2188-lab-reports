@@ -1,0 +1,17 @@
+\section{Data Table}
+\markright{Data Table}
+
+\begin{table}[H]
+  \centering
+
+  % Adjust vertical padding
+  \renewcommand{\arraystretch}{2}
+
+  \begin{tabularx}{\textwidth}{|Y|Y|Y|Y|Y|Y|}
+    \hline
+    \textbf{SI No} & \textbf{Wave Type} & \textbf{Resistance (k$\Omega$)} & \textbf{$V_{\text{in}}$ [PP] \ (V)} & \textbf{$V_{\text{out}}$ [RMS] (V)} & \textbf{\% of efficiency} \\ \hline
+    \textbf{1}     & Square             & \multirow{3}{*}{10k}            & 11.44                               & 1.98                                & 11.98                     \\ \cline{1-2} \cline{4-6}
+    \textbf{2}     & Triangular         &                                 & 12.72                               & 1.08                                & 8.66                      \\ \cline{1-2} \cline{4-6}
+    \textbf{3}     & Sinusoidal         &                                 & 14.20                               & 1.19                                & 5.62                      \\ \hline
+  \end{tabularx}
+\end{table}

@@ -1,0 +1,24 @@
+\section{Circuit Diagram}
+\markright{Circuit Diagram}
+
+\begin{figure}[htbp]
+  \centering
+  \begin{circuitikz}[american, scale=1.2]
+    % Main Loop
+    \draw (0,0)
+    to[sinusoidal voltage source, l=$V_S$] (0,3) -- (1.5,3)
+    to[diode, l=D] (3.5,3) -- (4,3)
+    to[R, l=$R_L$] (4,0) -- (0,0);
+
+    % Output Terminals
+    \draw (4,2.3) -- (5.5,2.3) to[short, o-] (5.5,2.3);
+    \draw (4,0.7) -- (5.5,0.7) to[short, o-] (5.5,0.7);
+
+    % Output Voltage Labels
+    \node at (5.5, 1.9) {$+$};
+    \node at (5.5, 1.5) {$V_O$};
+    \node at (5.5, 1.1) {$-$};
+  \end{circuitikz}
+  \caption{Circuit Diagram of Half Wave Rectifier}
+  \label{fig:half_wave_rectifier}
+\end{figure}

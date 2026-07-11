@@ -255,6 +255,36 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.c
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\circuitikz\circuitikz.sty
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\circuitikz\circuitikz.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybending.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybending.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulebending.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulenonlineartransformations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibrarycurvilinear.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibrarycurvilinear.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcirc.defines.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircutils.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircpath.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircshapes.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircmonopoles.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircbipoles.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcirctripoles.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircquadpoles.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircmultipoles.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcirclabel.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircvoltage.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcirccurrent.tex
+INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\generic\circuitikz\pgfcircflow.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
@@ -267,8 +297,6 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
@@ -334,6 +362,8 @@ INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
@@ -663,6 +693,8 @@ INPUT .\lab-02\sections\apparatus.tex
 INPUT lab-02\sections\apparatus.tex
 INPUT .\lab-02\sections\circuit-diagrams.tex
 INPUT .\lab-02\sections\circuit-diagrams.tex
+INPUT .\lab-02\sections\circuit-diagrams.tex
+INPUT .\lab-02\sections\circuit-diagrams.tex
 INPUT lab-02\sections\circuit-diagrams.tex
 INPUT .\lab-02\sections\procedure.tex
 INPUT .\lab-02\sections\procedure.tex
@@ -687,11 +719,11 @@ INPUT .\lab-02\assets\rb-diagram.png
 INPUT .\lab-02\assets\rb-diagram.png
 INPUT .\lab-02\assets\rb-graph.png
 INPUT .\lab-02\assets\rb-graph.png
-INPUT .\lab-02\sections\discussion.tex
-INPUT .\lab-02\sections\discussion.tex
-INPUT .\lab-02\sections\discussion.tex
-INPUT .\lab-02\sections\discussion.tex
-INPUT lab-02\sections\discussion.tex
+INPUT .\lab-02\sections\dicussion.tex
+INPUT .\lab-02\sections\dicussion.tex
+INPUT .\lab-02\sections\dicussion.tex
+INPUT .\lab-02\sections\dicussion.tex
+INPUT lab-02\sections\dicussion.tex
 INPUT .\lab-02\sections\conclusion.tex
 INPUT .\lab-02\sections\conclusion.tex
 INPUT .\lab-02\sections\conclusion.tex
@@ -702,6 +734,76 @@ INPUT .\lab-02\sections\references.tex
 INPUT .\lab-02\sections\references.tex
 INPUT .\lab-02\sections\references.tex
 INPUT lab-02\sections\references.tex
+INPUT .\lab-03\main.tex
+INPUT .\lab-03\main.tex
+INPUT .\lab-03\main.tex
+INPUT .\lab-03\main.tex
+INPUT lab-03\main.tex
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT .\cover\ruet_logo.png
+INPUT .\lab-03\sections\theory.tex
+INPUT .\lab-03\sections\theory.tex
+INPUT .\lab-03\sections\theory.tex
+INPUT .\lab-03\sections\theory.tex
+INPUT lab-03\sections\theory.tex
+INPUT .\lab-03\assets\half-wave-rectifier.png
+INPUT .\lab-03\assets\half-wave-rectifier.png
+INPUT .\lab-03\assets\waveforms.png
+INPUT .\lab-03\assets\waveforms.png
+INPUT .\lab-03\sections\apparatus.tex
+INPUT .\lab-03\sections\apparatus.tex
+INPUT .\lab-03\sections\apparatus.tex
+INPUT .\lab-03\sections\apparatus.tex
+INPUT lab-03\sections\apparatus.tex
+INPUT .\lab-03\sections\circuit-diagram.tex
+INPUT .\lab-03\sections\circuit-diagram.tex
+INPUT .\lab-03\sections\circuit-diagram.tex
+INPUT .\lab-03\sections\circuit-diagram.tex
+INPUT lab-03\sections\circuit-diagram.tex
+INPUT .\lab-03\sections\data-table.tex
+INPUT .\lab-03\sections\data-table.tex
+INPUT .\lab-03\sections\data-table.tex
+INPUT .\lab-03\sections\data-table.tex
+INPUT lab-03\sections\data-table.tex
+INPUT .\lab-03\sections\calculation.tex
+INPUT .\lab-03\sections\calculation.tex
+INPUT .\lab-03\sections\calculation.tex
+INPUT .\lab-03\sections\calculation.tex
+INPUT lab-03\sections\calculation.tex
+INPUT .\lab-03\sections\result.tex
+INPUT .\lab-03\sections\result.tex
+INPUT .\lab-03\sections\result.tex
+INPUT .\lab-03\sections\result.tex
+INPUT lab-03\sections\result.tex
+INPUT .\lab-03\assets\sine-input.jpeg
+INPUT .\lab-03\assets\sine-input.jpeg
+INPUT .\lab-03\assets\sine-output.png
+INPUT .\lab-03\assets\sine-output.png
+INPUT .\lab-03\assets\squire-input.jpeg
+INPUT .\lab-03\assets\squire-input.jpeg
+INPUT .\lab-03\assets\squire-output.jpeg
+INPUT .\lab-03\assets\squire-output.jpeg
+INPUT .\lab-03\assets\triangle-input.jpeg
+INPUT .\lab-03\assets\triangle-input.jpeg
+INPUT .\lab-03\assets\triangle-output.jpeg
+INPUT .\lab-03\assets\triangle-output.jpeg
+INPUT .\lab-03\sections\discussion.tex
+INPUT .\lab-03\sections\discussion.tex
+INPUT .\lab-03\sections\discussion.tex
+INPUT .\lab-03\sections\discussion.tex
+INPUT lab-03\sections\discussion.tex
+INPUT .\lab-03\sections\conclusion.tex
+INPUT .\lab-03\sections\conclusion.tex
+INPUT .\lab-03\sections\conclusion.tex
+INPUT .\lab-03\sections\conclusion.tex
+INPUT lab-03\sections\conclusion.tex
+INPUT .\lab-03\sections\references.tex
+INPUT .\lab-03\sections\references.tex
+INPUT .\lab-03\sections\references.tex
+INPUT .\lab-03\sections\references.tex
+INPUT lab-03\sections\references.tex
 INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
 INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
 INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out

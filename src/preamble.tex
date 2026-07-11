@@ -23,7 +23,8 @@
 \usepackage{amssymb}
 \usepackage[style=ieee, backend=biber]{biblatex}
 \addbibresource{lab-01/references.bib}
-\addbibresource{lab-02/sections/references.bib}
+\addbibresource{lab-02/references.bib}
+\addbibresource{lab-03/references.bib}
 
 % ==========================================
 % 3. Graphics & Visualization
@@ -31,6 +32,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{tikz} % Required for the background watermark
+\usepackage{circuitikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
 \usepackage{setspace}
@@ -76,8 +78,11 @@
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{array}
+\usepackage{tabularx} % Required for full-width tables
 \usepackage{multirow}
 \usepackage{makecell} % Added: For sub-breaks and paddings inside cells
+% Define a custom column type for centered text in tabularx
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
 
 % ==========================================
 % 5. Hyperlinks, Colors & Lists
