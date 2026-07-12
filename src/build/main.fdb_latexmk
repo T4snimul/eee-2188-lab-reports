@@ -1,6 +1,6 @@
 # Fdb version 4
-["biber build/main"] 1783808308.43025 "build/main.bcf" "build/main.bbl" "build/main" 1783808628.6324 0
-  "build/main.bcf" 1783808611 115900 1ede961171e9ca3ec98ec65cc0c7c96a "xelatex"
+["biber build/main"] 1783808308.43025 "build/main.bcf" "build/main.bbl" "build/main" 1783814425.2248 0
+  "build/main.bcf" 1783814355 115900 1ede961171e9ca3ec98ec65cc0c7c96a "xelatex"
   "lab-01/references.bib" 1782494642 6783 463eb73a3c33fa9bf8f0ee7251c84738 ""
   "lab-02/references.bib" 1783196733 1723 19abd29a11ecee2003426b4c77cf9c8d ""
   "lab-03/references.bib" 1783807591 719 7b3b868a69077b4bc3a83faf70ae1546 ""
@@ -8,12 +8,12 @@
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1783808612.14617 "build/main.xdv" "build/main.pdf" "build/main" 1783808628.64415 0
-  "build/main.xdv" 1783808611 666980 9bb828bb7610e99a95ad852ff9a2bfcc "xelatex"
+["xdvipdfmx"] 1783814357.43241 "build/main.xdv" "build/main.pdf" "build/main" 1783814425.30338 0
+  "build/main.xdv" 1783814355 666980 3cbe26ff1c7e85cd0bf7f16c48840b7f "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1783808605.53072 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1783808628.63275 0
+["xelatex"] 1783814345.14892 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1783814425.22583 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -267,10 +267,10 @@
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "build/main.aux" 1783808611 31747 45de3deb65c739e9f6da7d63f3552c29 "xelatex"
+  "build/main.aux" 1783814355 31747 45de3deb65c739e9f6da7d63f3552c29 "xelatex"
   "build/main.bbl" 1783808311 36347 0ff9631046b746b27fa8d385d9661266 "biber build/main"
-  "build/main.out" 1783808611 7009 7562f20f5bac95dd5c66141441750fcf "xelatex"
-  "build/main.run.xml" 1783808611 2526 2675bd5685f7c7b9f40ae28601fb7d3a "xelatex"
+  "build/main.out" 1783814355 7009 7562f20f5bac95dd5c66141441750fcf "xelatex"
+  "build/main.run.xml" 1783814355 2526 2675bd5685f7c7b9f40ae28601fb7d3a "xelatex"
   "cover/background.tex" 1782212937 586 4650988d5bb8dad5d0b3099fcc416e02 ""
   "cover/layout.tex" 1782510752 2157 d697028fca3136dd8394d6730c8a9549 ""
   "cover/main.tex" 1782513137 46 88e26ffaacba6a6f97d058ab3a9255de ""
@@ -353,7 +353,7 @@
   "lab-03/assets/triangle-input.jpeg" 1783528052 147377 528df971f5c170037723bf747c378d85 ""
   "lab-03/assets/triangle-output.jpeg" 1783528099 138947 598547827f18d7fe3437ead9e211b17d ""
   "lab-03/assets/waveforms.png" 1783807337 651429 086d7bfd7c69e7d538c37bd7b952823c ""
-  "lab-03/main.tex" 1783807996 643 f70e1d8871d50f5855ac86db7ad558d9 ""
+  "lab-03/main.tex" 1783814344 643 7f35a4bc9e58c0c6101a2ffeeb9df9c4 ""
   "lab-03/sections/apparatus.tex" 1783808583 383 9d26ac843d7089ba195fc46619cbca7b ""
   "lab-03/sections/calculation.tex" 1783808084 1241 0dae32fbee3de9362975b6386f0f44bb ""
   "lab-03/sections/circuit-diagram.tex" 1783777345 695 104c53afd5330856358ead823d9a0d9a ""
