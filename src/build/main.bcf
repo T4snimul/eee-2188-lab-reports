@@ -2374,6 +2374,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
   </bcf:section>
@@ -2382,6 +2383,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
     <bcf:citekey order="1" intorder="1">horowitz2015</bcf:citekey>
@@ -2450,6 +2452,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
     <bcf:citekey order="1" intorder="1">lab2_boylestad2015</bcf:citekey>
@@ -2475,6 +2478,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
     <bcf:citekey order="1" intorder="1">lab03_boylestad2013</bcf:citekey>
@@ -2484,6 +2488,18 @@
     <bcf:citekey order="4" intorder="1">lab03_boylestad2013</bcf:citekey>
     <bcf:citekey order="5" intorder="1">lab03_gemini2026image</bcf:citekey>
     <bcf:citekey order="6" intorder="1">lab03_gemini2026image</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 4 -->
+  <bcf:bibdata section="4">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="4">
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2519,6 +2535,16 @@
                 namehashtemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="3"
+                name="none/global//global/global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="4"
                 name="none/global//global/global/global"
                 type="entry"
                 sortingtemplatename="none"
