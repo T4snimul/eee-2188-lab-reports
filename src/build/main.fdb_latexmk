@@ -1,25 +1,28 @@
 # Fdb version 4
-["biber build/main"] 1783945465.756 "build/main.bcf" "build/main.bbl" "build/main" 1783945591.21694 0
-  "build/main.bcf" 1783945509 117304 ed71da37068e1e5a10841c2fbbbba640 "xelatex"
+["biber build/main"] 0 "build/main.bcf" "build/main.bbl" "build/main" 1784184321.58714 -1
+  "build/main.bcf" 1784184256 117304 ed71da37068e1e5a10841c2fbbbba640 "xelatex"
   "lab-01/references.bib" 1782494642 6783 463eb73a3c33fa9bf8f0ee7251c84738 ""
   "lab-02/references.bib" 1783196733 1723 19abd29a11ecee2003426b4c77cf9c8d ""
   "lab-03/references.bib" 1783807591 719 7b3b868a69077b4bc3a83faf70ae1546 ""
+  "lab-04/references.bib" 1783807591 719 7b3b868a69077b4bc3a83faf70ae1546 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1783945510.52778 "build/main.xdv" "build/main.pdf" "build/main" 1783945591.27845 0
-  "build/main.xdv" 1783945509 692688 92670d76221181ec803b58173b0c6c36 "xelatex"
+["xdvipdfmx"] 1784184258.8183 "build/main.xdv" "build/main.pdf" "build/main" 1784184321.74278 0
+  "build/main.xdv" 1784184256 698080 b8ae4484ef1adbd5d0f46288f897c941 "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1783945497.59743 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1783945591.21878 0
+["xelatex"] 1784184247.53553 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1784184321.5889 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1233951854 928 2dc8d444221b7a635bb58038579b861a ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1233951854 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1233951854 940 228d6584342e91276bf566bcf9716b83 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmex10.tfm" 1136765053 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -267,10 +270,10 @@
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "build/main.aux" 1783945509 34718 ac7a26f1a3b0ccb9b64831ddac08ea92 "xelatex"
+  "build/main.aux" 1784184256 34870 13148a4de469d0446bf85e7280eccc89 "xelatex"
   "build/main.bbl" 1783945468 36347 0ff9631046b746b27fa8d385d9661266 "biber build/main"
-  "build/main.out" 1783945509 8473 21cb22c36a578eab919d58f3c6986cc2 "xelatex"
-  "build/main.run.xml" 1783945509 2567 5afb592a9169b2d58872dd51c0528f31 "xelatex"
+  "build/main.out" 1784184256 8473 21cb22c36a578eab919d58f3c6986cc2 "xelatex"
+  "build/main.run.xml" 1784184256 2567 5afb592a9169b2d58872dd51c0528f31 "xelatex"
   "cover/background.tex" 1782212937 586 4650988d5bb8dad5d0b3099fcc416e02 ""
   "cover/layout.tex" 1782510752 2157 d697028fca3136dd8394d6730c8a9549 ""
   "cover/main.tex" 1782513137 46 88e26ffaacba6a6f97d058ab3a9255de ""
@@ -373,7 +376,7 @@
   "lab-04/sections/calculation.tex" 1783945176 48 710112b2d32cbe24a60bb7c439b79549 ""
   "lab-04/sections/circuit-diagram.tex" 1783945176 56 ac601e8a4f8455546deb93d9f4c48c8c ""
   "lab-04/sections/conclusion.tex" 1783945176 48 5857f877dc6af52b4cf8f0a2bc00f328 ""
-  "lab-04/sections/data-table.tex" 1783945176 46 02c6da9baa51fcad494195d22d5e1557 ""
+  "lab-04/sections/data-table.tex" 1784184207 2219 29e4a6b626315fb1ffd475a83c80f131 ""
   "lab-04/sections/discussion.tex" 1783945176 46 58e84d0f6423d8f498c6c53908effcee ""
   "lab-04/sections/objectives.tex" 1783945312 208 87f7ff36e3eba9374133071b617cc554 ""
   "lab-04/sections/references.tex" 1782667881 40 f432cb32d1625914478fb31dbf677237 ""
