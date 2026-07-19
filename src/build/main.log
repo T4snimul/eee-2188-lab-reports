@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  16 JUL 2026 12:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  19 JUL 2026 08:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1034,9 +1034,6 @@ LaTeX Warning: Label `fig:lab03_sine' multiply defined.
 
 LaTeX Warning: Label `fig:lab03_sine' multiply defined.
 
-
-LaTeX Warning: Label `fig:lab04_sine' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1584,12 +1581,10 @@ Overfull \hbox (6.58475pt too wide) in paragraph at lines 7--7
 
 ]
 Chapter 4.
-(lab-04/sections/objectives.tex) (lab-04/sections/theory.tex) (lab-04/sections/apparatus.tex) (lab-04/sections/circuit-diagram.tex) (lab-04/sections/data-table.tex) (lab-04/sections/result.tex
-File: lab-03/assets/sine-input.jpeg Graphic file (type bmp)
-<lab-03/assets/sine-input.jpeg>
-File: lab-03/assets/sine-output.png Graphic file (type bmp)
-<lab-03/assets/sine-output.png>
-) (lab-04/sections/simulation.tex
+(lab-04/sections/objectives.tex) (lab-04/sections/theory.tex
+File: lab-04/assets/theory-center-tapped.jpg Graphic file (type bmp)
+<lab-04/assets/theory-center-tapped.jpg>
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39
@@ -1597,17 +1592,61 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-File: lab-03/assets/without-capacitor-schematic.png Graphic file (type bmp)
-<lab-03/assets/without-capacitor-schematic.png>
-File: lab-03/assets/without-capacitor-output.png Graphic file (type bmp)
-<lab-03/assets/without-capacitor-output.png>
-) (lab-04/sections/calculation.tex) (lab-04/sections/discussion.tex) (lab-04/sections/conclusion.tex) (lab-04/sections/references.tex
+File: lab-04/assets/theory-full-wave-bridge-rectifier.png Graphic file (type bmp)
+<lab-04/assets/theory-full-wave-bridge-rectifier.png>
 
-LaTeX Warning: Empty bibliography on input line 1.
+Overfull \hbox (134.5498pt too wide) in paragraph at lines 47--48
+[][] 
+ []
 
-)
+File: lab-04/assets/theory-full-wave-resulting-wave.png Graphic file (type bmp)
+<lab-04/assets/theory-full-wave-resulting-wave.png>
+
+Overfull \hbox (49.14603pt too wide) in paragraph at lines 51--52
+[][] 
+ []
+
+File: lab-04/assets/theory-full-wave-bridge-rectifier-with-filter.png Graphic file (type bmp)
+<lab-04/assets/theory-full-wave-bridge-rectifier-with-filter.png>
+) (lab-04/sections/apparatus.tex [40]) (lab-04/sections/circuit-diagram.tex
+File: lab-04/assets/full-wave-bridge-circuit.png Graphic file (type bmp)
+<lab-04/assets/full-wave-bridge-circuit.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+File: lab-04/assets/circuit-center-tapped.jpg Graphic file (type bmp)
+<lab-04/assets/circuit-center-tapped.jpg>
+) (lab-04/sections/result.tex
+File: lab-04/assets/sine-input.jpg Graphic file (type bmp)
+<lab-04/assets/sine-input.jpg>
+File: lab-04/assets/sine-output.jpg Graphic file (type bmp)
+<lab-04/assets/sine-output.jpg>
+File: lab-04/assets/sine-output-with-filter.jpg Graphic file (type bmp)
+<lab-04/assets/sine-output-with-filter.jpg>
+File: lab-04/assets/triangle-input.jpg Graphic file (type bmp)
+<lab-04/assets/triangle-input.jpg>
+File: lab-04/assets/triangle-output.jpg Graphic file (type bmp)
+<lab-04/assets/triangle-output.jpg>
+File: lab-04/assets/triangle-output-with-filter.jpg Graphic file (type bmp)
+<lab-04/assets/triangle-output-with-filter.jpg>
+ [42]
+File: lab-04/assets/square-input.jpg Graphic file (type bmp)
+<lab-04/assets/square-input.jpg>
+File: lab-04/assets/square-output.jpg Graphic file (type bmp)
+<lab-04/assets/square-output.jpg>
+File: lab-04/assets/square-output-with-filter.jpg Graphic file (type bmp)
+<lab-04/assets/square-output-with-filter.jpg>
+) (lab-04/sections/data-table.tex) (lab-04/sections/calculation.tex) (lab-04/sections/simulation.tex
+File: lab-04/assets/center-tapped-without-capacitor-input.png Graphic file (type bmp)
+<lab-04/assets/center-tapped-without-capacitor-input.png>
+File: lab-04/assets/center-tapped-without-capacitor-output.png Graphic file (type bmp)
+<lab-04/assets/center-tapped-without-capacitor-output.png>
+File: lab-04/assets/square-output-with-filter.jpg Graphic file (type bmp)
+<lab-04/assets/square-output-with-filter.jpg>
+) (lab-04/sections/discussion.tex [43]) (lab-04/sections/conclusion.tex) (lab-04/sections/references.tex [44])
 Package biblatex Info: Reference section=0 on input line 24.
-) [40] 
+) [45] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux)
  ***********
@@ -1619,18 +1658,18 @@ L3 programming layer <2026-05-26>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 21CB22C36A578EAB919D58F3C6986CC2;8473.
+(rerunfilecheck)             Checksum: 866842C64FD1A897D7AA542A8F49D42F;8579.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 64785 strings out of 402628
- 1636845 string characters out of 5443460
- 2958313 words of memory out of 5000000
- 92958 multiletter control sequences out of 15000+600000
+ 64968 strings out of 402628
+ 1645220 string characters out of 5443460
+ 2961724 words of memory out of 5000000
+ 93127 multiletter control sequences out of 15000+600000
  636229 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,19n,120p,1241b,5518s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.xdv (44 pages, 698080 bytes).
+Output written on d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.xdv (49 pages, 761732 bytes).

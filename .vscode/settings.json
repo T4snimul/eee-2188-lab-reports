@@ -27,7 +27,7 @@
     "src/build": true,
     "src/cover": true,
     "src/lab-01": true,
-    "src/lab-02": true
-    // "src/lab-03": true
+    "src/lab-02": true,
+    "src/lab-03": true
   }
 }
