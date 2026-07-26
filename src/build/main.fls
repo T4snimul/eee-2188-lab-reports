@@ -858,6 +858,24 @@ INPUT .\lab-04\assets\full-wave-bridge-circuit.png
 INPUT .\lab-04\assets\full-wave-bridge-circuit.png
 INPUT .\lab-04\assets\circuit-center-tapped.jpg
 INPUT .\lab-04\assets\circuit-center-tapped.jpg
+INPUT .\lab-04\sections\data-table.tex
+INPUT .\lab-04\sections\data-table.tex
+INPUT .\lab-04\sections\data-table.tex
+INPUT .\lab-04\sections\data-table.tex
+INPUT lab-04\sections\data-table.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT .\lab-04\sections\calculation.tex
+INPUT .\lab-04\sections\calculation.tex
+INPUT .\lab-04\sections\calculation.tex
+INPUT .\lab-04\sections\calculation.tex
+INPUT lab-04\sections\calculation.tex
 INPUT .\lab-04\sections\result.tex
 INPUT .\lab-04\sections\result.tex
 INPUT .\lab-04\sections\result.tex
@@ -881,35 +899,27 @@ INPUT .\lab-04\assets\square-output.jpg
 INPUT .\lab-04\assets\square-output.jpg
 INPUT .\lab-04\assets\square-output-with-filter.jpg
 INPUT .\lab-04\assets\square-output-with-filter.jpg
-INPUT .\lab-04\sections\data-table.tex
-INPUT .\lab-04\sections\data-table.tex
-INPUT .\lab-04\sections\data-table.tex
-INPUT .\lab-04\sections\data-table.tex
-INPUT lab-04\sections\data-table.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT .\lab-04\sections\calculation.tex
-INPUT .\lab-04\sections\calculation.tex
-INPUT .\lab-04\sections\calculation.tex
-INPUT .\lab-04\sections\calculation.tex
-INPUT lab-04\sections\calculation.tex
+INPUT .\lab-04\assets\center-tapped-input.jpg
+INPUT .\lab-04\assets\center-tapped-input.jpg
+INPUT .\lab-04\assets\center-tapped-output.jpg
+INPUT .\lab-04\assets\center-tapped-output.jpg
+INPUT .\lab-04\assets\center-tapped-output-with-filter.jpg
+INPUT .\lab-04\assets\center-tapped-output-with-filter.jpg
 INPUT .\lab-04\sections\simulation.tex
 INPUT .\lab-04\sections\simulation.tex
 INPUT .\lab-04\sections\simulation.tex
 INPUT .\lab-04\sections\simulation.tex
 INPUT lab-04\sections\simulation.tex
+INPUT .\lab-04\assets\center-tapped-without-capacitor-schematic.png
+INPUT .\lab-04\assets\center-tapped-without-capacitor-schematic.png
+INPUT .\lab-04\assets\center-tapped-with-capacitor-schematic.png
+INPUT .\lab-04\assets\center-tapped-with-capacitor-schematic.png
 INPUT .\lab-04\assets\center-tapped-without-capacitor-input.png
 INPUT .\lab-04\assets\center-tapped-without-capacitor-input.png
 INPUT .\lab-04\assets\center-tapped-without-capacitor-output.png
 INPUT .\lab-04\assets\center-tapped-without-capacitor-output.png
-INPUT .\lab-04\assets\square-output-with-filter.jpg
-INPUT .\lab-04\assets\square-output-with-filter.jpg
+INPUT .\lab-04\assets\center-tapped-with-capacitor-output.png
+INPUT .\lab-04\assets\center-tapped-with-capacitor-output.png
 INPUT .\lab-04\sections\discussion.tex
 INPUT .\lab-04\sections\discussion.tex
 INPUT .\lab-04\sections\discussion.tex

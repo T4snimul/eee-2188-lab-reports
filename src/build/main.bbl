@@ -943,8 +943,8 @@
       \strng{authornamehash}{2eae165038f7b7dc3dd0fb4ec3672a5f}
       \strng{authorfullhash}{2eae165038f7b7dc3dd0fb4ec3672a5f}
       \strng{authorfullhashraw}{2eae165038f7b7dc3dd0fb4ec3672a5f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://study.madeeasy.in/ee/rectifiers/center-tapped-full-wave-rectifier}}
@@ -992,8 +992,8 @@
       \strng{authornamehash}{4499add72388c36af02359a9e5106b5e}
       \strng{authorfullhash}{4499add72388c36af02359a9e5106b5e}
       \strng{authorfullhashraw}{4499add72388c36af02359a9e5106b5e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.circuit-diagram.org/}}
@@ -1016,8 +1016,8 @@
       \strng{authorfullhash}{34da1ac690484785379eb4e96230dc30}
       \strng{authorfullhashraw}{34da1ac690484785379eb4e96230dc30}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{AI-generated image}

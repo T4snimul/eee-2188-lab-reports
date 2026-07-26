@@ -2,22 +2,14 @@
 \markright{Theory}
 
 The transformation of an AC signal into a DC signal is fundamentally achieved through the process of
-rectification. This process relies on the inherent characteristic curve of diodes, which only permit
-current to flow when they are in a forward-biased condition and act as an open circuit when
-reverse-biased \cite{lab04_mehta2012}. When an alternating voltage is applied across a diode, it will
-only permit the conduction of the positive half-cycle—depending on the specific orientation of the
-diode—while cutting off the opposite half-cycle during its reverse-bias state \cite
-{lab04_boylestad2013}. Consequently, the load obtains a unidirectional DC signal. Diode rectifiers are
-primarily classified into two types: the half-wave rectifier and the full-wave rectifier \cite
-{lab04_mehta2012}.
+rectification. Diodes conduct when forward-biased and block when reverse-biased, so an AC-driven
+diode passes only one half-cycle and produces a unidirectional output; rectifiers are commonly
+categorized as half-wave or full-wave \cite{lab04_mehta2012}.
 
-In a full-wave rectifier circuit, both half-cycles of the input AC signal are utilized and present in
-the output, offering significantly higher efficiency than half-wave designs \cite{lab04_boylestad2013}.
-Two primary circuit configurations are utilized as full-wave rectifiers: the center-tapped transformer
-rectifier and the bridge rectifier \cite{lab04_mehta2012}. The center-tapped transformer design links
-the transformer ends to two diodes, with the load situated between the diode junction and the center
-tap of the secondary winding \cite{lab04_boylestad2013}. The circuit diagram and the resulting wave
-shapes for this configuration are illustrated in Figure \ref{lab04_fig:center_tapped}.
+Full-wave rectifiers use both half-cycles, yielding a higher average DC output and better efficiency
+than half-wave designs \cite{lab04_boylestad2013}. Common full-wave implementations are the
+center-tapped transformer rectifier and the bridge rectifier; the center-tapped design connects two
+diodes to the transformer ends with the load at the center tap, as shown in Figure \ref{lab04_fig:center_tapped}.
 
 \begin{figure}[H]
   \centering
@@ -65,8 +57,9 @@ is shown in Figure \ref{lab04_fig:bridge_capacitor}.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{lab-04/assets/theory-full-wave-bridge-rectifier-with-filter.png}
+  \includegraphics[width=0.65\textwidth]{lab-04/assets/theory-full-wave-bridge-rectifier-with-filter.png}
   \caption{Circuit Diagram for Full Wave Bridge Rectifier including a filter capacitor. \cite
     {lab04_gemini_bridge_filter_circuit}}
   \label{lab04_fig:bridge_capacitor}
 \end{figure}
+5

@@ -1,2 +1,72 @@
 \section{Calculation}
 \markright{Calculation}
+
+Using the measured input and output voltages from the data table, the following relations were used:
+
+\begin{equation}
+  \%\,\text{loss}=\frac{V_{\text{in}}-V_{\text{out}}}{V_{\text{in}}}\times 100\%
+\end{equation}
+
+\begin{equation}
+  \eta=\frac{V_{\text{out}}}{V_{\text{in}}}\times 100\%
+\end{equation}
+
+\begin{equation}
+  r_f=\left|\frac{V_{\text{out, without cap}}-V_{\text{out, with cap}}}{V_{\text{out, without cap}}}\right|
+\end{equation}
+
+\begin{equation}
+  \%\,\text{ripple}=r_f\times 100\%
+\end{equation}
+
+For the bridge rectifier:
+
+\begin{itemize}
+  \item Sinusoidal:
+
+        \begin{equation}
+          \%\,\text{loss (with cap)}=\frac{1.01-4.46}{1.01}\times 100\% \approx \boxed{99.56\%},\quad \eta=\frac{4.46}{1.01}\times 100\% \approx \boxed{0.44\%}
+        \end{equation}
+        \begin{equation}
+          \%\,\text{loss (without cap)}=\frac{1.01-411.33}{1.01}\times 100\% \approx \boxed{59.27\%},\quad \eta=\frac{411.33}{1.01}\times 100\% \approx \boxed{40.73\%}
+        \end{equation}
+        \begin{equation}
+          r_f=\left|\frac{411.33-4.46}{411.33}\right| \approx \boxed{0.989},\quad \%\,\text{ripple}=0.989\times 100\% \approx \boxed{98.91\%}
+        \end{equation}
+
+  \item Triangular:
+        \begin{equation}
+          \%\,\text{loss (with cap)}=\frac{0.73-4.62}{0.73}\times 100\% \approx \boxed{99.37\%},\quad \eta=\frac{4.62}{0.73}\times 100\% \approx \boxed{0.63\%}
+        \end{equation}
+        \begin{equation}
+          \%\,\text{loss (without cap)}=\frac{0.73-345.83}{0.73}\times 100\% \approx \boxed{52.70\%},\quad \eta=\frac{345.83}{0.73}\times 100\% \approx \boxed{47.30\%}
+        \end{equation}
+        \begin{equation}
+          r_f=\left|\frac{345.83-4.62}{345.83}\right| \approx \boxed{0.987},\quad \%\,\text{ripple}=0.987\times 100\% \approx \boxed{98.66\%}
+        \end{equation}
+
+  \item Square:
+        \begin{equation}
+          \%\,\text{loss (with cap)}=\frac{1.24-1.32}{1.24}\times 100\% \approx \boxed{99.89\%},\quad \eta=\frac{1.32}{1.24}\times 100\% \approx \boxed{0.11\%}
+        \end{equation}
+        \begin{equation}
+          \%\,\text{loss (without cap)}=\frac{1.24-438.41}{1.24}\times 100\% \approx \boxed{64.64\%},\quad \eta=\frac{438.41}{1.24}\times 100\% \approx \boxed{35.36\%}
+        \end{equation}
+        \begin{equation}
+          r_f=\left|\frac{438.41-1.32}{438.41}\right| \approx \boxed{0.997},\quad \%\,\text{ripple}=0.997\times 100\% \approx \boxed{99.70\%}
+        \end{equation}
+\end{itemize}
+
+For the center-tapped transformer:
+
+\begin{equation}
+  \%\,\text{loss (with cap)}=\frac{1.40-1.36}{1.40}\times 100\% \approx \boxed{2.86\%},\quad \eta=\frac{1.36}{1.40}\times 100\% \approx \boxed{97.14\%}
+\end{equation}
+
+\begin{equation}
+  \%\,\text{loss (without cap)}=\frac{1.40-1.13}{1.40}\times 100\% \approx \boxed{19.29\%},\quad \eta=\frac{1.13}{1.40}\times 100\% \approx \boxed{80.71\%}
+\end{equation}
+
+\begin{equation}
+  r_f=\left|\frac{1.13-1.36}{1.13}\right| \approx \boxed{0.203},\quad \%\,\text{ripple}=0.203\times 100\% \approx \boxed{20.35\%}
+\end{equation}
