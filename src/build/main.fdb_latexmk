@@ -1,6 +1,6 @@
 # Fdb version 4
-["biber build/main"] 0 "build/main.bcf" "build/main.bbl" "build/main" 0 -1
-  "build/main.bcf" 0 -1 0 "xelatex"
+["biber build/main"] 1785287674.51314 "build/main.bcf" "build/main.bbl" "build/main" 1785287685.08267 0
+  "build/main.bcf" 1785287683 110323 1fe678d12d16578faba8930a1a56332d "xelatex"
   "lab-01/references.bib" 1782494642 6783 463eb73a3c33fa9bf8f0ee7251c84738 ""
   "lab-02/references.bib" 1783196733 1723 19abd29a11ecee2003426b4c77cf9c8d ""
   "lab-03/references.bib" 1783807591 719 7b3b868a69077b4bc3a83faf70ae1546 ""
@@ -10,12 +10,12 @@
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 0 "build/main.xdv" "build/main.pdf" "build/main" 0 -1
-  "build/main.xdv" 1785283643 173716 13030648c4ec7857369e5a05a59487af "xelatex"
+["xdvipdfmx"] 1785287683.85108 "build/main.xdv" "build/main.pdf" "build/main" 1785287685.09506 0
+  "build/main.xdv" 1785287683 232372 552ae5a986c0049b427f1efc36826eb5 "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1785283639.3059 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1785283643.86417 2
+["xelatex"] 1785287677.25498 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1785287685.08301 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -269,9 +269,10 @@
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "build/lab-05/sections/subsections/simul-negative-clamper-negative-bias.tex" 0 -1 0 ""
-  "build/main.aux" 1785283643 10278 b8ff8383bc58d88ba9d67d1d8d9c06d0 "xelatex"
-  "build/main.bbl" 0 -1 0 "biber build/main"
+  "build/main.aux" 1785287683 14315 90a476d2429d15bdc37abfa81c149af7 "xelatex"
+  "build/main.bbl" 1785287677 4652 71b042ce591a0b40bd88270d151becd9 "biber build/main"
+  "build/main.out" 1785287683 1595 76d86804c03ffe9211def78893133bda "xelatex"
+  "build/main.run.xml" 1785287683 2608 315cdb9022db8ea9f23b35e7fc831e2e "xelatex"
   "cover/background.tex" 1782212937 586 4650988d5bb8dad5d0b3099fcc416e02 ""
   "cover/layout.tex" 1782510752 2157 d697028fca3136dd8394d6730c8a9549 ""
   "cover/main.tex" 1782513137 46 88e26ffaacba6a6f97d058ab3a9255de ""
@@ -279,6 +280,8 @@
   "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" 1785275552 313 70750cb522553a537b3fbd2443aeb2c8 ""
   "functions.tex" 1782504545 1245 8ee31840adfdfc7b1edac5a3069aa1bc ""
   "lab-05/assets/clamper-simulation/negative-clamper-graph.png" 1785273472 42313 bef1d0a7a8be2ce1f0b13372b2520ca3 ""
+  "lab-05/assets/clamper-simulation/negative-clamper-negative-bias-graph.png" 1785274358 40487 24b76aeb2c79da3abb39636cfc8cd3cd ""
+  "lab-05/assets/clamper-simulation/negative-clamper-negative-bias-schematic.png" 1785274324 25072 0b8f6b0bc11c29e08665520c74c7f4db ""
   "lab-05/assets/clamper-simulation/negative-clamper-schematic.png" 1785273417 23352 b8cd2f53c83587aa4b765e6f95c513bc ""
   "lab-05/assets/clamper-simulation/positive-clamper-graph.png" 1785273711 40611 f9113adcf27da6ed69631ce273181a47 ""
   "lab-05/assets/clamper-simulation/positive-clamper-negative-bias-graph.png" 1785274106 42075 123268fea71935d74f7e78ff4a1bbbe6 ""
@@ -313,10 +316,13 @@
   "lab-05/assets/theory/negative-clipper.png" 1785045101 22116 85020b22a3071c408c5f2925ea5d9622 ""
   "lab-05/assets/theory/positive-bias-negative-clipper.png" 1785045192 24912 a945595ae0a1e1c53acc09916764b619 ""
   "lab-05/assets/theory/positive-clipper.png" 1785045072 33738 6fac831965133eb000f7aa10026d4345 ""
-  "lab-05/main.tex" 1785278143 585 263b2ff3fc7ba2d738ddedc2e18ae0f7 ""
-  "lab-05/sections/apparatus.tex" 1785044460 469 723afdd2dd58cf92c0316a06c92f45fe ""
+  "lab-05/main.tex" 1785284611 645 55efc0cb5b8864640276dae06f996428 ""
+  "lab-05/sections/apparatus.tex" 1785284611 509 19a3053ee7e130c7393151a66975608e ""
   "lab-05/sections/circuit-diagram.tex" 1785274919 182 97f5bb52bac8d08ce0993fba4606dbed ""
-  "lab-05/sections/objectives.tex" 1785047514 562 cfecdc30b4a73982e5d115f9cfd97851 ""
+  "lab-05/sections/conclusion.tex" 1785287512 498 305dbef6d753aef280042284669f3c87 ""
+  "lab-05/sections/discussion.tex" 1785284472 593 08d36b93c231da5683b752ecf046c2b2 ""
+  "lab-05/sections/objectives.tex" 1785284611 504 147ce4a941a1026d99fef26df4ef490f ""
+  "lab-05/sections/references.tex" 1782667881 40 f432cb32d1625914478fb31dbf677237 ""
   "lab-05/sections/result.tex" 1785277105 523 b5c0662b3319b3074b79ae3fc1dd989e ""
   "lab-05/sections/simulation.tex" 1785283633 464 353ce8e8fa3785635911807c20862c3f ""
   "lab-05/sections/subsections/circuit-diagram-clampers.tex" 1785277979 3262 fb0e330344f392b38df16717df3a340e ""
@@ -328,13 +334,13 @@
   "lab-05/sections/subsections/result-positive-circuit-positive-bias.tex" 1785274965 1976 22e3cf5e89160575a8ca4394ce920b40 ""
   "lab-05/sections/subsections/result-positive-circuit.tex" 1785274965 1857 1351a6e89db3e75a7f9894265507818c ""
   "lab-05/sections/subsections/result-positive-clamper.tex" 1785277012 631 13ae7fc96fa81171b0d39e651bee7d2e ""
-  "lab-05/sections/subsections/simul-negative-clamper-negative-bias.tex" 0 -1 0 ""
+  "lab-05/sections/subsections/simul-negative-clamper-negative-bias.tex" 1785283708 731 96fbe801d5e0ea1c7ce9d4ce4a3bd0ab ""
   "lab-05/sections/subsections/simul-negative-clamper-positive-bias.tex" 1785283600 730 90233e067d0d23628dbb75b08ec14d2d ""
   "lab-05/sections/subsections/simul-negative-clamper.tex" 1785283282 661 85f334d8d84fc47988873b650795aa96 ""
   "lab-05/sections/subsections/simul-positive-clamper-negative-bias.tex" 1785283511 730 9a6a5071843ff6789b4ec4b14104e90a ""
   "lab-05/sections/subsections/simul-positive-clamper-positive-bias.tex" 1785283413 730 0139780bb659a6f9aaa3f807d852defe ""
   "lab-05/sections/subsections/simul-positive-clamper.tex" 1785278249 661 5e7b6e8dfab51fd8fa48e228bd011302 ""
-  "lab-05/sections/theory.tex" 1785047514 2251 5fb8f0e16cc6ab2a450c36d1a2729572 ""
+  "lab-05/sections/theory.tex" 1785287665 6290 2d55a85d47fd4b52676e9cb33071c0cd ""
   "main.tex" 1785275552 313 70750cb522553a537b3fbd2443aeb2c8 ""
   "metadata.tex" 1782625622 676 a750cc6c465330f214a99ab8b167cb79 ""
   "preamble.tex" 1785036216 4654 71e85fb2f9bd5e8843d7138a75f2a411 ""
@@ -343,5 +349,6 @@
   "build/main.bcf"
   "build/main.log"
   "build/main.out"
+  "build/main.run.xml"
   "build/main.xdv"
   (rewritten before read)

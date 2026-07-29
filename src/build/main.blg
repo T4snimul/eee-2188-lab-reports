@@ -1,29 +1,29 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'build/main.blg'
-[118] biber-MSWIN64:342> INFO - === 
-[162] Biber.pm:421> INFO - Reading 'build/main.bcf'
-[266] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[267] Biber.pm:1002> INFO - Found 1 citekeys in bib section 1
-[267] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[288] Biber.pm:4487> INFO - Processing section 1
-[299] Biber.pm:4678> INFO - Looking for bibtex file 'lab-01/references.bib' for section 1
-[358] bibtex.pm:1713> INFO - LaTeX decoding ...
-[388] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-01/references.bib'
-[408] Biber.pm:4678> INFO - Looking for bibtex file 'lab-02/references.bib' for section 1
-[488] bibtex.pm:1713> INFO - LaTeX decoding ...
-[500] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-02/references.bib'
-[503] Biber.pm:4678> INFO - Looking for bibtex file 'lab-03/references.bib' for section 1
-[564] bibtex.pm:1713> INFO - LaTeX decoding ...
-[571] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-03/references.bib'
-[574] Biber.pm:4678> INFO - Looking for bibtex file 'lab-04/references.bib' for section 1
-[655] bibtex.pm:1713> INFO - LaTeX decoding ...
-[667] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-04/references.bib'
-[672] Biber.pm:4678> INFO - Looking for bibtex file 'lab-05/references.bib' for section 1
-[760] bibtex.pm:1713> INFO - LaTeX decoding ...
-[768] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-05/references.bib'
-[799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[800] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[800] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[800] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[801] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[803] bbl.pm:779> INFO - Output to build/main.bbl
+[97] biber-MSWIN64:342> INFO - === 
+[140] Biber.pm:421> INFO - Reading 'build/main.bcf'
+[237] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[237] Biber.pm:1002> INFO - Found 3 citekeys in bib section 1
+[237] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[251] Biber.pm:4487> INFO - Processing section 1
+[263] Biber.pm:4678> INFO - Looking for bibtex file 'lab-01/references.bib' for section 1
+[330] bibtex.pm:1713> INFO - LaTeX decoding ...
+[357] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-01/references.bib'
+[390] Biber.pm:4678> INFO - Looking for bibtex file 'lab-02/references.bib' for section 1
+[465] bibtex.pm:1713> INFO - LaTeX decoding ...
+[477] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-02/references.bib'
+[483] Biber.pm:4678> INFO - Looking for bibtex file 'lab-03/references.bib' for section 1
+[553] bibtex.pm:1713> INFO - LaTeX decoding ...
+[561] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-03/references.bib'
+[566] Biber.pm:4678> INFO - Looking for bibtex file 'lab-04/references.bib' for section 1
+[639] bibtex.pm:1713> INFO - LaTeX decoding ...
+[651] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-04/references.bib'
+[654] Biber.pm:4678> INFO - Looking for bibtex file 'lab-05/references.bib' for section 1
+[720] bibtex.pm:1713> INFO - LaTeX decoding ...
+[731] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-05/references.bib'
+[771] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[771] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[771] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[771] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[773] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[774] bbl.pm:779> INFO - Output to build/main.bbl

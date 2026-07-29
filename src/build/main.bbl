@@ -19,7 +19,7 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global/global}
-    \entry{lab_05_boylstad}{book}{}{}
+    \entry{lab05_Boylestad}{book}{}{}
       \name{author}{1}{}{%
         {{hash=8badf6f5cd034153c1b8f209f1d539ca}{%
            family={Boylestad},
@@ -48,6 +48,76 @@
       \field{edition}{11th}
       \field{title}{Electronic Devices and Circuit Theory}
       \field{year}{2012}
+    \endentry
+    \entry{lab05_SedraSmith}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=6274f02c652321416b74b77a1091a91f}{%
+           family={Sedra},
+           familyi={S\bibinitperiod},
+           given={Adel\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f81b39065083ba18642fa0aef9f114af}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Kenneth\bibnamedelima C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{fullhash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{fullhashraw}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{bibnamehash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{authorbibnamehash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{authornamehash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{authorfullhash}{4f054d7e6cf584e2fcd724eb800a4125}
+      \strng{authorfullhashraw}{4f054d7e6cf584e2fcd724eb800a4125}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7th}
+      \field{title}{Microelectronic Circuits}
+      \field{year}{2014}
+    \endentry
+    \entry{lab05_Horowitz}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=eae852313f1caa761b4d50ecf145958c}{%
+           family={Horowitz},
+           familyi={H\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4b7649fd9463dfa43a32e8ce571338f0}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Winfield},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, UK}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{fullhash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{fullhashraw}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{bibnamehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authorbibnamehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authornamehash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authorfullhash}{9765a7171294b7f07dfa61426a4924f7}
+      \strng{authorfullhashraw}{9765a7171294b7f07dfa61426a4924f7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{The Art of Electronics}
+      \field{year}{2015}
     \endentry
   \enddatalist
 \endrefsection
