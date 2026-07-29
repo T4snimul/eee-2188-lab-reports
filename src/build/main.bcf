@@ -2388,26 +2388,183 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">lab-05/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
+    <bcf:citekey order="1" intorder="1">horowitz2015</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">razavi2013</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">floyd2012</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">floyd2012</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">wiki:oscilloscope</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">wiki:resistor</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">electronics_notes:resistor</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">electronics_notes:resistor</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">boylestad2015</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">wiki:multimeter</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">electronicsclub:multimeter</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">wiki:multimeter</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">wiki:breadboard</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">analog:breadboard</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">analog:breadboard</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">boylestad2015</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">horowitz2015</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">boylestad2015</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">floyd2012</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">boylestad2015</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">boylestad2015</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">razavi2013</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">horowitz2015</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">razavi2013</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">wiki:breadboard</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">analog:breadboard</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">boylestad2015</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">wiki:oscilloscope</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">tek:oscilloscope</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">keysight:bandwidth</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">wiki:oscilloscope</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">horowitz2015</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">horowitz2015</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">wiki:opamp</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">horowitz2015</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">electronics_tuts:opamp</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">horowitz2015</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">boylestad2015</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">razavi2013</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">wiki:mosfet</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">razavi2013</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">wiki:mosfet</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">sedra2020</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">boylestad2015</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">floyd2012</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">wiki:solderiron</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">wiki:solderiron</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">wiki:solderiron</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">wiki:solderiron</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 2 -->
+  <bcf:bibdata section="2">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-05/references.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="2">
+    <bcf:citekey order="1" intorder="1">lab2_boylestad2015</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">lab2_sedra2020</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">lab2_polytechnichub_pn_diode</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">lab2_polytechnichub_pn_diode</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">lab2_razavi2013</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">lab2_onsemi_1n4007</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">lab2_boylestad2015</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">lab2_onsemi_1n4007</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">lab2_geeksforgeeks_vi_characteristics</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 3 -->
+  <bcf:bibdata section="3">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-05/references.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="3">
+    <bcf:citekey order="1" intorder="1">lab03_boylestad2013</bcf:citekey>
+    <bcf:citekey order="1" intorder="2">lab03_mehta2012</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">lab03_boylestad2013</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">lab03_boylestad2013</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">lab03_boylestad2013</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">lab03_gemini2026image</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">lab03_gemini2026image</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 4 -->
+  <bcf:bibdata section="4">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-05/references.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="4">
+    <bcf:citekey order="1" intorder="1">lab04_mehta2012</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">lab04_boylestad2013</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">lab04_madeeasy_rectifier</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">lab04_madeeasy_rectifier</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">lab04_mehta2012</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">lab04_boylestad2013</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">lab04_mehta2012</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">lab04_boylestad2013</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">lab04_mehta2012</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">lab04_boylestad2013</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">lab04_boylestad2013</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">lab04_mehta2012</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">lab04_boylestad2013</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">lab04_gemini_bridge_filter_circuit</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">lab04_gemini_bridge_filter_circuit</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">lab04_circuit_diagram_org</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">lab04_circuit_diagram_org</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">lab04_gemini_center_tapped_circuit</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">lab04_gemini_center_tapped_circuit</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 5 -->
+  <bcf:bibdata section="5">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-01/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-02/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-03/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-04/references.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">lab-05/references.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="5">
     <bcf:citekey order="1" intorder="1">lab05_Boylestad</bcf:citekey>
     <bcf:citekey order="2" intorder="1">lab05_SedraSmith</bcf:citekey>
     <bcf:citekey order="3" intorder="1">lab05_Horowitz</bcf:citekey>
     <bcf:citekey order="4" intorder="1">lab05_Horowitz</bcf:citekey>
     <bcf:citekey order="5" intorder="1">lab05_SedraSmith</bcf:citekey>
     <bcf:citekey order="6" intorder="1">lab05_Boylestad</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">lab05_SedraSmith</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">lab05_Boylestad</bcf:citekey>
     <bcf:citekey order="8" intorder="1">lab05_Boylestad</bcf:citekey>
     <bcf:citekey order="9" intorder="1">lab05_SedraSmith</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">lab05_Horowitz</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">lab05_Boylestad</bcf:citekey>
     <bcf:citekey order="11" intorder="1">lab05_Boylestad</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">lab05_SedraSmith</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">lab05_Horowitz</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">lab05_SedraSmith</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">lab05_Boylestad</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">lab05_SedraSmith</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">lab05_Horowitz</bcf:citekey>
     <bcf:citekey order="15" intorder="1">lab05_Boylestad</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">lab05_Horowitz</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">lab05_SedraSmith</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">lab05_SedraSmith</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">lab05_Boylestad</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">lab05_Horowitz</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">lab05_SedraSmith</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">lab05_Horowitz</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">lab05_kynix_clamper</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">lab05_kynix_clamper</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">lab05_SedraSmith</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">lab05_Boylestad</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">lab05_Horowitz</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">lab05_SedraSmith</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">lab05_kynix_clamper</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">lab05_kynix_clamper</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">lab05_SedraSmith</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">lab05_Boylestad</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">lab05_Horowitz</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2423,6 +2580,46 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="1"
+                name="none/global//global/global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="2"
+                name="none/global//global/global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="3"
+                name="none/global//global/global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="4"
+                name="none/global//global/global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+  <bcf:datalist section="5"
                 name="none/global//global/global/global"
                 type="entry"
                 sortingtemplatename="none"
