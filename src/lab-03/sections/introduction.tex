@@ -1,0 +1,22 @@
+\section{Introduction}
+\markright{Introduction}
+
+Object-Oriented Programming (OOP) is a programming style that organizes data and functions into reusable units called classes. A class acts as a blueprint, while an object is an instance of that class. In this experiment, the main idea is to understand how classes help in modeling real-world entities such as students, books, or motors by combining data and behavior in one structure. This makes programs easier to understand, maintain, and extend compared with procedural programming.
+
+A key feature of OOP is the use of constructors and destructors. Constructors are special member functions that initialize an object when it is created, while destructors are called automatically when an object is destroyed. Copy constructors are also important because they create a new object by copying the values of an existing object. These concepts are demonstrated in the experiment through simple class examples.
+
+For example:
+\begin{lstlisting}[language=C++, numbers=left]
+class Student {
+public:
+    Student() { std::cout << "Constructor"; }
+    ~Student() { std::cout << "Destructor"; }
+};
+
+int main() {
+    Student s1;
+    return 0;
+}
+\end{lstlisting}
+
+This experiment helps students observe how objects are created, copied, and removed automatically by the C++ runtime, which is an essential part of OOP.
