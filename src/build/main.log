@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  29 JUL 2026 07:39
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  15 AUG 2026 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1183,7 +1183,7 @@ Package hyperref Info: Link coloring ON on input line 11.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
- (lab-01/main.tex
+ (lab-07/main.tex
 \blx@maxsegment@1=\count524
 \blx@sectionciteorder@1=\count525
 Package biblatex Info: Reference section=1 on input line 1.
@@ -1242,515 +1242,118 @@ Overfull \hbox (6.58475pt too wide) in paragraph at lines 7--7
 
 ]
 Chapter 1.
-(lab-01/sections/objectives.tex) (lab-01/sections/theory.tex [1
-
-
-
-]
-File: lab-01/assets/vi_characteristics.png Graphic file (type bmp)
-<lab-01/assets/vi_characteristics.png>
-
-Underfull \hbox (badness 1248) in paragraph at lines 64--72
-\TU/TimesNewRoman(0)/m/n/12 Electronic components are broadly classified into passive and active types. Passive
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-File: lab-01/assets/oscilloscope_waveform.png Graphic file (type bmp)
-<lab-01/assets/oscilloscope_waveform.png>
-) (lab-01/sections/components/main.tex (lab-01/sections/components/resistor.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-File: lab-01/assets/resistors.jpg Graphic file (type bmp)
-<lab-01/assets/resistors.jpg>
-File: lab-01/assets/resistor_colorcode.png Graphic file (type bmp)
-<lab-01/assets/resistor_colorcode.png>
- [4]) (lab-01/sections/components/multimeter.tex
-File: lab-01/assets/multimeter.jpg Graphic file (type bmp)
-<lab-01/assets/multimeter.jpg>
- [5]) (lab-01/sections/components/breadboard.tex
-File: lab-01/assets/breadboard.jpg Graphic file (type bmp)
-<lab-01/assets/breadboard.jpg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]) (lab-01/sections/components/capacitor.tex
-File: lab-01/assets/capacitor_structure.png Graphic file (type bmp)
-<lab-01/assets/capacitor_structure.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-File: lab-01/assets/capacitor.jpeg Graphic file (type bmp)
-<lab-01/assets/capacitor.jpeg>
-File: lab-01/assets/ceramic_capacitor.jpeg Graphic file (type bmp)
-<lab-01/assets/ceramic_capacitor.jpeg>
-File: lab-01/assets/fim_capacitor.jpeg Graphic file (type bmp)
-<lab-01/assets/fim_capacitor.jpeg>
- [8]) (lab-01/sections/components/diode.tex
-File: lab-01/assets/pn_junction.png Graphic file (type bmp)
-<lab-01/assets/pn_junction.png>
-File: lab-01/assets/diode.jpeg Graphic file (type bmp)
-<lab-01/assets/diode.jpeg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]) (lab-01/sections/components/zener-diode.tex
-File: lab-01/assets/zener.jpg Graphic file (type bmp)
-<lab-01/assets/zener.jpg>
- [10]) (lab-01/sections/components/led.tex [11]
-File: lab-01/assets/led.jpeg Graphic file (type bmp)
-<lab-01/assets/led.jpeg>
-) (lab-01/sections/components/veroboard.tex
-File: lab-01/assets/veroboard.jpg Graphic file (type bmp)
-<lab-01/assets/veroboard.jpg>
- [12]) (lab-01/sections/components/oscilloscope.tex
-File: lab-01/assets/protek-5100.jpeg Graphic file (type bmp)
-<lab-01/assets/protek-5100.jpeg>
-File: lab-01/assets/rs_rtc1002.jpeg Graphic file (type bmp)
-<lab-01/assets/rs_rtc1002.jpeg>
-File: lab-01/assets/analog_oscilloscope.jpeg Graphic file (type bmp)
-<lab-01/assets/analog_oscilloscope.jpeg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]) (lab-01/sections/components/function-generator.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-File: lab-01/assets/protek9205c.jpeg Graphic file (type bmp)
-<lab-01/assets/protek9205c.jpeg>
-) (lab-01/sections/components/op-amp.tex [15]
-File: lab-01/assets/lm741.jpeg Graphic file (type bmp)
-<lab-01/assets/lm741.jpeg>
-File: lab-01/assets/opamp_inverting.png Graphic file (type bmp)
-<lab-01/assets/opamp_inverting.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]) (lab-01/sections/components/bjt.tex
-File: lab-01/assets/bjt_to92.jpg Graphic file (type bmp)
-<lab-01/assets/bjt_to92.jpg>
- [17]
-File: lab-01/assets/bjt_characteristics.png Graphic file (type bmp)
-<lab-01/assets/bjt_characteristics.png>
- [18]) (lab-01/sections/components/mosfet.tex
-File: lab-01/assets/mosfet_symbol.png Graphic file (type bmp)
-<lab-01/assets/mosfet_symbol.png>
-File: lab-01/assets/mosfet_to220.jpeg Graphic file (type bmp)
-<lab-01/assets/mosfet_to220.jpeg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]) (lab-01/sections/components/voltage-regulator.tex
-File: lab-01/assets/lm7805.jpeg Graphic file (type bmp)
-<lab-01/assets/lm7805.jpeg>
-
-Underfull \vbox (badness 6741) has occurred while \output is active []
-
- [20]) (lab-01/sections/components/soldering-iron.tex
-File: lab-01/assets/soldering_iron.jpeg Graphic file (type bmp)
-<lab-01/assets/soldering_iron.jpeg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21])) (lab-01/sections/discussion.tex) (lab-01/sections/conclusion.tex [22]) (lab-01/sections/references.tex [23])
-Package biblatex Info: Reference section=0 on input line 20.
-) [24] (lab-02/main.tex
-\blx@maxsegment@2=\count526
-\blx@sectionciteorder@2=\count527
-Package biblatex Info: Reference section=2 on input line 1.
-Package biblatex Info: Setting label 'refsection:2' on input line 1.
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-40.0pt
-* \headheight=15.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=85.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-File: cover/ruet_logo.png Graphic file (type bmp)
-<cover/ruet_logo.png>
-File: cover/ruet_logo.png Graphic file (type bmp)
-<cover/ruet_logo.png>
-
-Overfull \hbox (6.58475pt too wide) in paragraph at lines 7--7
-[]|[]| 
- []
-
-[25
-
-
-]
-Chapter 2.
-(lab-02/sections/objectives.tex) (lab-02/sections/theory.tex
-File: lab-02/assets/pn-diode-symbol.png Graphic file (type bmp)
-<lab-02/assets/pn-diode-symbol.png>
- [25
-
-
-
-]
-File: lab-02/assets/forward-bias.jpg Graphic file (type bmp)
-<lab-02/assets/forward-bias.jpg>
-File: lab-02/assets/reverse-bias.jpg Graphic file (type bmp)
-<lab-02/assets/reverse-bias.jpg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-File: lab-02/assets/vi-characteristics.png Graphic file (type bmp)
-<lab-02/assets/vi-characteristics.png>
-) (lab-02/sections/apparatus.tex) (lab-02/sections/circuit-diagrams.tex) (lab-02/sections/procedure.tex [27]) (lab-02/sections/observations.tex [28]
-Underfull \vbox (badness 7326) has occurred while \output is active []
-
- [29]) (lab-02/sections/simulation.tex [30]
-File: lab-02/assets/fb-diagram.png Graphic file (type bmp)
-<lab-02/assets/fb-diagram.png>
-File: lab-02/assets/fb-graph.png Graphic file (type bmp)
-<lab-02/assets/fb-graph.png>
-File: lab-02/assets/rb-diagram.png Graphic file (type bmp)
-<lab-02/assets/rb-diagram.png>
-File: lab-02/assets/rb-graph.png Graphic file (type bmp)
-<lab-02/assets/rb-graph.png>
-) (lab-02/sections/dicussion.tex) (lab-02/sections/conclusion.tex [31]) (lab-02/sections/references.tex)
-Package biblatex Info: Reference section=0 on input line 23.
-) [32] (lab-03/main.tex
-\blx@maxsegment@3=\count528
-\blx@sectionciteorder@3=\count529
-Package biblatex Info: Reference section=3 on input line 1.
-Package biblatex Info: Setting label 'refsection:3' on input line 1.
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-40.0pt
-* \headheight=15.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=85.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-File: cover/ruet_logo.png Graphic file (type bmp)
-<cover/ruet_logo.png>
-File: cover/ruet_logo.png Graphic file (type bmp)
-<cover/ruet_logo.png>
-
-Overfull \hbox (6.58475pt too wide) in paragraph at lines 7--7
-[]|[]| 
- []
-
-[33
-
-
-]
-Chapter 3.
-(lab-03/sections/theory.tex
-File: lab-03/assets/half-wave-rectifier.png Graphic file (type bmp)
-<lab-03/assets/half-wave-rectifier.png>
-File: lab-03/assets/waveforms.png Graphic file (type bmp)
-<lab-03/assets/waveforms.png>
- [33
-
-
-
-]) (lab-03/sections/apparatus.tex) (lab-03/sections/circuit-diagram.tex) (lab-03/sections/data-table.tex) (lab-03/sections/calculation.tex
-Underfull \vbox (badness 1377) has occurred while \output is active []
-
- [34] [35]) (lab-03/sections/result.tex
-File: lab-03/assets/sine-input.jpeg Graphic file (type bmp)
-<lab-03/assets/sine-input.jpeg>
-File: lab-03/assets/sine-output.png Graphic file (type bmp)
-<lab-03/assets/sine-output.png>
-File: lab-03/assets/squire-input.jpeg Graphic file (type bmp)
-<lab-03/assets/squire-input.jpeg>
-File: lab-03/assets/squire-output.jpeg Graphic file (type bmp)
-<lab-03/assets/squire-output.jpeg>
-File: lab-03/assets/triangle-input.jpeg Graphic file (type bmp)
-<lab-03/assets/triangle-input.jpeg>
-File: lab-03/assets/triangle-output.jpeg Graphic file (type bmp)
-<lab-03/assets/triangle-output.jpeg>
-) (lab-03/sections/simulation.tex
-File: lab-03/assets/without-capacitor-schematic.png Graphic file (type bmp)
-<lab-03/assets/without-capacitor-schematic.png>
-File: lab-03/assets/without-capacitor-output.png Graphic file (type bmp)
-<lab-03/assets/without-capacitor-output.png>
- [36]
-File: lab-03/assets/with-capacitor-schematic.png Graphic file (type bmp)
-<lab-03/assets/with-capacitor-schematic.png>
-File: lab-03/assets/with-capacitor-output.png Graphic file (type bmp)
-<lab-03/assets/with-capacitor-output.png>
-) (lab-03/sections/discussion.tex) (lab-03/sections/conclusion.tex) (lab-03/sections/references.tex [37])
-Package biblatex Info: Reference section=0 on input line 23.
-) [38] (lab-04/main.tex
-\blx@maxsegment@4=\count530
-\blx@sectionciteorder@4=\count531
-Package biblatex Info: Reference section=4 on input line 1.
-Package biblatex Info: Setting label 'refsection:4' on input line 1.
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-40.0pt
-* \headheight=15.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=85.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-File: cover/ruet_logo.png Graphic file (type bmp)
-<cover/ruet_logo.png>
-File: cover/ruet_logo.png Graphic file (type bmp)
-<cover/ruet_logo.png>
-
-Overfull \hbox (6.58475pt too wide) in paragraph at lines 7--7
-[]|[]| 
- []
-
-[39
-
-
-]
-Chapter 4.
-(lab-04/sections/objectives.tex) (lab-04/sections/theory.tex
-File: lab-04/assets/theory-center-tapped.jpg Graphic file (type bmp)
-<lab-04/assets/theory-center-tapped.jpg>
- [39
-
-
-
-]
-File: lab-04/assets/theory-full-wave-bridge-rectifier.png Graphic file (type bmp)
-<lab-04/assets/theory-full-wave-bridge-rectifier.png>
-
-Overfull \hbox (134.5498pt too wide) in paragraph at lines 39--40
-[][] 
- []
-
-File: lab-04/assets/theory-full-wave-resulting-wave.png Graphic file (type bmp)
-<lab-04/assets/theory-full-wave-resulting-wave.png>
-
-Overfull \hbox (49.14603pt too wide) in paragraph at lines 43--44
-[][] 
- []
-
-File: lab-04/assets/theory-full-wave-bridge-rectifier-with-filter.png Graphic file (type bmp)
-<lab-04/assets/theory-full-wave-bridge-rectifier-with-filter.png>
-) (lab-04/sections/apparatus.tex [40]) (lab-04/sections/circuit-diagram.tex
-File: lab-04/assets/full-wave-bridge-circuit.png Graphic file (type bmp)
-<lab-04/assets/full-wave-bridge-circuit.png>
-File: lab-04/assets/circuit-center-tapped.jpg Graphic file (type bmp)
-<lab-04/assets/circuit-center-tapped.jpg>
-) (lab-04/sections/data-table.tex [41]) (lab-04/sections/calculation.tex [42]
-Overfull \hbox (32.3271pt too wide) detected at line 32
-[][][][] [] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 100[] \OMS/cmsy/m/n/12 ^^Y []\OML/cmm/m/it/12 ;  ^^Q \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 100[] \OMS/cmsy/m/n/12 ^^Y []
- []
-
-
-Overfull \hbox (32.3271pt too wide) detected at line 43
-[][][][] [] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 100[] \OMS/cmsy/m/n/12 ^^Y []\OML/cmm/m/it/12 ;  ^^Q \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 100[] \OMS/cmsy/m/n/12 ^^Y []
- []
-
-
-Overfull \hbox (32.3271pt too wide) detected at line 54
-[][][][] [] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 100[] \OMS/cmsy/m/n/12 ^^Y []\OML/cmm/m/it/12 ;  ^^Q \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 100[] \OMS/cmsy/m/n/12 ^^Y []
- []
-
-) (lab-04/sections/result.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-File: lab-04/assets/sine-input.jpg Graphic file (type bmp)
-<lab-04/assets/sine-input.jpg>
-File: lab-04/assets/sine-output.jpg Graphic file (type bmp)
-<lab-04/assets/sine-output.jpg>
-File: lab-04/assets/sine-output-with-filter.jpg Graphic file (type bmp)
-<lab-04/assets/sine-output-with-filter.jpg>
-File: lab-04/assets/triangle-input.jpg Graphic file (type bmp)
-<lab-04/assets/triangle-input.jpg>
-File: lab-04/assets/triangle-output.jpg Graphic file (type bmp)
-<lab-04/assets/triangle-output.jpg>
-File: lab-04/assets/triangle-output-with-filter.jpg Graphic file (type bmp)
-<lab-04/assets/triangle-output-with-filter.jpg>
-File: lab-04/assets/square-input.jpg Graphic file (type bmp)
-<lab-04/assets/square-input.jpg>
-File: lab-04/assets/square-output.jpg Graphic file (type bmp)
-<lab-04/assets/square-output.jpg>
-File: lab-04/assets/square-output-with-filter.jpg Graphic file (type bmp)
-<lab-04/assets/square-output-with-filter.jpg>
-File: lab-04/assets/center-tapped-input.jpg Graphic file (type bmp)
-<lab-04/assets/center-tapped-input.jpg>
-File: lab-04/assets/center-tapped-output.jpg Graphic file (type bmp)
-<lab-04/assets/center-tapped-output.jpg>
-File: lab-04/assets/center-tapped-output-with-filter.jpg Graphic file (type bmp)
-<lab-04/assets/center-tapped-output-with-filter.jpg>
- [44]) (lab-04/sections/simulation.tex
-File: lab-04/assets/center-tapped-without-capacitor-schematic.png Graphic file (type bmp)
-<lab-04/assets/center-tapped-without-capacitor-schematic.png>
-File: lab-04/assets/center-tapped-with-capacitor-schematic.png Graphic file (type bmp)
-<lab-04/assets/center-tapped-with-capacitor-schematic.png>
-File: lab-04/assets/center-tapped-without-capacitor-input.png Graphic file (type bmp)
-<lab-04/assets/center-tapped-without-capacitor-input.png>
-File: lab-04/assets/center-tapped-without-capacitor-output.png Graphic file (type bmp)
-<lab-04/assets/center-tapped-without-capacitor-output.png>
-File: lab-04/assets/center-tapped-with-capacitor-output.png Graphic file (type bmp)
-<lab-04/assets/center-tapped-with-capacitor-output.png>
-) (lab-04/sections/discussion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]) (lab-04/sections/conclusion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46]) (lab-04/sections/references.tex)
-Package biblatex Info: Reference section=0 on input line 24.
-) [47] (lab-05/main.tex
-\blx@maxsegment@5=\count532
-\blx@sectionciteorder@5=\count533
-Package biblatex Info: Reference section=5 on input line 1.
-Package biblatex Info: Setting label 'refsection:5' on input line 1.
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-40.0pt
-* \headheight=15.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=85.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-File: cover/ruet_logo.png Graphic file (type bmp)
-<cover/ruet_logo.png>
-File: cover/ruet_logo.png Graphic file (type bmp)
-<cover/ruet_logo.png>
-
-Overfull \hbox (6.58475pt too wide) in paragraph at lines 7--7
-[]|[]| 
- []
-
-[48
-
-
-]
-Chapter 5.
 (lab-05/sections/objectives.tex) (lab-05/sections/theory.tex
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'lab05_SedraSmith' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'lab05_Horowitz' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'lab05_Horowitz' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'lab05_SedraSmith' on page 1 undefined on input line 7.
+
 File: lab-05/assets/theory/positive-clipper.png Graphic file (type bmp)
 <lab-05/assets/theory/positive-clipper.png>
 File: lab-05/assets/theory/negative-clipper.png Graphic file (type bmp)
 <lab-05/assets/theory/negative-clipper.png>
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 1 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 1 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 1 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'lab05_SedraSmith' on page 1 undefined on input line 26.
+
 File: lab-05/assets/theory/negative-bias-positive-clipper.png Graphic file (type bmp)
 <lab-05/assets/theory/negative-bias-positive-clipper.png>
 File: lab-05/assets/theory/positive-bias-negative-clipper.png Graphic file (type bmp)
 <lab-05/assets/theory/positive-bias-negative-clipper.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation 'lab05_Boylestad' on page 1 undefined on input line 41.
 
- [48
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 1 undefined on input line 41.
+
+[1
 
 
 
 ]
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation 'lab05_SedraSmith' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation 'lab05_Horowitz' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'lab05_SedraSmith' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'lab05_Horowitz' on page 2 undefined on input line 50.
+
 File: lab-05/assets/theory/positive-clamper.png Graphic file (type bmp)
 <lab-05/assets/theory/positive-clamper.png>
 File: lab-05/assets/theory/negative-clamper.png Graphic file (type bmp)
 <lab-05/assets/theory/negative-clamper.png>
- [49]
+
+LaTeX Warning: Citation 'lab05_kynix_clamper' on page 2 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'lab05_kynix_clamper' on page 2 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'lab05_SedraSmith' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'lab05_Horowitz' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'lab05_SedraSmith' on page 2 undefined on input line 70.
+
+
+Overfull \hbox (1.6932pt too wide) in paragraph at lines 70--71
+\TU/TimesNewRoman(0)/m/n/12 the output waveform to be shifted upward or downward by a known offset.[]
+ []
+
+[2]
 File: lab-05/assets/theory/biased-clamper.png Graphic file (type bmp)
 <lab-05/assets/theory/biased-clamper.png>
-) (lab-05/sections/apparatus.tex) (lab-05/sections/circuit-diagram.tex (lab-05/sections/subsections/circuit-diagram-clippers.tex
-Underfull \vbox (badness 3713) has occurred while \output is active []
 
- [50]) (lab-05/sections/subsections/circuit-diagram-clampers.tex
+
+LaTeX Warning: Citation 'lab05_kynix_clamper' on page 3 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'lab05_kynix_clamper' on page 3 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'lab05_SedraSmith' on page 3 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'lab05_Boylestad' on page 3 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'lab05_Horowitz' on page 3 undefined on input line 79.
+
+) (lab-05/sections/apparatus.tex [3]) (lab-05/sections/circuit-diagram.tex (lab-05/sections/subsections/circuit-diagram-clippers.tex) (lab-05/sections/subsections/circuit-diagram-clampers.tex
 Overfull \hbox (2.69151pt too wide) in paragraph at lines 56--57
  [][] 
  []
@@ -1770,19 +1373,22 @@ Overfull \hbox (2.69151pt too wide) in paragraph at lines 113--114
  [][] 
  []
 
-)) (lab-05/sections/result.tex (lab-05/sections/subsections/result-positive-circuit.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4])) (lab-05/sections/result.tex (lab-05/sections/subsections/result-positive-circuit.tex
 File: lab-05/assets/clipper/input-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sine-wave.jpeg>
 File: lab-05/assets/clipper/postive-output-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/postive-output-sine-wave.jpeg>
-
-Underfull \vbox (badness 3679) has occurred while \output is active []
-
- [51]
 File: lab-05/assets/clipper/input-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sqaure-wave.jpeg>
 File: lab-05/assets/clipper/postive-output-square-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/postive-output-square-wave.jpeg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 File: lab-05/assets/clipper/input-triangular-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-triangular-wave.jpeg>
 File: lab-05/assets/clipper/postive-output-triangular-wave.jpeg Graphic file (type bmp)
@@ -1792,14 +1398,14 @@ File: lab-05/assets/clipper/input-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sine-wave.jpeg>
 File: lab-05/assets/clipper/negetive-output-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/negetive-output-sine-wave.jpeg>
-
-Underfull \vbox (badness 3240) has occurred while \output is active []
-
- [52]
 File: lab-05/assets/clipper/input-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sqaure-wave.jpeg>
 File: lab-05/assets/clipper/negetive-output-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/negetive-output-sqaure-wave.jpeg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 File: lab-05/assets/clipper/input-triangular-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-triangular-wave.jpeg>
 File: lab-05/assets/clipper/negetive-output-triangular-wave.jpeg Graphic file (type bmp)
@@ -1809,14 +1415,14 @@ File: lab-05/assets/clipper/input-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sine-wave.jpeg>
 File: lab-05/assets/clipper/biased-postive-output-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/biased-postive-output-sine-wave.jpeg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
 File: lab-05/assets/clipper/input-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sqaure-wave.jpeg>
 File: lab-05/assets/clipper/biased-postive-output-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/biased-postive-output-sqaure-wave.jpeg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
 File: lab-05/assets/clipper/input-triangular-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-triangular-wave.jpeg>
 File: lab-05/assets/clipper/biased-postive-output-triangular-wave.jpeg Graphic file (type bmp)
@@ -1826,14 +1432,14 @@ File: lab-05/assets/clipper/input-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sine-wave.jpeg>
 File: lab-05/assets/clipper/negative-clipper-positive-bias-sine.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/negative-clipper-positive-bias-sine.jpeg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54]
 File: lab-05/assets/clipper/input-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sqaure-wave.jpeg>
 File: lab-05/assets/clipper/biased-negative-output-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/biased-negative-output-sqaure-wave.jpeg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 File: lab-05/assets/clipper/input-triangular-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-triangular-wave.jpeg>
 File: lab-05/assets/clipper/biased-negative-output-triangular-wave.jpeg Graphic file (type bmp)
@@ -1843,14 +1449,14 @@ File: lab-05/assets/clipper/input-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sine-wave.jpeg>
 File: lab-05/assets/clipper/negetive-biased-postive-output-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/negetive-biased-postive-output-sine-wave.jpeg>
-
-Underfull \vbox (badness 6001) has occurred while \output is active []
-
- [55]
 File: lab-05/assets/clipper/input-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sqaure-wave.jpeg>
 File: lab-05/assets/clipper/negetive-biased-postive-output-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/negetive-biased-postive-output-sqaure-wave.jpeg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
 File: lab-05/assets/clipper/input-triangular-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-triangular-wave.jpeg>
 File: lab-05/assets/clipper/negetive-biased-postive-output-triangular-wave.jpeg Graphic file (type bmp)
@@ -1860,14 +1466,14 @@ File: lab-05/assets/clipper/input-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sine-wave.jpeg>
 File: lab-05/assets/clipper/biased-negative-output-sine-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/biased-negative-output-sine-wave.jpeg>
-
-Underfull \vbox (badness 6641) has occurred while \output is active []
-
- [56]
 File: lab-05/assets/clipper/input-sqaure-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-sqaure-wave.jpeg>
 File: lab-05/assets/clipper/negative-clipper-negative-bias-sqaure.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/negative-clipper-negative-bias-sqaure.jpeg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 File: lab-05/assets/clipper/input-triangular-wave.jpeg Graphic file (type bmp)
 <lab-05/assets/clipper/input-triangular-wave.jpeg>
 File: lab-05/assets/clipper/negative-clipper-negative-bias-triangle.jpeg Graphic file (type bmp)
@@ -1877,51 +1483,48 @@ File: lab-05/assets/clamper/clamper-input.jpeg Graphic file (type bmp)
 <lab-05/assets/clamper/clamper-input.jpeg>
 File: lab-05/assets/clamper/positive-clamper-output.jpeg Graphic file (type bmp)
 <lab-05/assets/clamper/positive-clamper-output.jpeg>
-)) (lab-05/sections/simulation.tex
-Underfull \vbox (badness 5316) has occurred while \output is active []
-
- [57] (lab-05/sections/subsections/simul-positive-clamper.tex
+)) (lab-05/sections/simulation.tex (lab-05/sections/subsections/simul-positive-clamper.tex
 File: lab-05/assets/clamper-simulation/positive-clamper-schematic.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/positive-clamper-schematic.png>
 File: lab-05/assets/clamper-simulation/positive-clamper-graph.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/positive-clamper-graph.png>
 ) (lab-05/sections/subsections/simul-negative-clamper.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
 File: lab-05/assets/clamper-simulation/negative-clamper-schematic.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/negative-clamper-schematic.png>
 File: lab-05/assets/clamper-simulation/negative-clamper-graph.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/negative-clamper-graph.png>
 ) (lab-05/sections/subsections/simul-positive-clamper-positive-bias.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
 File: lab-05/assets/clamper-simulation/positive-clamper-positive-bias-schematic.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/positive-clamper-positive-bias-schematic.png>
 File: lab-05/assets/clamper-simulation/positive-clamper-positive-bias-graph.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/positive-clamper-positive-bias-graph.png>
 ) (lab-05/sections/subsections/simul-positive-clamper-negative-bias.tex
+Underfull \vbox (badness 7814) has occurred while \output is active []
+
+ [12]
 File: lab-05/assets/clamper-simulation/positive-clamper-negative-bias-schematic.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/positive-clamper-negative-bias-schematic.png>
 File: lab-05/assets/clamper-simulation/positive-clamper-negative-bias-graph.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/positive-clamper-negative-bias-graph.png>
 ) (lab-05/sections/subsections/simul-negative-clamper-positive-bias.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59]
 File: lab-05/assets/clamper-simulation/positive-clamper-negative-bias-schematic.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/positive-clamper-negative-bias-schematic.png>
 File: lab-05/assets/clamper-simulation/positive-clamper-negative-bias-graph.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/positive-clamper-negative-bias-graph.png>
 ) (lab-05/sections/subsections/simul-negative-clamper-negative-bias.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
 File: lab-05/assets/clamper-simulation/negative-clamper-negative-bias-schematic.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/negative-clamper-negative-bias-schematic.png>
 File: lab-05/assets/clamper-simulation/negative-clamper-negative-bias-graph.png Graphic file (type bmp)
 <lab-05/assets/clamper-simulation/negative-clamper-negative-bias-graph.png>
-)) (lab-05/sections/discussion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60]) (lab-05/sections/conclusion.tex) (lab-05/sections/references.tex [61])
+)) (lab-05/sections/discussion.tex [14]) (lab-05/sections/conclusion.tex) (lab-05/sections/references.tex [15])
 Package biblatex Info: Reference section=0 on input line 22.
-) [62] 
+) [16] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux)
  ***********
@@ -1930,21 +1533,35 @@ L3 programming layer <2026-05-26>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CBE3E14C3D00C8FAD005CACA2698B9D4;10183.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 4D8A0ECA4BC943DD56B25EE98F930797;10311
+(rerunfilecheck)             After:  76D86804C03FFE9211DEF78893133BDA;1595.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67145 strings out of 402628
- 1733299 string characters out of 5443460
- 3022928 words of memory out of 5000000
- 95186 multiletter control sequences out of 15000+600000
- 636229 words of font info for 105 fonts, out of 8000000 for 9000
+ 65483 strings out of 402628
+ 1675164 string characters out of 5443460
+ 2998929 words of memory out of 5000000
+ 93739 multiletter control sequences out of 15000+600000
+ 634482 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,19n,120p,1241b,5518s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,16n,120p,1241b,5461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.xdv (67 pages, 1025128 bytes).
+Output written on d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.xdv (17 pages, 275424 bytes).

@@ -1,0 +1,57 @@
+\subsection*{Clippers}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[t]{0.32\linewidth}
+    \centering
+    \begin{circuitikz}[american, scale=0.8, transform shape]
+      \draw (0,0) to[sV,l=$5\,\mathrm{V_{AC}}$] (0,2) to[R,l=$1\,\text{k}\Omega$] (2.5,2) -- (3.5,2) to[D,l=$Si$] (3.5,0) -- (0,0);
+      \draw (3.5,2) node[right]{$V_O$};
+    \end{circuitikz}
+    \caption{Positive Clipper}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.32\linewidth}
+    \centering
+    \begin{circuitikz}[american, scale=0.8, transform shape]
+      \draw (0,0) to[sV,l=$5\,\mathrm{V_{AC}}$] (0,2) to[R,l=$1\,\text{k}\Omega$] (2.5,2) -- (3.5,2) to[D,invert,l=$Si$] (3.5,0) -- (0,0);
+      \draw (3.5,2) node[right]{$V_O$};
+    \end{circuitikz}
+    \caption{Negative Clipper}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.32\linewidth}
+    \centering
+    \begin{circuitikz}[american, scale=0.8, transform shape]
+      \draw (0,0) to[sV,l=$5\,\mathrm{V_{AC}}$] (0,2) to[R,l=$1\,\text{k}\Omega$] (2.5,2) -- (3.5,2) node[above]{$V_O$} to[D,l=$Si$] (3.5,0) to[battery1,l=$V_{B}$,invert] (0,0);
+    \end{circuitikz}
+    \caption{Positive Clipper with Negative Bias}
+  \end{subfigure}
+  \vspace{1em}
+  \begin{subfigure}[t]{0.32\linewidth}
+    \centering
+    \begin{circuitikz}[american, scale=0.8, transform shape]
+      \draw (0,0) to[sV,l=$5\,\mathrm{V_{AC}}$] (0,2) to[R,l=$1\,\text{k}\Omega$] (2.5,2) -- (3.5,2) node[above]{$V_O$} to[D,invert,l=$Si$] (3.5,0) to[battery1,l=$V_{B}$] (0,0);
+    \end{circuitikz}
+    \caption{Negative Clipper with Positive Bias}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.32\linewidth}
+    \centering
+    \begin{circuitikz}[american, scale=0.8, transform shape]
+      \draw (0,0) to[sV,l=$5\,\mathrm{V_{AC}}$] (0,2) to[R,l=$1\,\text{k}\Omega$] (2.5,2) -- (3.5,2) node[above]{$V_O$} to[D,l=$Si$] (3.5,0) to[battery1,l=$V_{B}$] (0,0);
+    \end{circuitikz}
+    \caption{Positive Clipper with Positive Bias}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.32\linewidth}
+    \centering
+    \begin{circuitikz}[american, scale=0.8, transform shape]
+      \draw (0,0) to[sV,l=$5\,\mathrm{V_{AC}}$] (0,2) to[R,l=$1\,\text{k}\Omega$] (2.5,2) -- (3.5,2) node[above]{$V_O$} to[D,invert,l=$Si$] (3.5,0) to[battery1,l=$V_{B}$,invert] (0,0);
+    \end{circuitikz}
+    \caption{Negative Clipper with Negative Bias}
+  \end{subfigure}
+
+  \caption{Six clipper circuit configurations studied in this experiment.}
+\end{figure}
+

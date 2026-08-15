@@ -1,0 +1,80 @@
+\section{Theory}
+\markright{Theory}
+
+\subsection{Clipper Circuits}
+Diode clipper circuits are used to limit the amplitude of an input waveform by removing one half of the signal above or below a reference level.\cite{lab05_Boylestad} In a positive clipper, the diode conducts during the positive half-cycle and prevents the output voltage from rising above the diode threshold.\cite{lab05_SedraSmith} In a negative clipper, the diode conducts during the negative half-cycle and removes the negative-going portion of the waveform.\cite{lab05_Horowitz}
+
+These circuits are widely used in waveform shaping because they can protect sensitive electronic components from excessive voltage and can also help create desired pulse or square-like signals from sinusoidal inputs.\cite{lab05_Horowitz} Their operation depends strongly on the diode polarity, the input signal polarity, and whether an external DC bias is present.\cite{lab05_SedraSmith}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{lab-05/assets/theory/positive-clipper.png}
+    \caption{Positive clipper circuit and waveform.}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{lab-05/assets/theory/negative-clipper.png}
+    \caption{Negative clipper circuit and waveform.}
+  \end{subfigure}
+  \caption{Unbiased diode clipper circuits and their output behavior \cite{lab05_Boylestad}.}
+  \label{lab05_fig:unbiased_clippers}
+\end{figure}
+
+When a DC bias source is connected in series with the diode, the clipping threshold shifts from zero to the bias voltage.\cite{lab05_Boylestad} This allows the circuit to clip at a specified level rather than the nominal diode drop, as shown by the biased configurations below.\cite{lab05_SedraSmith}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{lab-05/assets/theory/negative-bias-positive-clipper.png}
+    \caption{Positive clipper with negative bias.}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{lab-05/assets/theory/positive-bias-negative-clipper.png}
+    \caption{Negative clipper with positive bias.}
+  \end{subfigure}
+  \caption{Biased diode clipper circuits with shifted clipping levels \cite{lab05_Boylestad}.}
+  \label{lab05_fig:biased_clippers}
+\end{figure}
+
+\subsection{Clamper Circuits}
+Clamper circuits use a capacitor and diode to shift the DC level of an input waveform without removing one half of the signal.\cite{lab05_Boylestad} A positive clamper raises the waveform baseline so the output stays above a reference level, while a negative clamper lowers the waveform baseline so the output stays below a reference level.\cite{lab05_SedraSmith}
+
+In a typical clamper, the $10\,\mu\text{F}$ coupling capacitor charges during one half-cycle and then holds the charge, allowing the diode to clamp the waveform around the desired DC offset.\cite{lab05_Horowitz} This makes clampers useful for level shifting and restoring signal reference levels in AC-coupled systems.\cite{lab05_Boylestad}
+
+The performance of a clamper depends on the capacitor charging time, the diode forward drop, and the source frequency, because these factors determine how accurately the output waveform is shifted to the intended level.\cite{lab05_SedraSmith} For this reason, clampers are commonly used in television receivers, communication circuits, and signal-conditioning applications where DC restoration is required.\cite{lab05_Horowitz}
+
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[t]{0.60\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{lab-05/assets/theory/positive-clamper.png}
+    \caption{Positive clamper circuit and waveform.}
+  \end{subfigure}
+  \vspace{1em}
+  \begin{subfigure}[t]{0.60\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{lab-05/assets/theory/negative-clamper.png}
+    \caption{Negative clamper circuit and waveform.}
+  \end{subfigure}
+  \caption{Unbiased clamper circuits that shift the waveform baseline \cite{lab05_kynix_clamper}.}
+  \label{lab05_fig:clampers}
+\end{figure}
+
+Biasing a clamper with a DC source changes the clamped level by the bias amount, allowing the output waveform to be shifted upward or downward by a known offset.\cite{lab05_SedraSmith} A positive clamper with positive bias clamps around a higher reference level, while a positive clamper with negative bias clamps around a lower one.\cite{lab05_Boylestad} Similarly, a negative clamper with positive bias shifts the waveform downward, and a negative clamper with negative bias shifts it further downward.\cite{lab05_Horowitz} In practical terms, a positive clamper biased positively raises the output waveform baseline, whereas a negative clamper biased negatively lowers it further, making the biased clamper useful for precise level shifting and waveform restoration.\cite{lab05_SedraSmith}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{lab-05/assets/theory/biased-clamper.png}
+  \caption{Biased clamper circuits showing shifted output reference levels \cite{lab05_kynix_clamper}.}
+  \label{lab05_fig:biased_clampers}
+\end{figure}
+
+These concepts are fundamental in electronic signal processing because they allow engineers to reshape signals without changing the original source waveform.\cite{lab05_SedraSmith} They are especially valuable in communication and instrumentation systems where precise level control is required.\cite{lab05_Boylestad} By combining clipping and clamping principles, it is possible to design circuits that both limit amplitude and reposition the waveform baseline effectively.\cite{lab05_Horowitz}
+
