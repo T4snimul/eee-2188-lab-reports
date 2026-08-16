@@ -1,21 +1,22 @@
 # Fdb version 4
-["biber build/main"] 1786801999.82011 "build/main.bcf" "build/main.bbl" "build/main" 1786802330.20096 0
-  "build/main.bcf" 1786802328 110907 04e96e45f98d7b20f7eece1e2fe07bdb "xelatex"
+["biber build/main"] 1786804199.00062 "build/main.bcf" "build/main.bbl" "build/main" 1786804228.36147 0
+  "build/main.bcf" 1786804225 109374 af35ffb23fae9d3082bf45fa4bc46963 "xelatex"
   "lab-01/references.bib" 1782494642 6783 463eb73a3c33fa9bf8f0ee7251c84738 ""
   "lab-02/references.bib" 1783196733 1723 19abd29a11ecee2003426b4c77cf9c8d ""
   "lab-03/references.bib" 1783807591 719 7b3b868a69077b4bc3a83faf70ae1546 ""
   "lab-04/references.bib" 1784428749 1616 465aa0899d55ec0b7e8e8c89477da958 ""
   "lab-05/references.bib" 1785288670 1226 5d5fcfaa83719f3a0f673277f03d7c4f ""
+  "lab-07/references.bib" 1786804197 1100 1e1e010be9965b782309a5ee53c4f41b ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1786802328.5061 "build/main.xdv" "build/main.pdf" "build/main" 1786802330.21666 0
-  "build/main.xdv" 1786802328 231300 db51affb2bc48fa8f04e44235401eee5 "xelatex"
+["xdvipdfmx"] 1786804227.07881 "build/main.xdv" "build/main.pdf" "build/main" 1786804228.44469 0
+  "build/main.xdv" 1786804225 209148 32173bd964c0d7f6ace7405461379522 "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1786802319.93285 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1786802330.20129 0
+["xelatex"] 1786804215.43995 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1786804228.36355 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -269,10 +270,10 @@
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "build/main.aux" 1786802328 15324 e093e836f11c6c85d12264ed44fa7495 "xelatex"
-  "build/main.bbl" 1786802131 6047 5fdf0765e9acabe658546f76fe988b02 "biber build/main"
-  "build/main.out" 1786802328 1715 dc8de1eae0b406f9c0a2038751630968 "xelatex"
-  "build/main.run.xml" 1786802328 2608 315cdb9022db8ea9f23b35e7fc831e2e "xelatex"
+  "build/main.aux" 1786804225 12602 6f23a31d83594ed13a70c169e9185daf "xelatex"
+  "build/main.bbl" 1786804203 5999 18f805b9dbd952f2d64799d83f187455 "biber build/main"
+  "build/main.out" 1786804225 1865 47d3c2a1472ebb47640d6d6721f3c797 "xelatex"
+  "build/main.run.xml" 1786804225 2649 c9df2577b4478b4f86078cb8b0acefe2 "xelatex"
   "cover/background.tex" 1782212937 586 4650988d5bb8dad5d0b3099fcc416e02 ""
   "cover/layout.tex" 1782510752 2157 d697028fca3136dd8394d6730c8a9549 ""
   "cover/main.tex" 1782513137 46 88e26ffaacba6a6f97d058ab3a9255de ""
@@ -312,13 +313,6 @@
   "lab-05/assets/clipper/postive-output-sine-wave.jpeg" 1785041441 190254 2e12b12abaae085090d8abc9ea0d3623 ""
   "lab-05/assets/clipper/postive-output-square-wave.jpeg" 1785041457 186565 5082d823d34b74b4c6c89ef768105456 ""
   "lab-05/assets/clipper/postive-output-triangular-wave.jpeg" 1785041478 201439 1cbfc06ec772794d9fd7fa4ec242386b ""
-  "lab-05/assets/theory/biased-clamper.png" 1785288233 88873 793ea5ce4d0d303fef35c2c85e2ebaab ""
-  "lab-05/assets/theory/negative-bias-positive-clipper.png" 1785045128 25641 8274c3d7cd65ef30b2be2b42adce977f ""
-  "lab-05/assets/theory/negative-clamper.png" 1785288262 44503 bb2bb3d39cd5e72fcf4ab3c6982df1a1 ""
-  "lab-05/assets/theory/negative-clipper.png" 1785045101 22116 85020b22a3071c408c5f2925ea5d9622 ""
-  "lab-05/assets/theory/positive-bias-negative-clipper.png" 1785045192 24912 a945595ae0a1e1c53acc09916764b619 ""
-  "lab-05/assets/theory/positive-clamper.png" 1785288215 32832 11ef636965a3ef1fdb609876c7c8b40d ""
-  "lab-05/assets/theory/positive-clipper.png" 1785045072 33738 6fac831965133eb000f7aa10026d4345 ""
   "lab-05/sections/subsections/circuit-diagram-clampers.tex" 1785277979 3262 fb0e330344f392b38df16717df3a340e ""
   "lab-05/sections/subsections/circuit-diagram-clippers.tex" 1785277980 2502 c68eb2d7fa5da80f56046f62d6f1324e ""
   "lab-05/sections/subsections/result-negative-circuit-negative-bias.tex" 1785274966 1983 1ec70635ebbee8c1adcff6e5f112fda0 ""
@@ -343,10 +337,10 @@
   "lab-07/sections/references.tex" 1782667881 40 f432cb32d1625914478fb31dbf677237 ""
   "lab-07/sections/result.tex" 1785277105 523 b5c0662b3319b3074b79ae3fc1dd989e ""
   "lab-07/sections/simulation.tex" 1785283633 464 353ce8e8fa3785635911807c20862c3f ""
-  "lab-07/sections/theory.tex" 1785288768 5872 82ad9794ca9f8aca8938964f9309bb9c ""
+  "lab-07/sections/theory.tex" 1786803488 3142 aa0544803eb6149e988a32e2c6e441bc ""
   "main.tex" 1786801993 348 876521c1473e94d50a8e3d3f3713bdda ""
   "metadata.tex" 1782625622 676 a750cc6c465330f214a99ab8b167cb79 ""
-  "preamble.tex" 1785036216 4654 71e85fb2f9bd5e8843d7138a75f2a411 ""
+  "preamble.tex" 1786803444 4693 a88b299a29815391e278ba9588acd1b4 ""
   (generated)
   "build/main.aux"
   "build/main.bcf"

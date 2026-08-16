@@ -19,37 +19,42 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global/global}
-    \entry{lab05_Boylestad}{book}{}{}
-      \name{author}{1}{}{%
+    \entry{boylestad2007}{book}{}{}
+      \name{author}{2}{}{%
         {{hash=8badf6f5cd034153c1b8f209f1d539ca}{%
            family={Boylestad},
            familyi={B\bibinitperiod},
            given={Robert\bibnamedelima L.},
            giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=73f3ba640ee56c4e4ebc64767f679796}{%
+           family={Nashelsky},
+           familyi={N\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Boston, MA}%
       }
       \list{publisher}{1}{%
-        {Pearson}%
+        {Prentice Hall}%
       }
-      \strng{namehash}{8badf6f5cd034153c1b8f209f1d539ca}
-      \strng{fullhash}{8badf6f5cd034153c1b8f209f1d539ca}
-      \strng{fullhashraw}{8badf6f5cd034153c1b8f209f1d539ca}
-      \strng{bibnamehash}{8badf6f5cd034153c1b8f209f1d539ca}
-      \strng{authorbibnamehash}{8badf6f5cd034153c1b8f209f1d539ca}
-      \strng{authornamehash}{8badf6f5cd034153c1b8f209f1d539ca}
-      \strng{authorfullhash}{8badf6f5cd034153c1b8f209f1d539ca}
-      \strng{authorfullhashraw}{8badf6f5cd034153c1b8f209f1d539ca}
+      \strng{namehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{fullhash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{fullhashraw}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{bibnamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorbibnamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authornamehash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorfullhash}{ec1c6a27869deb4d710aba450b8f07c9}
+      \strng{authorfullhashraw}{ec1c6a27869deb4d710aba450b8f07c9}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{11th}
+      \field{edition}{9th}
       \field{title}{Electronic Devices and Circuit Theory}
-      \field{year}{2012}
+      \field{year}{2007}
     \endentry
-    \entry{lab05_SedraSmith}{book}{}{}
+    \entry{sedra1991}{book}{}{}
       \name{author}{2}{}{%
         {{hash=6274f02c652321416b74b77a1091a91f}{%
            family={Sedra},
@@ -66,7 +71,7 @@
         {New York, NY}%
       }
       \list{publisher}{1}{%
-        {Oxford University Press}%
+        {Saunders College Publishing}%
       }
       \strng{namehash}{4f054d7e6cf584e2fcd724eb800a4125}
       \strng{fullhash}{4f054d7e6cf584e2fcd724eb800a4125}
@@ -76,79 +81,74 @@
       \strng{authornamehash}{4f054d7e6cf584e2fcd724eb800a4125}
       \strng{authorfullhash}{4f054d7e6cf584e2fcd724eb800a4125}
       \strng{authorfullhashraw}{4f054d7e6cf584e2fcd724eb800a4125}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{7th}
-      \field{title}{Microelectronic Circuits}
-      \field{year}{2014}
-    \endentry
-    \entry{lab05_Horowitz}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=eae852313f1caa761b4d50ecf145958c}{%
-           family={Horowitz},
-           familyi={H\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=4b7649fd9463dfa43a32e8ce571338f0}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={Winfield},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, UK}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{9765a7171294b7f07dfa61426a4924f7}
-      \strng{fullhash}{9765a7171294b7f07dfa61426a4924f7}
-      \strng{fullhashraw}{9765a7171294b7f07dfa61426a4924f7}
-      \strng{bibnamehash}{9765a7171294b7f07dfa61426a4924f7}
-      \strng{authorbibnamehash}{9765a7171294b7f07dfa61426a4924f7}
-      \strng{authornamehash}{9765a7171294b7f07dfa61426a4924f7}
-      \strng{authorfullhash}{9765a7171294b7f07dfa61426a4924f7}
-      \strng{authorfullhashraw}{9765a7171294b7f07dfa61426a4924f7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{3rd}
-      \field{title}{The Art of Electronics}
-      \field{year}{2015}
-    \endentry
-    \entry{lab05_kynix_clamper}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=ced00c7f13bf507d30d42b3b3e2f6ba3}{%
-           family={{Kynix Semiconductor}},
-           familyi={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{ced00c7f13bf507d30d42b3b3e2f6ba3}
-      \strng{fullhash}{ced00c7f13bf507d30d42b3b3e2f6ba3}
-      \strng{fullhashraw}{ced00c7f13bf507d30d42b3b3e2f6ba3}
-      \strng{bibnamehash}{ced00c7f13bf507d30d42b3b3e2f6ba3}
-      \strng{authorbibnamehash}{ced00c7f13bf507d30d42b3b3e2f6ba3}
-      \strng{authornamehash}{ced00c7f13bf507d30d42b3b3e2f6ba3}
-      \strng{authorfullhash}{ced00c7f13bf507d30d42b3b3e2f6ba3}
-      \strng{authorfullhashraw}{ced00c7f13bf507d30d42b3b3e2f6ba3}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Diode Clamper Circuits Applications and Types Comparison}
-      \field{urlday}{29}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.kynix.com/Blog/diode-clamper-circuits-applications-and-types-comparisons.html
-      \endverb
-      \verb{url}
-      \verb https://www.kynix.com/Blog/diode-clamper-circuits-applications-and-types-comparisons.html
-      \endverb
+      \field{edition}{3rd}
+      \field{title}{Microelectronic Circuits}
+      \field{year}{1991}
+    \endentry
+    \entry{keown2001}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=47ade5ccea7b247aa84c37be12c9f58e}{%
+           family={Keown},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{47ade5ccea7b247aa84c37be12c9f58e}
+      \strng{fullhash}{47ade5ccea7b247aa84c37be12c9f58e}
+      \strng{fullhashraw}{47ade5ccea7b247aa84c37be12c9f58e}
+      \strng{bibnamehash}{47ade5ccea7b247aa84c37be12c9f58e}
+      \strng{authorbibnamehash}{47ade5ccea7b247aa84c37be12c9f58e}
+      \strng{authornamehash}{47ade5ccea7b247aa84c37be12c9f58e}
+      \strng{authorfullhash}{47ade5ccea7b247aa84c37be12c9f58e}
+      \strng{authorfullhashraw}{47ade5ccea7b247aa84c37be12c9f58e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ORCAD PSpice and Circuit Analysis}
+      \field{year}{2001}
+    \endentry
+    \entry{comer2002}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=76c0ca572d9b87a78443c6ba91077b8c}{%
+           family={Comer},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c992ab07f441e84bc6b30cabe14ae983}{%
+           family={Comer},
+           familyi={C\bibinitperiod},
+           given={Donald\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Canada}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons Canada}%
+      }
+      \strng{namehash}{95b07e3eb8974a8fef0e005343f5c5b4}
+      \strng{fullhash}{95b07e3eb8974a8fef0e005343f5c5b4}
+      \strng{fullhashraw}{95b07e3eb8974a8fef0e005343f5c5b4}
+      \strng{bibnamehash}{95b07e3eb8974a8fef0e005343f5c5b4}
+      \strng{authorbibnamehash}{95b07e3eb8974a8fef0e005343f5c5b4}
+      \strng{authornamehash}{95b07e3eb8974a8fef0e005343f5c5b4}
+      \strng{authorfullhash}{95b07e3eb8974a8fef0e005343f5c5b4}
+      \strng{authorfullhashraw}{95b07e3eb8974a8fef0e005343f5c5b4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of Electronic Circuit Design}
+      \field{year}{2002}
     \endentry
   \enddatalist
 \endrefsection
