@@ -1,65 +1,55 @@
 \section{Theory}
 \markright{Theory}
 
-The transformation of an AC signal into a DC signal is fundamentally achieved through the process of
-rectification. Diodes conduct when forward-biased and block when reverse-biased, so an AC-driven
-diode passes only one half-cycle and produces a unidirectional output; rectifiers are commonly
-categorized as half-wave or full-wave \cite{lab04_mehta2012}.
+A rectifier is an electronic circuit that converts alternating current (AC) into pulsating direct current (DC). Diodes are fundamental components used in rectification because they only permit current to flow in one direction when forward-biased and block current when reverse-biased \cite{lab04_mehta2012}. While a single diode can accomplish half-wave rectification, allowing only one half-cycle of the AC signal to pass through, a full-wave rectifier utilizes multiple diodes to convert both positive and negative half-cycles of the input AC signal into DC output \cite{lab04_boylestad2013}.
 
-Full-wave rectifiers use both half-cycles, yielding a higher average DC output and better efficiency
-than half-wave designs \cite{lab04_boylestad2013}. Common full-wave implementations are the
-center-tapped transformer rectifier and the bridge rectifier; the center-tapped design connects two
-diodes to the transformer ends with the load at the center tap, as shown in Figure \ref{lab04_fig:center_tapped}.
+\subsection{Full-Wave Rectifier Configurations}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.6\textwidth]{lab-04/assets/theory-center-tapped.jpg}
-  \caption{Full wave rectifier using center tapped transformer showing input and output waveforms. \cite{lab04_madeeasy_rectifier}}
-  \label{lab04_fig:center_tapped}
-\end{figure}
+There are two primary types of full-wave rectifiers:
 
-Compared to the half-wave alternative, the center-tapped circuit offers several distinct advantages,
-including a higher average DC output and reduced power waste \cite{lab04_mehta2012}. Additionally, the
-output waveform produced by this method is notably smoother than that of a half-wave rectifier \cite
-{lab04_boylestad2013}. However, this configuration also presents specific drawbacks, as it demands
-additional physical room within a chassis and is often considered sturdy or bulky due to the
-requirements of the specialized center-tapped transformer \cite{lab04_mehta2012}.
+\paragraph{Center-Tapped Transformer Rectifier:}
+This configuration uses a center-tapped transformer whose secondary winding is divided into two equal halves. Two silicon diodes are connected to the transformer ends, with the load resistor $R_L$ positioned between the diodes and the center tap. During the positive half-cycle of the AC input, the upper diode conducts while the lower diode is reverse-biased. During the negative half-cycle, this condition reverses, and the lower diode conducts. This arrangement ensures that current flows through the load resistor in the same direction during both half-cycles, as illustrated in Figure \ref{fig:center_tapped_circuit}.
 
-The full-wave bridge rectifier is a circuit that converts both half-cycles of an input alternating
-current (AC) to direct current (DC) using four diodes arranged in a bridge pattern \cite
-{lab04_boylestad2013}. This design is highly advantageous because it mitigates the drawbacks associated
-with the center-tapped transformer, specifically eliminating the need for a specialized tap while
-maintaining high efficiency \cite{lab04_mehta2012}. The standard bridge configuration is shown in
-Figure \ref{lab04_fig:bridge_rectifier}.
+\paragraph{Full-Wave Bridge Rectifier:}
+The bridge rectifier configuration, shown in Figure \ref{fig:bridge_circuit}, uses four diodes arranged in a diamond configuration around the load resistor. During the positive half-cycle, two diodes (opposite corners) conduct simultaneously, while during the negative half-cycle, the other two diodes conduct. This configuration provides full-wave rectification without requiring a center-tapped transformer.
 
 \begin{figure}[htbp]
   \centering
-
-  \begin{subfigure}{0.40\textwidth}
-    \includegraphics{lab-04/assets/theory-full-wave-bridge-rectifier.png}
-    \caption{}
-  \end{subfigure}
-  \begin{subfigure}{0.30\textwidth}
-    \includegraphics{lab-04/assets/theory-full-wave-resulting-wave.png}
-    \caption{}
-  \end{subfigure}
-
-  \caption{Full Wave Bridge Rectifier (a) circuit and (b) resulting wave shapes.\cite{lab04_boylestad2013}}
-  \label{lab04_fig:bridge_rectifier}
+  \includegraphics[width=0.85\textwidth]{lab-04/assets/center-tapped-without-capacitor-schematic.png}
+  \caption{Full-wave rectifier using center-tapped transformer with input (left, AC) and output (right, rectified DC) waveforms. The center tap provides a reference point for two parallel diode branches \cite{lab04_gemini2026image_center}.}
+  \label{fig:center_tapped_circuit}
 \end{figure}
 
-On the other hand, even a full-wave rectifier is unable to provide a perfectly steady DC voltage on its
-own; the output is typically rippled as a result of the pulsating nature of the rectified sine wave
-\cite{lab04_mehta2012}. To achieve a more stable output, a filter capacitor is placed across the load,
-allowing this ripple to be significantly lessened by smoothing the voltage fluctuations \cite
-{lab04_boylestad2013}. The circuit implementation for a bridge rectifier utilizing a capacitor filter
-is shown in Figure \ref{lab04_fig:bridge_capacitor}.
+\subsection{Comparison of Full-Wave and Half-Wave Rectification}
 
-\begin{figure}[H]
+The full-wave rectifier offers several significant advantages over the half-wave rectifier \cite{lab04_boylestad2013}:
+
+\begin{enumerate}
+  \setlength{\itemsep}{2pt}
+        \setlength{\parskip}{2pt}
+        \setlength{\parsep}{0pt}
+  \item \textbf{Higher average DC output:} The full-wave rectifier produces twice the average DC voltage compared to a half-wave rectifier for the same input amplitude
+  \item \textbf{Reduced ripple:} The output waveform is smoother because the output pulses occur at twice the frequency of the input
+  \item \textbf{Reduced power loss:} More efficient power conversion due to utilization of both half-cycles
+  \item \textbf{Better filtering:} Easier to filter and reduce ripple using smaller capacitors
+\end{enumerate}
+
+However, the center-tapped configuration has drawbacks: it requires a center-tapped transformer (which is bulkier and more expensive) and takes up additional space. The bridge rectifier eliminates the need for a center-tapped transformer, making it more compact and cost-effective.
+
+\subsection{Filter Capacitor and Output Smoothing}
+
+When a capacitor is connected across the load resistor, it charges during the conducting phase of the diodes and discharges through the load during the non-conducting phase. This filtering action significantly reduces the ripple voltage in the output, providing a more stable DC output. However, the capacitor creates a higher peak current demand, which can stress the diodes. The percent loss is calculated using Eq. \eqref{eq:percent_loss}:
+
+\begin{equation}
+  \% \text{ of loss} = \frac{V_{\text{in}} - V_{\text{out}}}{V_{\text{in}}} \times 100\%
+  \label{eq:percent_loss}
+\end{equation}
+
+\begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.65\textwidth]{lab-04/assets/theory-full-wave-bridge-rectifier-with-filter.png}
-  \caption{Circuit Diagram for Full Wave Bridge Rectifier including a filter capacitor. \cite
-    {lab04_gemini_bridge_filter_circuit}}
-  \label{lab04_fig:bridge_capacitor}
+  \includegraphics[width=0.85\textwidth]{lab-04/assets/center-tapped-without-capacitor-input.png}
+  \caption{Comparison of rectifier outputs: Input AC waveform (approximately $V_{pp} = 24V$) and rectified output showing the characteristic full-wave rectification pattern with ripple. The use of a filter capacitor significantly smooths the output voltage \cite{lab04_gemini2026image_center}.}
+  \label{fig:rectifier_waveforms}
 \end{figure}
-5
+
+The rectification process depends on the forward voltage drop across the diodes (approximately $0.6\text{--}0.7\,\text{V}$ for silicon diodes) and the characteristics of the input signal. Different input waveforms (sinusoidal, triangular, or square) produce different peak voltages at the output, thus affecting the rectification efficiency and voltage loss \cite{lab04_mehta2012}.

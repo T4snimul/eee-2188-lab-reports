@@ -1,0 +1,11 @@
+*
+V1 N001 0 0
+R1 N002 N001 217
+D1 0 N002 1N4733A
+.model D D
+.lib C:\Users\tanim\AppData\Local\LTspice\lib\cmp\standard.dio
+.model 1N4733A D(Is=7.03E-16 Rs=0.871 Tt=50.1n Cjo=189p Vj=0.75 M=0.33
++ BV=5.059 Ibv=0.049 Vpk=5.1)
+.dc V1 0 10 0.01
+.backanno
+.end

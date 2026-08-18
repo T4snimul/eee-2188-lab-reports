@@ -1,72 +1,55 @@
 \section{Calculation}
 \markright{Calculation}
 
-Using the measured input and output voltages from the data table, the following relations were used:
+The percent loss for each configuration and wave type is calculated using the measured input and output voltages. The percent loss indicates the voltage drop across the diodes and the efficiency of the rectification process.
 
+\subsection{Bridge Rectifier without Capacitor}
+
+\subsubsection{Sinusoidal Wave:}
 \begin{equation}
-  \%\,\text{loss}=\frac{V_{\text{in}}-V_{\text{out}}}{V_{\text{in}}}\times 100\%
+  \% \text{ of loss} = \frac{V_{\text{in}} - V_{\text{out}}}{V_{\text{in}}} \times 100\%
+  = \frac{13.2 - 12.0}{13.2} \times 100\% = 9.09\%
 \end{equation}
 
+\subsubsection{Triangular Wave:}
 \begin{equation}
-  \eta=\frac{V_{\text{out}}}{V_{\text{in}}}\times 100\%
+  \% \text{ of loss} = \frac{12.2 - 11.4}{12.2} \times 100\% = 6.56\%
 \end{equation}
 
+\subsubsection{Square Wave:}
 \begin{equation}
-  r_f=\left|\frac{V_{\text{out, without cap}}-V_{\text{out, with cap}}}{V_{\text{out, without cap}}}\right|
+  \% \text{ of loss} = \frac{11.8 - 10.8}{11.8} \times 100\% = 8.48\%
 \end{equation}
 
+\subsection{Bridge Rectifier with Capacitor (10\,$\mu$F)}
+
+The presence of a filter capacitor reduces the output ripple but increases voltage loss due to the charging characteristics and diode forward voltage drop under higher peak currents.
+
+\subsubsection{Sinusoidal Wave:}
 \begin{equation}
-  \%\,\text{ripple}=r_f\times 100\%
+  \% \text{ of loss} = \frac{13.5 - 3.8}{13.5} \times 100\% = 71.85\%
 \end{equation}
 
-For the bridge rectifier:
-
-\begin{itemize}
-  \item Sinusoidal:
-
-        \begin{equation}
-          \%\,\text{loss (with cap)}=\frac{1.01-4.46}{1.01}\times 100\% \approx \boxed{99.56\%},\quad \eta=\frac{4.46}{1.01}\times 100\% \approx \boxed{0.44\%}
-        \end{equation}
-        \begin{equation}
-          \%\,\text{loss (without cap)}=\frac{1.01-411.33}{1.01}\times 100\% \approx \boxed{59.27\%},\quad \eta=\frac{411.33}{1.01}\times 100\% \approx \boxed{40.73\%}
-        \end{equation}
-        \begin{equation}
-          r_f=\left|\frac{411.33-4.46}{411.33}\right| \approx \boxed{0.989},\quad \%\,\text{ripple}=0.989\times 100\% \approx \boxed{98.91\%}
-        \end{equation}
-
-  \item Triangular:
-        \begin{equation}
-          \%\,\text{loss (with cap)}=\frac{0.73-4.62}{0.73}\times 100\% \approx \boxed{99.37\%},\quad \eta=\frac{4.62}{0.73}\times 100\% \approx \boxed{0.63\%}
-        \end{equation}
-        \begin{equation}
-          \%\,\text{loss (without cap)}=\frac{0.73-345.83}{0.73}\times 100\% \approx \boxed{52.70\%},\quad \eta=\frac{345.83}{0.73}\times 100\% \approx \boxed{47.30\%}
-        \end{equation}
-        \begin{equation}
-          r_f=\left|\frac{345.83-4.62}{345.83}\right| \approx \boxed{0.987},\quad \%\,\text{ripple}=0.987\times 100\% \approx \boxed{98.66\%}
-        \end{equation}
-
-  \item Square:
-        \begin{equation}
-          \%\,\text{loss (with cap)}=\frac{1.24-1.32}{1.24}\times 100\% \approx \boxed{99.89\%},\quad \eta=\frac{1.32}{1.24}\times 100\% \approx \boxed{0.11\%}
-        \end{equation}
-        \begin{equation}
-          \%\,\text{loss (without cap)}=\frac{1.24-438.41}{1.24}\times 100\% \approx \boxed{64.64\%},\quad \eta=\frac{438.41}{1.24}\times 100\% \approx \boxed{35.36\%}
-        \end{equation}
-        \begin{equation}
-          r_f=\left|\frac{438.41-1.32}{438.41}\right| \approx \boxed{0.997},\quad \%\,\text{ripple}=0.997\times 100\% \approx \boxed{99.70\%}
-        \end{equation}
-\end{itemize}
-
-For the center-tapped transformer:
-
+\subsubsection{Triangular Wave:}
 \begin{equation}
-  \%\,\text{loss (with cap)}=\frac{1.40-1.36}{1.40}\times 100\% \approx \boxed{2.86\%},\quad \eta=\frac{1.36}{1.40}\times 100\% \approx \boxed{97.14\%}
+  \% \text{ of loss} = \frac{12.1 - 4.2}{12.1} \times 100\% = 65.29\%
 \end{equation}
 
+\subsubsection{Square Wave:}
 \begin{equation}
-  \%\,\text{loss (without cap)}=\frac{1.40-1.13}{1.40}\times 100\% \approx \boxed{19.29\%},\quad \eta=\frac{1.13}{1.40}\times 100\% \approx \boxed{80.71\%}
+  \% \text{ of loss} = \frac{11.8 - 4.9}{11.8} \times 100\% = 58.47\%
 \end{equation}
 
+\subsection{Center-Tapped Transformer Rectifier with Capacitor (10\,$\mu$F)}
+
+\subsubsection{Sinusoidal Wave:}
 \begin{equation}
-  r_f=\left|\frac{1.13-1.36}{1.13}\right| \approx \boxed{0.203},\quad \%\,\text{ripple}=0.203\times 100\% \approx \boxed{20.35\%}
+  \% \text{ of loss} = \frac{22.6 - 20.3}{22.6} \times 100\% = 10.18\%
+\end{equation}
+
+\subsection{Center-Tapped Transformer Rectifier without Capacitor}
+
+\subsubsection{Sinusoidal Wave:}
+\begin{equation}
+  \% \text{ of loss} = \frac{22.3 - 21.4}{22.3} \times 100\% = 4.04\%
 \end{equation}

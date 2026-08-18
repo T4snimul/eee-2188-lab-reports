@@ -24,12 +24,13 @@
   ],
 
   "files.exclude": {
-    "src/build": true,
-    // "src/cover": true,
+    // "src/build": true,
+    "src/cover": true,
     "src/lab-01": true,
     "src/lab-02": true,
     "src/lab-03": true,
     "src/lab-04": true,
-    "src/lab-05": true
+    "src/lab-05": true,
+    "src/lab-07": true
   }
 }

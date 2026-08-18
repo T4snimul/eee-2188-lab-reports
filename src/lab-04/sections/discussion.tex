@@ -1,4 +1,44 @@
 \section{Discussion}
 \markright{Discussion}
 
-During the experiment we encountered problems with the oscilloscope, intermittent triggering, noisy traces, and apparent probe/grounding issues, which produced distorted and inconsistent waveform readings. We also tried to simulate the center-tapped transformer and it worked as expected. These instrument problems led to unreliable peak and RMS measurements and increased apparent ripple, causing our numerical results (loss, efficiency and ripple) to deviate significantly from theoretical expectations. Because the scope behavior affected multiple runs, the trends observed (for example, that adding a capacitor reduces ripple) remain qualitatively valid, but the quantitative values should be regarded as tentative until measurements are repeated with corrected probe compensation, secure ground connections, and verified timebase/trigger settings.
+The experimental results demonstrate the effectiveness of full-wave rectification in converting AC signals to DC. Key observations include:
+
+\subsection{Voltage Loss Analysis}
+
+The percent loss with capacitor is significantly higher (58\%--72\%) compared to without capacitor (4\%--9\%). This is because the capacitor charges to the peak voltage of the rectified waveform, and the average output voltage measurement reflects the voltage across both the capacitor and the load during the charging and discharging cycles. Without the capacitor, the output voltage more closely represents the peak rectified voltage minus the diode forward voltage drop ($\approx 1.4\,\text{V}$ for two series diodes in the bridge configuration).
+
+\subsection{Effect of Waveform Shape}
+
+Different input waveforms produced varying voltage losses:
+\begin{itemize}
+  \item Sinusoidal waves exhibited the highest loss, particularly with the capacitor (71.85\%), due to their gradually varying peak voltages
+  \item Triangular waves showed intermediate loss values (65.29\% with capacitor)
+  \item Square waves demonstrated the lowest loss percentages (58.47\% with capacitor), as they maintain constant peak amplitude
+\end{itemize}
+
+This variation is attributed to the relationship between the peak voltage and the average voltage for each waveform type. Sinusoidal waves have a lower average-to-peak ratio compared to triangular and square waves.
+
+\subsection{Center-Tapped versus Bridge Rectifier}
+
+The center-tapped transformer configuration exhibited lower voltage loss (10.18\% with capacitor, 4.04\% without) compared to the bridge rectifier. This is because:
+\begin{itemize}
+  \item Only one diode conducts per half-cycle in a center-tapped rectifier, resulting in a single forward voltage drop ($\approx 0.7\,\text{V}$)
+  \item The bridge rectifier has two diodes in series per half-cycle, resulting in two forward voltage drops ($\approx 1.4\,\text{V}$)
+\end{itemize}
+
+However, the bridge rectifier offers practical advantages: it eliminates the need for a center-tapped transformer, uses standard transformers, and occupies less space.
+
+\subsection{Filter Capacitor Effect}
+
+The 10\,$\mu$F filter capacitor significantly reduced the output ripple voltage. While the capacitor increased the measured voltage loss in terms of peak-to-average voltage difference, it provided a crucial benefit: a much smoother and more stable DC output suitable for powering electronic devices. The trade-off between ripple reduction and voltage loss is an important design consideration in rectifier circuits.
+
+\subsection{Experimental Challenges}
+
+Some deviations from theoretical predictions may be attributed to:
+\begin{itemize}
+  \item Oscilloscope probe loading and measurement inaccuracies
+  \item Transformer impedance and core losses
+  \item Diode temperature variations affecting forward voltage drop
+  \item Capacitor leakage current and equivalent series resistance (ESR)
+  \item Finite signal generator output impedance
+\end{itemize}

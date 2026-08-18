@@ -1,32 +1,32 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'build/main.blg'
-[206] biber-MSWIN64:342> INFO - === 
-[282] Biber.pm:421> INFO - Reading 'build/main.bcf'
-[436] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[436] Biber.pm:1002> INFO - Found 4 citekeys in bib section 1
-[436] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[459] Biber.pm:4487> INFO - Processing section 1
-[474] Biber.pm:4678> INFO - Looking for bibtex file 'lab-01/references.bib' for section 1
-[592] bibtex.pm:1713> INFO - LaTeX decoding ...
-[624] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-01/references.bib'
-[649] Biber.pm:4678> INFO - Looking for bibtex file 'lab-02/references.bib' for section 1
-[751] bibtex.pm:1713> INFO - LaTeX decoding ...
-[765] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-02/references.bib'
-[770] Biber.pm:4678> INFO - Looking for bibtex file 'lab-03/references.bib' for section 1
-[868] bibtex.pm:1713> INFO - LaTeX decoding ...
-[876] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-03/references.bib'
-[884] Biber.pm:4678> INFO - Looking for bibtex file 'lab-04/references.bib' for section 1
-[1011] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1033] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-04/references.bib'
-[1039] Biber.pm:4678> INFO - Looking for bibtex file 'lab-05/references.bib' for section 1
-[1225] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1249] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-05/references.bib'
-[1255] Biber.pm:4678> INFO - Looking for bibtex file 'lab-07/references.bib' for section 1
-[1407] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1450] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-07/references.bib'
-[1574] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1574] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1574] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1574] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1584] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[1588] bbl.pm:779> INFO - Output to build/main.bbl
+[115] biber-MSWIN64:342> INFO - === 
+[155] Biber.pm:421> INFO - Reading 'build/main.bcf'
+[255] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[255] Biber.pm:1002> INFO - Found 4 citekeys in bib section 1
+[255] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[268] Biber.pm:4487> INFO - Processing section 1
+[280] Biber.pm:4678> INFO - Looking for bibtex file 'lab-01/references.bib' for section 1
+[340] bibtex.pm:1713> INFO - LaTeX decoding ...
+[362] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-01/references.bib'
+[408] Biber.pm:4678> INFO - Looking for bibtex file 'lab-02/references.bib' for section 1
+[492] bibtex.pm:1713> INFO - LaTeX decoding ...
+[501] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-02/references.bib'
+[506] Biber.pm:4678> INFO - Looking for bibtex file 'lab-03/references.bib' for section 1
+[572] bibtex.pm:1713> INFO - LaTeX decoding ...
+[589] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-03/references.bib'
+[598] Biber.pm:4678> INFO - Looking for bibtex file 'lab-04/references.bib' for section 1
+[668] bibtex.pm:1713> INFO - LaTeX decoding ...
+[680] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-04/references.bib'
+[686] Biber.pm:4678> INFO - Looking for bibtex file 'lab-05/references.bib' for section 1
+[755] bibtex.pm:1713> INFO - LaTeX decoding ...
+[763] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-05/references.bib'
+[768] Biber.pm:4678> INFO - Looking for bibtex file 'lab-06/references.bib' for section 1
+[830] bibtex.pm:1713> INFO - LaTeX decoding ...
+[838] bibtex.pm:1519> INFO - Found BibTeX data source 'lab-06/references.bib'
+[879] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[879] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[879] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[879] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[881] bbl.pm:676> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[883] bbl.pm:779> INFO - Output to build/main.bbl

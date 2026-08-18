@@ -1,22 +1,17 @@
 # Fdb version 4
-["biber build/main"] 1787089810.30632 "build/main.bcf" "build/main.bbl" "build/main" 1787090701.84612 0
-  "build/main.bcf" 1787090699 109894 af2176f7331af264f3603c4d9b669838 "xelatex"
+["biber main"] 1787090248.0042 "main.bcf" "main.bbl" "main" 1787090713.41502 0
   "lab-01/references.bib" 1782494642 6783 463eb73a3c33fa9bf8f0ee7251c84738 ""
   "lab-02/references.bib" 1783196733 1723 19abd29a11ecee2003426b4c77cf9c8d ""
   "lab-03/references.bib" 1783807591 719 7b3b868a69077b4bc3a83faf70ae1546 ""
   "lab-04/references.bib" 1787043991 1016 4d93aba17e9c483da6dd05d29d0a79b3 ""
   "lab-05/references.bib" 1785288670 1226 5d5fcfaa83719f3a0f673277f03d7c4f ""
   "lab-06/references.bib" 1787089779 979 b815bfe22e95dbf2edb8d14afacf1c4c ""
+  "main.bcf" 1787090709 109894 af2176f7331af264f3603c4d9b669838 "pdflatex"
   (generated)
-  "build/main.bbl"
-  "build/main.blg"
+  "main.bbl"
+  "main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1787090700.61421 "build/main.xdv" "build/main.pdf" "build/main" 1787090701.90221 0
-  "build/main.xdv" 1787090699 159432 605c188fcddfbda14f2f51eb4aa31096 "xelatex"
-  (generated)
-  "build/main.pdf"
-  (rewritten before read)
-["xelatex"] 1787090694.65475 "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" "build/main.xdv" "main" 1787090701.85009 0
+["pdflatex"] 1787090703.89534 "main.tex" "main.pdf" "main" 1787090713.41761 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -270,15 +265,10 @@
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "build/main.aux" 1787090699 5636 925fef648786cd2d0f01b79c16c71599 "xelatex"
-  "build/main.bbl" 1787089812 5522 0f297eba0e5c7ff55611da413b569fb4 "biber build/main"
-  "build/main.out" 1787090699 1335 9aa411223394d2d52ed7d35ff8c9ce9d "xelatex"
-  "build/main.run.xml" 1787090699 2690 531b1c0a11f593e7bdc53a267a96255d "xelatex"
   "cover/background.tex" 1782212937 586 4650988d5bb8dad5d0b3099fcc416e02 ""
   "cover/layout.tex" 1782510752 2157 d697028fca3136dd8394d6730c8a9549 ""
   "cover/main.tex" 1782513137 46 88e26ffaacba6a6f97d058ab3a9255de ""
   "cover/ruet_logo.png" 1782212937 466155 4845e58014af879df7cb92533f03ad44 ""
-  "d:/Academics/2-1/Lab Reports/EEE 2188/src/main.tex" 1787046238 383 e757ec715f85e802f2bab3d829efe58d ""
   "functions.tex" 1782504545 1245 8ee31840adfdfc7b1edac5a3069aa1bc ""
   "lab-06/assets/forward-graph.png" 1787090249 44776 80fdf45ba989265794cc6db85a40ef89 ""
   "lab-06/assets/forward-schematic.png" 1787090273 48224 2fc26e94b4fa2691e64bdb4e3ef3d0eb ""
@@ -297,14 +287,18 @@
   "lab-06/sections/references.tex" 1782667881 40 f432cb32d1625914478fb31dbf677237 ""
   "lab-06/sections/simulation.tex" 1787090568 1190 8ae40aa988275ac2cc437c913fe9688f ""
   "lab-06/sections/theory.tex" 1787090149 4656 7a191c2dca906587120dbf4255b29058 ""
+  "main.aux" 1787090709 5636 925fef648786cd2d0f01b79c16c71599 "pdflatex"
+  "main.bbl" 1787090251 5522 0f297eba0e5c7ff55611da413b569fb4 "biber main"
+  "main.out" 1787090709 1335 9aa411223394d2d52ed7d35ff8c9ce9d "pdflatex"
+  "main.run.xml" 1787090709 2690 531b1c0a11f593e7bdc53a267a96255d "pdflatex"
   "main.tex" 1787046238 383 e757ec715f85e802f2bab3d829efe58d ""
   "metadata.tex" 1782625622 676 a750cc6c465330f214a99ab8b167cb79 ""
   "preamble.tex" 1787051559 4732 dcac545db1f8ee59d1266bb655bbda30 ""
   (generated)
-  "build/main.aux"
-  "build/main.bcf"
-  "build/main.log"
-  "build/main.out"
-  "build/main.run.xml"
-  "build/main.xdv"
+  "main.aux"
+  "main.bcf"
+  "main.log"
+  "main.out"
+  "main.pdf"
+  "main.run.xml"
   (rewritten before read)

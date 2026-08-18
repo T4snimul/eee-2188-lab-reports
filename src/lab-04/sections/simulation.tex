@@ -1,51 +1,13 @@
 \section{Simulation}
 \markright{Simulation}
 
-The simulation was carried out for the center-tapped transformer circuit to verify the rectifying behavior and the effect of the filter capacitor on the output waveform.
-
-\subsection*{Schematic}
+The full-wave bridge rectifier circuit was simulated using LTspice to verify the theoretical predictions. Figure \ref{fig:lab04_ltspice_schematic} shows the simulated circuit with a center-tapped transformer (modeled with coupled inductors), four 1N4007 diodes, a 10\,k$\Omega$ load resistor, and a 10\,$\mu$F filter capacitor.
 
 \begin{figure}[H]
   \centering
-  \begin{subfigure}[b]{0.49\textwidth}
-    \centering
-    \includegraphics[width=\textwidth, keepaspectratio]{lab-04/assets/center-tapped-without-capacitor-schematic.png}
-    \caption{Without capacitor}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[b]{0.49\textwidth}
-    \centering
-    \includegraphics[width=\textwidth, keepaspectratio]{lab-04/assets/center-tapped-with-capacitor-schematic.png}
-    \caption{With capacitor}
-  \end{subfigure}
-  \caption{Schematic for Center Tapped Transformer}
-  \label{fig:lab04_sim_schematic}
+  \includegraphics[width=0.75\textwidth]{lab-04/assets/center-tapped-without-capacitor-schematic.png}
+  \caption{LTspice simulation schematic of the center-tapped full-wave rectifier circuit showing the input voltage source, transformer, four diodes, load resistor, and measurement nodes.}
+  \label{fig:lab04_ltspice_schematic}
 \end{figure}
 
-\subsection*{Graphs}
-
-The input and output waveforms confirm that the circuit produces a full-wave rectified signal, and the capacitor filter noticeably smooths the output by reducing ripple.
-
-\begin{figure}[H]
-  \centering
-  \begin{subfigure}[b]{0.75\textwidth}
-    \centering
-    \includegraphics[width=\textwidth, keepaspectratio]{lab-04/assets/center-tapped-without-capacitor-input.png}
-    \caption{Input}
-  \end{subfigure}
-  \vspace{0.5em}
-
-  \begin{subfigure}[b]{0.49\textwidth}
-    \centering
-    \includegraphics[width=\textwidth, keepaspectratio]{lab-04/assets/center-tapped-without-capacitor-output.png}
-    \caption{Output without filter}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[b]{0.49\textwidth}
-    \centering
-    \includegraphics[width=\textwidth, keepaspectratio]{lab-04/assets/center-tapped-with-capacitor-output.png}
-    \caption{Output with filter}
-  \end{subfigure}
-  \caption{Graphs for Center Tapped Transformer}
-  \label{fig:lab04_sim_center_tapped}
-\end{figure}
+The simulation results confirm that the full-wave rectifier effectively converts both positive and negative half-cycles of the AC input into DC output pulses. The output voltage demonstrates characteristic double-frequency ripple at twice the input frequency. When the filter capacitor is included, the ripple is significantly reduced, and the output voltage becomes nearly constant.

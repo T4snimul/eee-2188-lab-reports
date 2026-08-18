@@ -1,7 +1,7 @@
-PWD d:\Academics\2-1\Lab Reports\EEE 2188\src
+PWD D:\Academics\2-1\Lab Reports\EEE 2188\src
 INPUT C:\Users\tanim\AppData\Local\MiKTeX\miktex\data\le\xetex\xelatex.fmt
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\main.tex
-OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.log
+INPUT main.tex
+OUTPUT main.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
@@ -436,30 +436,30 @@ INPUT .\cover\layout.tex
 INPUT .\cover\layout.tex
 INPUT .\cover\layout.tex
 INPUT cover\layout.tex
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
-OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
+INPUT .\main.aux
+INPUT .\main.aux
+INPUT main.aux
+OUTPUT main.aux
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\fmtcount\fc-english.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bcf
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.bbl
+OUTPUT main.bcf
+INPUT main.bbl
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\tanim\AppData\Roaming\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\zapfding\pzdr.tfm
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
-OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
+INPUT .\main.out
+INPUT .\main.out
+INPUT main.out
+INPUT main.out
+INPUT .\main.out
+INPUT .\main.out
+OUTPUT main.out
 INPUT .\lab-06\main.tex
 INPUT .\lab-06\main.tex
 INPUT .\lab-06\main.tex
@@ -499,7 +499,6 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.xdv
 INPUT .\lab-06\sections\objectives.tex
 INPUT .\lab-06\sections\objectives.tex
 INPUT .\lab-06\sections\objectives.tex
@@ -565,8 +564,8 @@ INPUT .\lab-06\sections\references.tex
 INPUT .\lab-06\sections\references.tex
 INPUT .\lab-06\sections\references.tex
 INPUT lab-06\sections\references.tex
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.aux
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.out
-INPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.run.xml
-OUTPUT d:\Academics\2-1\Lab Reports\EEE 2188\src\build\main.run.xml
+INPUT main.aux
+INPUT .\main.out
+INPUT .\main.out
+INPUT main.run.xml
+OUTPUT main.run.xml
