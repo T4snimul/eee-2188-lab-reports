@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  4 AUG 2026 12:00
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  24 AUG 2026 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1101,7 +1101,70 @@ File: lab-02/assets/output-student.png Graphic file (type bmp)
 ) (lab-03/sections/conclusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])) [15] 
+ [14])) (lab-04/main.tex [15]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-40.0pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: cover/ruet_logo.png Graphic file (type bmp)
+<cover/ruet_logo.png>
+File: cover/ruet_logo.png Graphic file (type bmp)
+<cover/ruet_logo.png>
+
+Overfull \hbox (6.58475pt too wide) in paragraph at lines 5--5
+[]|[]| 
+ []
+
+[16
+
+
+]
+Chapter 4.
+(lab-04/sections/introduction.tex) (lab-04/sections/objectives.tex) (lab-04/sections/problems.tex [16
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+File: lab-04/assets/output.png Graphic file (type bmp)
+<lab-04/assets/output.png>
+) (lab-04/sections/conclusion.tex) [20]) [21] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (d:\Academics\2-1\Lab Reports\CSE 2188\src\build\main.aux)
  ***********
@@ -1109,15 +1172,15 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A208CD3356A4B35F396C5A4A3F8BEEEA;3381.
+(rerunfilecheck)             Checksum: D4A951532AAC404151938DC4E63C13B7;4137.
  ) 
 Here is how much of TeX's memory you used:
- 38764 strings out of 402628
- 898141 string characters out of 5443460
- 1833078 words of memory out of 5000000
- 67193 multiletter control sequences out of 15000+600000
+ 38840 strings out of 402628
+ 899975 string characters out of 5443460
+ 1833145 words of memory out of 5000000
+ 67256 multiletter control sequences out of 15000+600000
  634490 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,16n,120p,921b,1882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on d:\Academics\2-1\Lab Reports\CSE 2188\src\build\main.xdv (18 pages, 227592 bytes).
+Output written on d:\Academics\2-1\Lab Reports\CSE 2188\src\build\main.xdv (25 pages, 323784 bytes).

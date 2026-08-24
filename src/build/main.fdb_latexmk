@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1785823244.11175 "build/main.xdv" "build/main.pdf" "build/main" 1785823244.97023 0
-  "build/main.xdv" 1785823243 227592 5aa89873407875a8749182fce955fdcf "xelatex"
+["xdvipdfmx"] 1787593415.08447 "build/main.xdv" "build/main.pdf" "build/main" 1787593415.93394 0
+  "build/main.xdv" 1787593414 323784 2768f61158c8acfc292e17b027235a07 "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1785823242.01015 "d:/Academics/2-1/Lab Reports/CSE 2188/src/main.tex" "build/main.xdv" "main" 1785823244.95827 0
+["xelatex"] 1787593412.92262 "d:/Academics/2-1/Lab Reports/CSE 2188/src/main.tex" "build/main.xdv" "main" 1787593415.923 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -224,13 +224,13 @@
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "build/main.aux" 1785823243 5681 610507a7d2716808d1925089c8fa8ae1 "xelatex"
-  "build/main.out" 1785823243 3381 a208cd3356a4b35f396c5a4a3f8beeea "xelatex"
+  "build/main.aux" 1787593414 6857 95e2c04f6e4664160f18c50f300ca6df "xelatex"
+  "build/main.out" 1787593414 4137 d4a951532aac404151938dc4e63c13b7 "xelatex"
   "cover/background.tex" 1782212937 586 4650988d5bb8dad5d0b3099fcc416e02 ""
   "cover/layout.tex" 1782510752 2157 d697028fca3136dd8394d6730c8a9549 ""
   "cover/main.tex" 1782513137 46 88e26ffaacba6a6f97d058ab3a9255de ""
   "cover/ruet_logo.png" 1782212937 466155 4845e58014af879df7cb92533f03ad44 ""
-  "d:/Academics/2-1/Lab Reports/CSE 2188/src/main.tex" 1785739984 215 8e69b870c79d9f1343c70797ec839789 ""
+  "d:/Academics/2-1/Lab Reports/CSE 2188/src/main.tex" 1786425452 235 5d9e9c554bd8677219da4c2de2c3c8ef ""
   "functions.tex" 1782504545 1245 8ee31840adfdfc7b1edac5a3069aa1bc ""
   "lab-01/assets/output1.png" 1783376533 15666 4d08e7b6e19f0ce12fc893a5b866b2b8 ""
   "lab-01/assets/output2.png" 1783376602 22405 634e31d068cc8a06597258a716c00f89 ""
@@ -248,11 +248,17 @@
   "lab-02/sections/objectives.tex" 1783440803 533 0609773076498175e60af00e33dc04da ""
   "lab-02/sections/problems.tex" 1783440699 4633 52406daebcb2e4d01b5e7c6377bc7f0f ""
   "lab-03/main.tex" 1785740359 411 be7e2a7349dfbc6398b275206e99316f ""
-  "lab-03/sections/conclusion.tex" 1785823241 583 f94783440595d1888011c6ed8a42b8e5 ""
+  "lab-03/sections/conclusion.tex" 1785823257 583 f94783440595d1888011c6ed8a42b8e5 ""
   "lab-03/sections/introduction.tex" 1785820356 1355 5f23bb2089262e9ea8b46741ba808380 ""
   "lab-03/sections/objectives.tex" 1785820440 332 52fdfa4b9bdb4eb2743217f6d78cc1d8 ""
   "lab-03/sections/problems.tex" 1785760658 1522 62f975783cac107bf8b8f5c4504db2dc ""
-  "main.tex" 1785739984 215 8e69b870c79d9f1343c70797ec839789 ""
+  "lab-04/assets/output.png" 1786425388 4498 10f45dedf0d01b15292a18a81938a0e6 ""
+  "lab-04/main.tex" 1787592829 449 56742007eb7bb1e6db86962fd02eb026 ""
+  "lab-04/sections/conclusion.tex" 1786425720 601 82e278e48dc53bc8526c6645cf30d1bc ""
+  "lab-04/sections/introduction.tex" 1787593409 811 94e6517177c9600d43e403ca6e9756b8 ""
+  "lab-04/sections/objectives.tex" 1786425733 511 065b35183f28125d3fcf632c74260e78 ""
+  "lab-04/sections/problems.tex" 1786425720 3802 64d7986cf28f17395ed92981ba2a2441 ""
+  "main.tex" 1786425452 235 5d9e9c554bd8677219da4c2de2c3c8ef ""
   "metadata.tex" 1783528640 703 d28cdde0305c5b9af99d297383eb7713 ""
   "preamble.tex" 1784019586 4526 b498ab93204950678301d6de4c04285a ""
   (generated)
