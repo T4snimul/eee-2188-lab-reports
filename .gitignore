@@ -1,1 +1,4 @@
 *.docx
+/netbeans/Lab5/target/
+/netbeans/Lab05/nbproject/private/
+/netbeans/Lab05/build/
